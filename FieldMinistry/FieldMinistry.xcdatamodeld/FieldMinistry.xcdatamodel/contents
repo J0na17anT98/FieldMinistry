@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Records" representedClassName=".Records" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="monthLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moreInformation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfHours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfMinutes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfNewBibleStudies" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfPlacements" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfReturnVisits" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearLabel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ReturnVisit" representedClassName=".ReturnVisit" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moreInformation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameSuffix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Records" positionX="-54" positionY="63" width="128" height="180"/>
+        <element name="ReturnVisit" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>

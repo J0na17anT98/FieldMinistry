@@ -1,0 +1,12 @@
+PODS:
+  - PopupDialog (0.5.3)
+
+DEPENDENCIES:
+  - PopupDialog (~> 0.5)
+
+SPEC CHECKSUMS:
+  PopupDialog: 533dd564f8781633375505b9fbd406f8f146ccc9
+
+PODFILE CHECKSUM: da61d867d7f4ff0fe9d4c88ce302ff7c4ceccbb3
+
+COCOAPODS: 1.2.0

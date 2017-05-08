@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1704A1FAB263C3D03C8AB3E3 /* Pods_FieldMinistry_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC8EB0BF8DEE911AA6F9B8D /* Pods_FieldMinistry_WatchKit_App.framework */; };
+		A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */; };
+		A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */; };
+		A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */; };
+		A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D90E51E78CEF500256DEE /* AppDelegate.swift */; };
+		A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */; };
+		A37D90EB1E78CEF500256DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90E91E78CEF500256DEE /* Main.storyboard */; };
+		A37D90ED1E78CEF500256DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D90EC1E78CEF500256DEE /* Assets.xcassets */; };
+		A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */; };
+		A37D90F51E78CEF500256DEE /* FieldMinistry WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A37D90F41E78CEF500256DEE /* FieldMinistry WatchKit App.app */; };
+		A37D90FB1E78CEF500256DEE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90F91E78CEF500256DEE /* Interface.storyboard */; };
+		A37D90FD1E78CEF500256DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D90FC1E78CEF500256DEE /* Assets.xcassets */; };
+		A37D91041E78CEF500256DEE /* FieldMinistry WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A37D91031E78CEF500256DEE /* FieldMinistry WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A37D910B1E78CEF500256DEE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D910A1E78CEF500256DEE /* InterfaceController.swift */; };
+		A37D910D1E78CEF500256DEE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D910C1E78CEF500256DEE /* ExtensionDelegate.swift */; };
+		A37D910F1E78CEF500256DEE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D910E1E78CEF500256DEE /* NotificationController.swift */; };
+		A37D91111E78CEF500256DEE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91101E78CEF500256DEE /* ComplicationController.swift */; };
+		A37D91131E78CEF500256DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D91121E78CEF500256DEE /* Assets.xcassets */; };
+		A37D91231E78D94F00256DEE /* ReturnVisitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */; };
+		A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91241E78D96000256DEE /* SettingsVC.swift */; };
+		A37D912C1E78DFA900256DEE /* RecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912B1E78DFA900256DEE /* RecordsVC.swift */; };
+		A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912D1E78E1D200256DEE /* StopWatch.swift */; };
+		A38D71321E80B594004780DB /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D71311E80B594004780DB /* RecordsCell.swift */; };
+		A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */; };
+		A38D71361E80BD0B004780DB /* Records+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D71341E80BD0B004780DB /* Records+CoreDataProperties.swift */; };
+		A39481FA1EBFF96D00AF9ACB /* MonthSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */; };
+		A39481FB1EBFF96D00AF9ACB /* MonthSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */; };
+		A39481FF1EC0088500AF9ACB /* CreateServiceRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39481FE1EC0088500AF9ACB /* CreateServiceRecordVC.swift */; };
+		A3B4FBD81EBE10A200AC7A89 /* VC's.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* VC's.swift */; };
+		A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */; };
+		A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE715A1E80A126003A5D8E /* CustomTextField.swift */; };
+		A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */; };
+		A3D5C6161E858D5A00C9C9A8 /* RecordDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */; };
+		A3DDEBC81E7B23DA00649B9B /* ReturnVisitDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */; };
+		A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EBAF421E7F706500699AC3 /* MaterialView.swift */; };
+		A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EBAF461E7F721E00699AC3 /* ItemCell.swift */; };
+		C78FFF01BC71ADD7D68DAEB0 /* Pods_FieldMinistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8233D432C20BC9E54EA04B20 /* Pods_FieldMinistry.framework */; };
+		D08F8DD93186E1670D99D245 /* Pods_FieldMinistry_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1B03743E5E275084860698 /* Pods_FieldMinistry_WatchKit_Extension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A37D90F61E78CEF500256DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A37D90DA1E78CEF500256DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37D90F31E78CEF500256DEE;
+			remoteInfo = "FieldMinistry WatchKit App";
+		};
+		A37D91051E78CEF500256DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A37D90DA1E78CEF500256DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37D91021E78CEF500256DEE;
+			remoteInfo = "FieldMinistry WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A37D911A1E78CEF500256DEE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A37D91041E78CEF500256DEE /* FieldMinistry WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D911E1E78CEF500256DEE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A37D90F51E78CEF500256DEE /* FieldMinistry WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A65A36D2081F61A73D88FD8 /* Pods-FieldMinistry WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry WatchKit Extension/Pods-FieldMinistry WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA4D83BEFEAF11ABAC321C6 /* Pods-FieldMinistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry.release.xcconfig"; sourceTree = "<group>"; };
+		8233D432C20BC9E54EA04B20 /* Pods_FieldMinistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9050F36E56403CAE13D6B07D /* Pods-FieldMinistry WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry WatchKit App/Pods-FieldMinistry WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		9201E21082EC2D099575728A /* Pods-FieldMinistry WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry WatchKit App/Pods-FieldMinistry WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		9B1B03743E5E275084860698 /* Pods_FieldMinistry_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaterialView.swift; sourceTree = "<group>"; };
+		A37D90E21E78CEF500256DEE /* FieldMinistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldMinistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37D90E51E78CEF500256DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerVC.swift; sourceTree = "<group>"; };
+		A37D90EA1E78CEF500256DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A37D90EC1E78CEF500256DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37D90EF1E78CEF500256DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A37D90F11E78CEF500256DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37D90F41E78CEF500256DEE /* FieldMinistry WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FieldMinistry WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37D90FA1E78CEF500256DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A37D90FC1E78CEF500256DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37D90FE1E78CEF500256DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37D91031E78CEF500256DEE /* FieldMinistry WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FieldMinistry WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37D91091E78CEF500256DEE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A37D910A1E78CEF500256DEE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A37D910C1E78CEF500256DEE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A37D910E1E78CEF500256DEE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A37D91101E78CEF500256DEE /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A37D91121E78CEF500256DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37D91141E78CEF500256DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnVisitsVC.swift; sourceTree = "<group>"; };
+		A37D91241E78D96000256DEE /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		A37D912B1E78DFA900256DEE /* RecordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsVC.swift; sourceTree = "<group>"; };
+		A37D912D1E78E1D200256DEE /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		A38D71311E80B594004780DB /* RecordsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
+		A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Records+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A38D71341E80BD0B004780DB /* Records+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Records+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthSelectorVC.swift; sourceTree = "<group>"; };
+		A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthSelectorVC.xib; sourceTree = "<group>"; };
+		A39481FE1EC0088500AF9ACB /* CreateServiceRecordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateServiceRecordVC.swift; sourceTree = "<group>"; };
+		A3B4FBD71EBE10A200AC7A89 /* VC's.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VC's.swift"; sourceTree = "<group>"; };
+		A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldMinistry.xcdatamodel; sourceTree = "<group>"; };
+		A3CE715A1E80A126003A5D8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDetailsVC.swift; sourceTree = "<group>"; };
+		A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnVisitDetailsVC.swift; sourceTree = "<group>"; };
+		A3EBAF421E7F706500699AC3 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A3EBAF461E7F721E00699AC3 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		B295DEB23D638E45D126FAEF /* Pods-FieldMinistry WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry WatchKit Extension/Pods-FieldMinistry WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		BEC8EB0BF8DEE911AA6F9B8D /* Pods_FieldMinistry_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36664550B053E2F2DA577CF /* Pods-FieldMinistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37D90DF1E78CEF500256DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78FFF01BC71ADD7D68DAEB0 /* Pods_FieldMinistry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D91001E78CEF500256DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08F8DD93186E1670D99D245 /* Pods_FieldMinistry_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE417B82255657000B46F9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1704A1FAB263C3D03C8AB3E3 /* Pods_FieldMinistry_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9599DF497E1F3784D4003B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C36664550B053E2F2DA577CF /* Pods-FieldMinistry.debug.xcconfig */,
+				7BA4D83BEFEAF11ABAC321C6 /* Pods-FieldMinistry.release.xcconfig */,
+				9050F36E56403CAE13D6B07D /* Pods-FieldMinistry WatchKit App.debug.xcconfig */,
+				9201E21082EC2D099575728A /* Pods-FieldMinistry WatchKit App.release.xcconfig */,
+				1A65A36D2081F61A73D88FD8 /* Pods-FieldMinistry WatchKit Extension.debug.xcconfig */,
+				B295DEB23D638E45D126FAEF /* Pods-FieldMinistry WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A327CBDE1E80730F006C6443 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				A38D71341E80BD0B004780DB /* Records+CoreDataProperties.swift */,
+				A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		A37D90D91E78CEF500256DEE = {
+			isa = PBXGroup;
+			children = (
+				A37D90E41E78CEF500256DEE /* FieldMinistry */,
+				A37D90F81E78CEF500256DEE /* FieldMinistry WatchKit App */,
+				A37D91071E78CEF500256DEE /* FieldMinistry WatchKit Extension */,
+				A37D90E31E78CEF500256DEE /* Products */,
+				9599DF497E1F3784D4003B4A /* Pods */,
+				FBB79C397717E969CAA87A92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A37D90E31E78CEF500256DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37D90E21E78CEF500256DEE /* FieldMinistry.app */,
+				A37D90F41E78CEF500256DEE /* FieldMinistry WatchKit App.app */,
+				A37D91031E78CEF500256DEE /* FieldMinistry WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37D90E41E78CEF500256DEE /* FieldMinistry */ = {
+			isa = PBXGroup;
+			children = (
+				A37D91271E78D97500256DEE /* Model */,
+				A37D91281E78D97C00256DEE /* View */,
+				A37D91261E78D96400256DEE /* Controllers */,
+				A37D912A1E78D9A400256DEE /* Supporting Files */,
+				A37D90E51E78CEF500256DEE /* AppDelegate.swift */,
+				A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */,
+				A37D90F11E78CEF500256DEE /* Info.plist */,
+			);
+			path = FieldMinistry;
+			sourceTree = "<group>";
+		};
+		A37D90F81E78CEF500256DEE /* FieldMinistry WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A37D90F91E78CEF500256DEE /* Interface.storyboard */,
+				A37D90FC1E78CEF500256DEE /* Assets.xcassets */,
+				A37D90FE1E78CEF500256DEE /* Info.plist */,
+			);
+			path = "FieldMinistry WatchKit App";
+			sourceTree = "<group>";
+		};
+		A37D91071E78CEF500256DEE /* FieldMinistry WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A37D910A1E78CEF500256DEE /* InterfaceController.swift */,
+				A37D910C1E78CEF500256DEE /* ExtensionDelegate.swift */,
+				A37D910E1E78CEF500256DEE /* NotificationController.swift */,
+				A37D91101E78CEF500256DEE /* ComplicationController.swift */,
+				A37D91121E78CEF500256DEE /* Assets.xcassets */,
+				A37D91141E78CEF500256DEE /* Info.plist */,
+				A37D91081E78CEF500256DEE /* Supporting Files */,
+			);
+			path = "FieldMinistry WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A37D91081E78CEF500256DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37D91091E78CEF500256DEE /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A37D91261E78D96400256DEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */,
+				A39481FE1EC0088500AF9ACB /* CreateServiceRecordVC.swift */,
+				A37D912B1E78DFA900256DEE /* RecordsVC.swift */,
+				A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */,
+				A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */,
+				A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */,
+				A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */,
+				A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */,
+				A37D91241E78D96000256DEE /* SettingsVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A37D91271E78D97500256DEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3B4FBD71EBE10A200AC7A89 /* VC's.swift */,
+				A37D912D1E78E1D200256DEE /* StopWatch.swift */,
+				A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */,
+				A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */,
+				A327CBDE1E80730F006C6443 /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A37D91281E78D97C00256DEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */,
+				A3EBAF421E7F706500699AC3 /* MaterialView.swift */,
+				A3EBAF461E7F721E00699AC3 /* ItemCell.swift */,
+				A38D71311E80B594004780DB /* RecordsCell.swift */,
+				A3CE715A1E80A126003A5D8E /* CustomTextField.swift */,
+				A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */,
+				A37D90E91E78CEF500256DEE /* Main.storyboard */,
+				A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A37D912A1E78D9A400256DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37D90EC1E78CEF500256DEE /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBB79C397717E969CAA87A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8233D432C20BC9E54EA04B20 /* Pods_FieldMinistry.framework */,
+				BEC8EB0BF8DEE911AA6F9B8D /* Pods_FieldMinistry_WatchKit_App.framework */,
+				9B1B03743E5E275084860698 /* Pods_FieldMinistry_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37D90E11E78CEF500256DEE /* FieldMinistry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37D911F1E78CEF500256DEE /* Build configuration list for PBXNativeTarget "FieldMinistry" */;
+			buildPhases = (
+				28AEAFB7352051DFAFB21B68 /* [CP] Check Pods Manifest.lock */,
+				A37D90DE1E78CEF500256DEE /* Sources */,
+				A37D90DF1E78CEF500256DEE /* Frameworks */,
+				A37D90E01E78CEF500256DEE /* Resources */,
+				A37D911E1E78CEF500256DEE /* Embed Watch Content */,
+				06B31013279DF27A9D4D7F38 /* [CP] Embed Pods Frameworks */,
+				A48E73AC9B8E99CC4CA8A893 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37D90F71E78CEF500256DEE /* PBXTargetDependency */,
+			);
+			name = FieldMinistry;
+			productName = FieldMinistry;
+			productReference = A37D90E21E78CEF500256DEE /* FieldMinistry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A37D90F31E78CEF500256DEE /* FieldMinistry WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37D911B1E78CEF500256DEE /* Build configuration list for PBXNativeTarget "FieldMinistry WatchKit App" */;
+			buildPhases = (
+				F2008C9CFE16A89B5E660222 /* [CP] Check Pods Manifest.lock */,
+				A37D90F21E78CEF500256DEE /* Resources */,
+				A37D911A1E78CEF500256DEE /* Embed App Extensions */,
+				BE417B82255657000B46F9B7 /* Frameworks */,
+				3B12B403C5358F20C46F26C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37D91061E78CEF500256DEE /* PBXTargetDependency */,
+			);
+			name = "FieldMinistry WatchKit App";
+			productName = "FieldMinistry WatchKit App";
+			productReference = A37D90F41E78CEF500256DEE /* FieldMinistry WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A37D91021E78CEF500256DEE /* FieldMinistry WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37D91171E78CEF500256DEE /* Build configuration list for PBXNativeTarget "FieldMinistry WatchKit Extension" */;
+			buildPhases = (
+				AF65BB1FAF5203DCEC244E6E /* [CP] Check Pods Manifest.lock */,
+				A37D90FF1E78CEF500256DEE /* Sources */,
+				A37D91001E78CEF500256DEE /* Frameworks */,
+				A37D91011E78CEF500256DEE /* Resources */,
+				2C0BF1B98F8E0C27380B3EC7 /* [CP] Embed Pods Frameworks */,
+				C8073E329CBBACFCBDF58AAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FieldMinistry WatchKit Extension";
+			productName = "FieldMinistry WatchKit Extension";
+			productReference = A37D91031E78CEF500256DEE /* FieldMinistry WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37D90DA1E78CEF500256DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jonathan Tsistinas";
+				TargetAttributes = {
+					A37D90E11E78CEF500256DEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KMTZDB3J22;
+						ProvisioningStyle = Automatic;
+					};
+					A37D90F31E78CEF500256DEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KMTZDB3J22;
+						ProvisioningStyle = Automatic;
+					};
+					A37D91021E78CEF500256DEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KMTZDB3J22;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A37D90DD1E78CEF500256DEE /* Build configuration list for PBXProject "FieldMinistry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A37D90D91E78CEF500256DEE;
+			productRefGroup = A37D90E31E78CEF500256DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37D90E11E78CEF500256DEE /* FieldMinistry */,
+				A37D90F31E78CEF500256DEE /* FieldMinistry WatchKit App */,
+				A37D91021E78CEF500256DEE /* FieldMinistry WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37D90E01E78CEF500256DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */,
+				A39481FB1EBFF96D00AF9ACB /* MonthSelectorVC.xib in Resources */,
+				A37D90ED1E78CEF500256DEE /* Assets.xcassets in Resources */,
+				A37D90EB1E78CEF500256DEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D90F21E78CEF500256DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D90FD1E78CEF500256DEE /* Assets.xcassets in Resources */,
+				A37D90FB1E78CEF500256DEE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D91011E78CEF500256DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D91131E78CEF500256DEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B31013279DF27A9D4D7F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28AEAFB7352051DFAFB21B68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0BF1B98F8E0C27380B3EC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FieldMinistry WatchKit Extension/Pods-FieldMinistry WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B12B403C5358F20C46F26C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FieldMinistry WatchKit App/Pods-FieldMinistry WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A48E73AC9B8E99CC4CA8A893 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF65BB1FAF5203DCEC244E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8073E329CBBACFCBDF58AAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FieldMinistry WatchKit Extension/Pods-FieldMinistry WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2008C9CFE16A89B5E660222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37D90DE1E78CEF500256DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38D71361E80BD0B004780DB /* Records+CoreDataProperties.swift in Sources */,
+				A39481FA1EBFF96D00AF9ACB /* MonthSelectorVC.swift in Sources */,
+				A38D71321E80B594004780DB /* RecordsCell.swift in Sources */,
+				A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */,
+				A37D912C1E78DFA900256DEE /* RecordsVC.swift in Sources */,
+				A37D91231E78D94F00256DEE /* ReturnVisitsVC.swift in Sources */,
+				A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */,
+				A3D5C6161E858D5A00C9C9A8 /* RecordDetailsVC.swift in Sources */,
+				A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */,
+				A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */,
+				A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */,
+				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
+				A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */,
+				A3B4FBD81EBE10A200AC7A89 /* VC's.swift in Sources */,
+				A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */,
+				A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */,
+				A3DDEBC81E7B23DA00649B9B /* ReturnVisitDetailsVC.swift in Sources */,
+				A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */,
+				A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */,
+				A39481FF1EC0088500AF9ACB /* CreateServiceRecordVC.swift in Sources */,
+				A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */,
+				A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D90FF1E78CEF500256DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D910F1E78CEF500256DEE /* NotificationController.swift in Sources */,
+				A37D91111E78CEF500256DEE /* ComplicationController.swift in Sources */,
+				A37D910D1E78CEF500256DEE /* ExtensionDelegate.swift in Sources */,
+				A37D910B1E78CEF500256DEE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37D90F71E78CEF500256DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37D90F31E78CEF500256DEE /* FieldMinistry WatchKit App */;
+			targetProxy = A37D90F61E78CEF500256DEE /* PBXContainerItemProxy */;
+		};
+		A37D91061E78CEF500256DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37D91021E78CEF500256DEE /* FieldMinistry WatchKit Extension */;
+			targetProxy = A37D91051E78CEF500256DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A37D90E91E78CEF500256DEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37D90EA1E78CEF500256DEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37D90EF1E78CEF500256DEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A37D90F91E78CEF500256DEE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37D90FA1E78CEF500256DEE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A37D91151E78CEF500256DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A37D91161E78CEF500256DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37D91181E78CEF500256DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A65A36D2081F61A73D88FD8 /* Pods-FieldMinistry WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = KMTZDB3J22;
+				INFOPLIST_FILE = "FieldMinistry WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.FieldMinistry.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A37D91191E78CEF500256DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B295DEB23D638E45D126FAEF /* Pods-FieldMinistry WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = KMTZDB3J22;
+				INFOPLIST_FILE = "FieldMinistry WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.FieldMinistry.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A37D911C1E78CEF500256DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9050F36E56403CAE13D6B07D /* Pods-FieldMinistry WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KMTZDB3J22;
+				IBSC_MODULE = FieldMinistry_WatchKit_Extension;
+				INFOPLIST_FILE = "FieldMinistry WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.FieldMinistry.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A37D911D1E78CEF500256DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9201E21082EC2D099575728A /* Pods-FieldMinistry WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KMTZDB3J22;
+				IBSC_MODULE = FieldMinistry_WatchKit_Extension;
+				INFOPLIST_FILE = "FieldMinistry WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.FieldMinistry.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A37D91201E78CEF500256DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36664550B053E2F2DA577CF /* Pods-FieldMinistry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KMTZDB3J22;
+				INFOPLIST_FILE = FieldMinistry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.FieldMinistry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A37D91211E78CEF500256DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA4D83BEFEAF11ABAC321C6 /* Pods-FieldMinistry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KMTZDB3J22;
+				INFOPLIST_FILE = FieldMinistry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.FieldMinistry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A37D90DD1E78CEF500256DEE /* Build configuration list for PBXProject "FieldMinistry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D91151E78CEF500256DEE /* Debug */,
+				A37D91161E78CEF500256DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37D91171E78CEF500256DEE /* Build configuration list for PBXNativeTarget "FieldMinistry WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D91181E78CEF500256DEE /* Debug */,
+				A37D91191E78CEF500256DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37D911B1E78CEF500256DEE /* Build configuration list for PBXNativeTarget "FieldMinistry WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D911C1E78CEF500256DEE /* Debug */,
+				A37D911D1E78CEF500256DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37D911F1E78CEF500256DEE /* Build configuration list for PBXNativeTarget "FieldMinistry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D91201E78CEF500256DEE /* Debug */,
+				A37D91211E78CEF500256DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */,
+			);
+			currentVersion = A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */;
+			path = FieldMinistry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A37D90DA1E78CEF500256DEE /* Project object */;
+}

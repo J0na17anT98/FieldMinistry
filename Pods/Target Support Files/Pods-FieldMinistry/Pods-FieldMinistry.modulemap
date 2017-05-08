@@ -1,0 +1,6 @@
+framework module Pods_FieldMinistry {
+  umbrella header "Pods-FieldMinistry-umbrella.h"
+
+  export *
+  module * { export * }
+}
