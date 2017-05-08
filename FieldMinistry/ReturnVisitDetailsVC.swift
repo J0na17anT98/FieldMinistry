@@ -115,27 +115,7 @@ class ReturnVisitDetailsVC: UIViewController {
         
         showStandardDialog()
         
-// Default Alert View
-        
-//        let alertController = UIAlertController(title: "Are you sure you want to delete this Return Visit?", message:
-//            "Select Yes or No", preferredStyle: UIAlertControllerStyle.alert)
-//        alertController.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default,handler: { action in
-//            self.yesPressed()}))
-//        alertController.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.default,handler: nil))
-//        
-//        self.present(alertController, animated: true, completion: nil)
-        
     }
-//    
-//    func yesPressed() {
-//        print("you pressed yes")
-//        
-//        if itemToEdit != nil {
-//            context.delete(itemToEdit!)
-//            ad.saveContext()
-//            }
-//        _ = navigationController?.popViewController(animated: true)
-//    }
     
     func showStandardDialog(animated: Bool = true) {
         

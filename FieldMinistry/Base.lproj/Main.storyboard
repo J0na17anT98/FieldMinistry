@@ -194,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s9k-L8-iuc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-604" y="770"/>
+            <point key="canvasLocation" x="-613" y="835"/>
         </scene>
         <!--ReturnVisitDetailsVC-->
         <scene sceneID="v7c-jo-ZOy">
@@ -387,7 +387,7 @@
                     </connections>
                 </screenEdgePanGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="309" y="770"/>
+            <point key="canvasLocation" x="322" y="835"/>
         </scene>
         <!--Settings-->
         <scene sceneID="CHy-Vw-wfr">
@@ -503,7 +503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29F-OW-K21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-629" y="1476"/>
+            <point key="canvasLocation" x="-613" y="1607"/>
         </scene>
         <!--Acknowledgements-->
         <scene sceneID="e4S-Gq-LUR">
@@ -522,7 +522,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ax-8g-Ibh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="310" y="1476"/>
+            <point key="canvasLocation" x="322" y="1607"/>
         </scene>
         <!--Time Tracker-->
         <scene sceneID="Py7-9a-DWy">
@@ -702,7 +702,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPL-cn-3uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="309" y="-708"/>
+            <point key="canvasLocation" x="322" y="-708"/>
         </scene>
         <!--RecordTapped-->
         <scene sceneID="WiI-nW-Kwv">
@@ -925,7 +925,7 @@
                     </connections>
                 </screenEdgePanGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="63.586956521739133"/>
+            <point key="canvasLocation" x="322" y="64"/>
         </scene>
         <!--Records-->
         <scene sceneID="zb1-5K-X7u">
@@ -939,15 +939,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EiM-zk-bvh">
-                                <rect key="frame" x="20" y="74" width="374" height="29"/>
-                                <segments>
-                                    <segment title="Newer"/>
-                                    <segment title="Older"/>
-                                </segments>
-                            </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="110" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BmX-vX-Vbg">
-                                <rect key="frame" x="0.0" y="112" width="414" height="575"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RecordsCell" rowHeight="110" id="wUq-7T-JmG" customClass="RecordsCell" customModule="FieldMinistry" customModuleProvider="target">
@@ -1136,11 +1129,8 @@
                         <constraints>
                             <constraint firstItem="CJ4-1a-QnS" firstAttribute="top" secondItem="BmX-vX-Vbg" secondAttribute="bottom" id="7Xd-b7-NXa"/>
                             <constraint firstAttribute="trailing" secondItem="BmX-vX-Vbg" secondAttribute="trailing" id="8VB-JH-9SX"/>
-                            <constraint firstItem="EiM-zk-bvh" firstAttribute="top" secondItem="UCT-Yf-NvN" secondAttribute="bottom" constant="10" id="KCq-sV-JQS"/>
-                            <constraint firstItem="EiM-zk-bvh" firstAttribute="leading" secondItem="iXK-Ch-Yjg" secondAttribute="leadingMargin" id="Wwd-XV-XaM"/>
-                            <constraint firstItem="BmX-vX-Vbg" firstAttribute="top" secondItem="EiM-zk-bvh" secondAttribute="bottom" constant="10" id="fcD-zC-ovV"/>
+                            <constraint firstItem="BmX-vX-Vbg" firstAttribute="top" secondItem="UCT-Yf-NvN" secondAttribute="bottom" id="eEe-70-VRH"/>
                             <constraint firstItem="BmX-vX-Vbg" firstAttribute="leading" secondItem="iXK-Ch-Yjg" secondAttribute="leading" id="vef-Wc-J4q"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="EiM-zk-bvh" secondAttribute="trailing" id="wpO-qK-7R2"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -1161,14 +1151,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="segment" destination="EiM-zk-bvh" id="j5a-HZ-KLS"/>
                         <outlet property="tableView" destination="BmX-vX-Vbg" id="Y2N-ze-yhb"/>
                         <segue destination="IHJ-vw-VB9" kind="show" identifier="RecordVCEdit" id="x3B-7y-ClZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IdU-u8-apk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-630" y="64"/>
+            <point key="canvasLocation" x="-613" y="64"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="sOP-gH-gEo">
@@ -1207,7 +1196,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n4m-p2-7aD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1426" y="770"/>
+            <point key="canvasLocation" x="-1426" y="835"/>
         </scene>
         <!--Time Tracker-->
         <scene sceneID="7AI-MM-e8B">
@@ -1226,7 +1215,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ScK-B5-U7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-672" y="-708"/>
+            <point key="canvasLocation" x="-613" y="-708"/>
         </scene>
         <!--Settings-->
         <scene sceneID="zPZ-Mf-9dR">
@@ -1245,7 +1234,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xzx-ra-iSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1426" y="1476"/>
+            <point key="canvasLocation" x="-1426" y="1607"/>
         </scene>
         <!--Service Record-->
         <scene sceneID="Pfe-nE-WXC">
