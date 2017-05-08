@@ -898,13 +898,13 @@
                     <navigationItem key="navigationItem" title="Edit Record" id="3Du-ZF-29b">
                         <barButtonItem key="leftBarButtonItem" systemItem="save" id="SzI-be-pm9">
                             <connections>
-                                <action selector="savePressed:" destination="IHJ-vw-VB9" id="RV5-dB-cvW"/>
+                                <action selector="savePressed:" destination="IHJ-vw-VB9" id="5l2-p5-BKQ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="LwP-jI-vBb">
                             <color key="tintColor" red="1" green="0.1306543889" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <action selector="deletePressed:" destination="IHJ-vw-VB9" id="QGN-so-iXG"/>
+                                <action selector="deletePressed:" destination="IHJ-vw-VB9" id="ppU-rf-zEG"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -914,18 +914,18 @@
                         <outlet property="numberOfMinutes" destination="cB2-Gw-tE7" id="rcA-Th-oyE"/>
                         <outlet property="numberOfPlacements" destination="nk8-PY-RZk" id="8q5-4K-Hrl"/>
                         <outlet property="numberOfReturnVisits" destination="q8F-1Q-MBg" id="X4a-5t-Hvv"/>
-                        <outlet property="uiView" destination="FoP-xR-Ymn" id="LfE-N7-aKf"/>
+                        <outlet property="uiView" destination="Oqz-Gn-mVZ" id="cx3-7g-qKH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mi2-jL-H70" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="t7k-dY-xoB">
                     <rectEdge key="edges" left="YES"/>
                     <connections>
-                        <action selector="RVDSEGR:" destination="IHJ-vw-VB9" id="gJf-CR-L0x"/>
+                        <action selector="RVDSEGR:" destination="IHJ-vw-VB9" id="uFp-BG-XFy"/>
                     </connections>
                 </screenEdgePanGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="322" y="64"/>
+            <point key="canvasLocation" x="126" y="64"/>
         </scene>
         <!--Records-->
         <scene sceneID="zb1-5K-X7u">
@@ -1115,6 +1115,7 @@
                                             <outlet property="numberOfPlacements" destination="kB9-IS-Jhe" id="7pX-Qv-ekq"/>
                                             <outlet property="numberOfReturnVisits" destination="eQq-FJ-bzx" id="Ehb-i7-6QR"/>
                                             <outlet property="yearLabel" destination="wUx-3J-bcl" id="6Vm-Au-Nnd"/>
+                                            <segue destination="IHJ-vw-VB9" kind="show" id="oU9-BH-DG1"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1146,13 +1147,13 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="tZN-1f-Sfg">
                             <connections>
-                                <segue destination="IHJ-vw-VB9" kind="show" id="dGB-Gj-S0v"/>
+                                <action selector="CreateRecordButton:" destination="zI3-2f-1h9" id="yaf-Rt-UwU"/>
+                                <segue destination="IHJ-vw-VB9" kind="show" id="jeY-Yi-L2r"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="BmX-vX-Vbg" id="Y2N-ze-yhb"/>
-                        <segue destination="IHJ-vw-VB9" kind="show" identifier="RecordVCEdit" id="x3B-7y-ClZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IdU-u8-apk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1264,6 +1265,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="FKr-Ix-p4m"/>
-        <segue reference="x3B-7y-ClZ"/>
+        <segue reference="oU9-BH-DG1"/>
     </inferredMetricsTieBreakers>
 </document>

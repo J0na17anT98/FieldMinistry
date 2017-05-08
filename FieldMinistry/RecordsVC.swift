@@ -164,7 +164,7 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         }
     }
     
-    func showCustomDialog(animated: Bool = true) {
+    func showMonthCustomDialog(animated: Bool = true) {
         
         CancelButton.appearance().titleColor = UIColor.gray
         DefaultButton.appearance().titleColor = UIColor.red
@@ -192,9 +192,9 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
     
     @IBAction func MonthSelectorButton(_ sender: Any) {
         
-        showCustomDialog()
+        showMonthCustomDialog()
+        
     }
-    
     
 }
 
