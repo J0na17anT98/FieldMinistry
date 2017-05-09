@@ -16,8 +16,7 @@ extension Records {
         return NSFetchRequest<Records>(entityName: "Records");
     }
     @NSManaged public var created: NSDate?
-    @NSManaged public var monthLabel: String?
-    @NSManaged public var yearLabel: String?
+    @NSManaged public var cellCreatedDateLabel: String?
     @NSManaged public var numberOfHours: String?
     @NSManaged public var numberOfMinutes: String?
     @NSManaged public var numberOfNewBibleStudies: String?

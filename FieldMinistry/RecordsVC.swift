@@ -13,8 +13,7 @@ import PopupDialog
 
 class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate {
 
-    @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var segment: UISegmentedControl!
+    @IBOutlet weak var tableView: UITableView!    
     
     var controller: NSFetchedResultsController<Records>!
     

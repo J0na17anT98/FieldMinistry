@@ -18,8 +18,6 @@ class RecordDetailsVC: UIViewController {
     @IBOutlet weak var numberOfPlacements: CustomTextField!
     @IBOutlet weak var numberOfBibleStudies: CustomTextField!
     @IBOutlet weak var numberOfReturnVisits: CustomTextField!
-    @IBOutlet weak var uiView: UIView!
-
     
     var itemToEdit: Records?
 

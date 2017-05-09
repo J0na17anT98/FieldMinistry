@@ -10,8 +10,7 @@ import UIKit
 
 class RecordsCell: UITableViewCell {
 
-    @IBOutlet weak var monthLabel: UILabel!
-    @IBOutlet weak var yearLabel: UILabel!
+    @IBOutlet weak var CellCreatedDateLabel: UILabel!
     @IBOutlet weak var numberOfHours: UILabel!
     @IBOutlet weak var numberOfMinutes: UILabel!
     @IBOutlet weak var numberOfNewBibleStudies: UILabel!
@@ -19,8 +18,7 @@ class RecordsCell: UITableViewCell {
     @IBOutlet weak var numberOfReturnVisits: UILabel!
         
     func configureRecordsCell(record: Records) {
-        monthLabel.text = record.monthLabel
-        yearLabel.text = record.yearLabel
+        CellCreatedDateLabel.text = record.cellCreatedDateLabel
         numberOfHours.text = record.numberOfHours
         numberOfMinutes.text = record.numberOfMinutes
         numberOfNewBibleStudies.text = record.numberOfNewBibleStudies

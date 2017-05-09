@@ -707,7 +707,7 @@
         <!--RecordTapped-->
         <scene sceneID="WiI-nW-Kwv">
             <objects>
-                <viewController title="Record Details" id="IHJ-vw-VB9" userLabel="RecordTapped" customClass="RecordDetailsVC" customModule="FieldMinistry" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="RecordDetailsVC" id="IHJ-vw-VB9" userLabel="RecordTapped" customClass="RecordDetailsVC" customModule="FieldMinistry" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VUP-T8-auw"/>
                         <viewControllerLayoutGuide type="bottom" id="I17-J9-Pr3"/>
@@ -914,7 +914,6 @@
                         <outlet property="numberOfMinutes" destination="cB2-Gw-tE7" id="rcA-Th-oyE"/>
                         <outlet property="numberOfPlacements" destination="nk8-PY-RZk" id="8q5-4K-Hrl"/>
                         <outlet property="numberOfReturnVisits" destination="q8F-1Q-MBg" id="X4a-5t-Hvv"/>
-                        <outlet property="uiView" destination="Oqz-Gn-mVZ" id="cx3-7g-qKH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mi2-jL-H70" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -940,7 +939,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="110" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BmX-vX-Vbg">
-                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RecordsCell" rowHeight="110" id="wUq-7T-JmG" customClass="RecordsCell" customModule="FieldMinistry" customModuleProvider="target">
@@ -951,16 +950,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="u6x-89-dbC">
-                                                    <rect key="frame" x="8" y="8" width="75.333333333333329" height="20"/>
+                                                    <rect key="frame" x="8" y="8" width="120.66666666666666" height="20"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jin-zS-GhM">
-                                                            <rect key="frame" x="0.0" y="0.0" width="48.333333333333336" height="20"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUx-3J-bcl">
-                                                            <rect key="frame" x="53.333333333333329" y="0.0" width="21.999999999999986" height="20"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March 1st, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jin-zS-GhM">
+                                                            <rect key="frame" x="0.0" y="0.0" width="120.66666666666666" height="20"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -1108,14 +1101,12 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <outlet property="monthLabel" destination="Jin-zS-GhM" id="49G-D8-ggj"/>
+                                            <outlet property="CellCreatedDateLabel" destination="Jin-zS-GhM" id="IBm-9g-FEh"/>
                                             <outlet property="numberOfHours" destination="hvJ-Lq-4nX" id="8g3-HJ-caU"/>
                                             <outlet property="numberOfMinutes" destination="Ki9-AF-bPZ" id="I4e-a6-Mms"/>
                                             <outlet property="numberOfNewBibleStudies" destination="o07-bD-vP6" id="Lv7-Kh-0ep"/>
                                             <outlet property="numberOfPlacements" destination="kB9-IS-Jhe" id="7pX-Qv-ekq"/>
                                             <outlet property="numberOfReturnVisits" destination="eQq-FJ-bzx" id="Ehb-i7-6QR"/>
-                                            <outlet property="yearLabel" destination="wUx-3J-bcl" id="6Vm-Au-Nnd"/>
-                                            <segue destination="IHJ-vw-VB9" kind="show" id="oU9-BH-DG1"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1130,7 +1121,7 @@
                         <constraints>
                             <constraint firstItem="CJ4-1a-QnS" firstAttribute="top" secondItem="BmX-vX-Vbg" secondAttribute="bottom" id="7Xd-b7-NXa"/>
                             <constraint firstAttribute="trailing" secondItem="BmX-vX-Vbg" secondAttribute="trailing" id="8VB-JH-9SX"/>
-                            <constraint firstItem="BmX-vX-Vbg" firstAttribute="top" secondItem="UCT-Yf-NvN" secondAttribute="bottom" id="eEe-70-VRH"/>
+                            <constraint firstItem="BmX-vX-Vbg" firstAttribute="top" secondItem="UCT-Yf-NvN" secondAttribute="bottom" constant="-64" id="eEe-70-VRH"/>
                             <constraint firstItem="BmX-vX-Vbg" firstAttribute="leading" secondItem="iXK-Ch-Yjg" secondAttribute="leading" id="vef-Wc-J4q"/>
                         </constraints>
                         <variation key="default">
@@ -1154,11 +1145,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="BmX-vX-Vbg" id="Y2N-ze-yhb"/>
+                        <segue destination="IHJ-vw-VB9" kind="show" identifier="RecordVCEdit" id="A2v-vY-cJx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IdU-u8-apk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-613" y="64"/>
+            <point key="canvasLocation" x="-613.04347826086962" y="63.586956521739133"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="sOP-gH-gEo">
@@ -1264,7 +1256,7 @@
         <image name="User" width="36" height="36"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FKr-Ix-p4m"/>
-        <segue reference="oU9-BH-DG1"/>
+        <segue reference="MDu-oC-rCn"/>
+        <segue reference="A2v-vY-cJx"/>
     </inferredMetricsTieBreakers>
 </document>
