@@ -17,7 +17,7 @@ class ReturnVisitDetailsVC: UIViewController {
     @IBOutlet weak var address: CustomTextField!
     @IBOutlet weak var phoneNumber: CustomTextField!
     @IBOutlet weak var email: CustomTextField!
-    @IBOutlet weak var moreInformation: CustomTextView!
+    @IBOutlet weak var moreInformation: UITextView!
     
     var itemToEdit: ReturnVisit?
     
