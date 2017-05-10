@@ -9,11 +9,12 @@
 import UIKit
 import CoreData
 import PopupDialog
+import MapKit
 
-struct MyVariables {
-    static var tempStoreHouseNumber = ""
-    static var tempStoreStreetName = ""
-}
+//struct MyVariables {
+//    static var tempStoreHouseNumber = ""
+//    static var tempStoreStreetName = ""
+//}
 
 class ReturnVisitDetailsVC: UIViewController {
     
@@ -26,12 +27,13 @@ class ReturnVisitDetailsVC: UIViewController {
     
     var itemToEdit: ReturnVisit?
     
-//    var _destination: String!
-
-//    let targetURL = NSURL(string: "http://maps.apple.com/?q=cupertino")!
+    let mapBaseUrl = "http://maps.apple.com/?q="
+    var mapHouseNumber = ""
+    var mapStreetName = ""
     
-    
-    let targetURL = NSURL(string: "\(URL_BASE)\(URL_HOUSE_NUMBER)\(URL_STREET_NAME)")!
+    //let targetURL = NSURL(string: "http://maps.apple.com/?q=cupertino")!
+    //let targetURL = NSURL(string: "http://maps.apple.com/?address=160,WellstoneDr.")!
+//    let targetURL = NSURL(string: "\(URL_BASE)\(URL_HOUSE_NUMBER)\(URL_STREET_NAME)")!
 
     
     override func viewDidLoad() {
@@ -110,8 +112,8 @@ class ReturnVisitDetailsVC: UIViewController {
             email.text = item.email
             moreInformation.text = item.moreInformation
             
-            MyVariables.tempStoreHouseNumber = item.houseNumber!
-            MyVariables.tempStoreStreetName = item.address!
+            self.mapHouseNumber = item.houseNumber!
+            self.mapStreetName = item.address!
             
         }
     }
@@ -151,33 +153,37 @@ class ReturnVisitDetailsVC: UIViewController {
                 ad.saveContext()
             }
             _ = self.navigationController?.popViewController(animated: true)
-        }
-        
+    }
+    
         // Add buttons to dialog
         popup.addButtons([buttonOne, buttonTwo])
         
         // Present dialog
         self.present(popup, animated: animated, completion: nil)
+    
     }
+    
+    
     
     @IBAction func OpenMapsButton(_ sender: Any) {
         
-//        let targetURL = (f
-//        
-//        var goToAddress = "\(tempStoreHouseNumber)\(tempStoreStreetName)"
+        print(mapHouseNumber)
+        print(mapStreetName)
         
-        print(MyVariables.tempStoreHouseNumber)
-        print(MyVariables.tempStoreStreetName)
+        let address = NSURL(string: "\(mapBaseUrl)\(mapHouseNumber),\(mapStreetName)")
+        
+        UIApplication.shared.canOpenURL(NSURL(string: "\(String(describing: address))")! as URL)
         
 //        if let url = NSURL(goToAddress) {
 //            UIApplication.shared.canOpenURL(url as URL)
 //        }
         
-        UIApplication.shared.openURL(targetURL as URL)
+        //UIApplication.shared.openURL((address as URL?)!)
         
 //        if let url = NSURL(targetURL) {
 //            UIApplication.shared.canOpenURL(url as URL)
 //        }
+    
     }
 
 }

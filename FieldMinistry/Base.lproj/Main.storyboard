@@ -304,7 +304,7 @@
                                                 </constraints>
                                                 <state key="normal" image="location_icon"/>
                                                 <connections>
-                                                    <action selector="OpenMapsButton:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="hfz-oo-2Or"/>
+                                                    <action selector="OpenMapsButton:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="fZW-7k-WxV"/>
                                                 </connections>
                                             </button>
                                         </subviews>
