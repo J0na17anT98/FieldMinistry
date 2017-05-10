@@ -11,7 +11,7 @@
 		A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */; };
 		A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */; };
 		A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */; };
-		A36008731EC35148000528E8 /* ReturnVisitDetailsMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36008721EC35148000528E8 /* ReturnVisitDetailsMapVC.swift */; };
+		A36008B41EC37214000528E8 /* OpenMapsWithAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */; };
 		A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365F7341EC0BAAA005AB2FC /* Unused Code.swift */; };
 		A365F7391EC0C603005AB2FC /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365F7381EC0C603005AB2FC /* MonthYearPickerView.swift */; };
 		A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D90E51E78CEF500256DEE /* AppDelegate.swift */; };
@@ -101,7 +101,7 @@
 		A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaterialView.swift; sourceTree = "<group>"; };
-		A36008721EC35148000528E8 /* ReturnVisitDetailsMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnVisitDetailsMapVC.swift; sourceTree = "<group>"; };
+		A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenMapsWithAddress.swift; sourceTree = "<group>"; };
 		A365F7341EC0BAAA005AB2FC /* Unused Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unused Code.swift"; sourceTree = "<group>"; };
 		A365F7381EC0C603005AB2FC /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
 		A37D90E21E78CEF500256DEE /* FieldMinistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldMinistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,7 +274,6 @@
 				A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */,
 				A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */,
 				A37D91241E78D96000256DEE /* SettingsVC.swift */,
-				A36008721EC35148000528E8 /* ReturnVisitDetailsMapVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -286,6 +285,7 @@
 				A37D912D1E78E1D200256DEE /* StopWatch.swift */,
 				A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */,
 				A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */,
+				A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */,
 				A327CBDE1E80730F006C6443 /* Generated */,
 			);
 			name = Model;
@@ -614,10 +614,10 @@
 				A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */,
 				A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */,
 				A3DDEBC81E7B23DA00649B9B /* ReturnVisitDetailsVC.swift in Sources */,
+				A36008B41EC37214000528E8 /* OpenMapsWithAddress.swift in Sources */,
 				A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */,
 				A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */,
 				A365F7391EC0C603005AB2FC /* MonthYearPickerView.swift in Sources */,
-				A36008731EC35148000528E8 /* ReturnVisitDetailsMapVC.swift in Sources */,
 				A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */,
 				A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */,
 				A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */,

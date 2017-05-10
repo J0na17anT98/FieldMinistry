@@ -75,11 +75,17 @@
                                                                         <constraint firstAttribute="height" constant="20" id="sRX-M8-5OI"/>
                                                                     </constraints>
                                                                 </stackView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4O-Jn-Wm1">
-                                                                    <rect key="frame" x="0.0" y="61.666666666666671" width="177.33333333333334" height="20.333333333333343"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="C4O-Jn-Wm1">
+                                                                    <rect key="frame" x="0.0" y="61.666666666666671" width="178" height="20.333333333333343"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Buffalo Meadow Lane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="3nt-8F-5aM">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="177.33333333333334" height="20.333333333333343"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsx-vG-6kZ">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="7.6666666666666661" height="20.333333333333343"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                            <nil key="textColor"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buffalo Meadow Lane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="3nt-8F-5aM">
+                                                                            <rect key="frame" x="12.666666666666671" y="0.0" width="165.33333333333331" height="20.333333333333343"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -199,6 +205,7 @@
                                         <connections>
                                             <outlet property="address" destination="3nt-8F-5aM" id="fYF-Bp-TIW"/>
                                             <outlet property="email" destination="iWR-Rn-fQb" id="zcf-nB-4Lk"/>
+                                            <outlet property="houseNumber" destination="bsx-vG-6kZ" id="frV-mn-0Wi"/>
                                             <outlet property="moreInformation" destination="Jcc-BU-xJ4" id="4LI-hV-1UT"/>
                                             <outlet property="name" destination="Gp9-AT-nvo" id="YTO-LJ-PSp"/>
                                             <outlet property="phoneNumber" destination="eL5-KJ-cKr" id="Cir-YT-iKH"/>
@@ -262,11 +269,23 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pn1-Q0-enq">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pn1-Q0-enq">
                                         <rect key="frame" x="0.0" y="40" width="404" height="30"/>
                                         <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="House #" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cRb-T3-Grv" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="IrT-08-Z3x"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o7g-bw-RN6" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="369" height="30"/>
+                                                <rect key="frame" x="80" y="0.0" width="289" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="sUC-11-BCe"/>
                                                 </constraints>
@@ -285,7 +304,7 @@
                                                 </constraints>
                                                 <state key="normal" image="location_icon"/>
                                                 <connections>
-                                                    <segue destination="6xF-nD-rf7" kind="show" id="qgZ-Km-iWm"/>
+                                                    <action selector="OpenMapsButton:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="hfz-oo-2Or"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -390,6 +409,7 @@
                     <connections>
                         <outlet property="address" destination="o7g-bw-RN6" id="NaQ-SV-7Y8"/>
                         <outlet property="email" destination="zo0-Ti-Os2" id="l5t-wG-uzh"/>
+                        <outlet property="houseNumber" destination="cRb-T3-Grv" id="D2k-Ja-l7P"/>
                         <outlet property="moreInformation" destination="rdg-Aj-Ggf" id="Fpt-rd-lQm"/>
                         <outlet property="name" destination="QAR-3c-hpn" id="prf-5Y-B2c"/>
                         <outlet property="phoneNumber" destination="Hpm-qs-Jou" id="Q8C-j7-61n"/>
@@ -404,42 +424,6 @@
                 </screenEdgePanGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="125" y="835"/>
-        </scene>
-        <!--Directions-->
-        <scene sceneID="HaQ-NC-5Rh">
-            <objects>
-                <viewController title="Directions" id="6xF-nD-rf7" customClass="ReturnVisitDetailsMapVC" customModule="FieldMinistry" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tte-c1-7VH"/>
-                        <viewControllerLayoutGuide type="bottom" id="hmo-6B-CBJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hid-3p-hxU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="M58-xu-oGf">
-                                <rect key="frame" x="0.0" y="64" width="414" height="628"/>
-                            </mapView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="hmo-6B-CBJ" firstAttribute="top" secondItem="M58-xu-oGf" secondAttribute="bottom" id="PsJ-4d-jGD"/>
-                            <constraint firstAttribute="trailing" secondItem="M58-xu-oGf" secondAttribute="trailing" id="h16-qp-cPj"/>
-                            <constraint firstItem="M58-xu-oGf" firstAttribute="top" secondItem="tte-c1-7VH" secondAttribute="bottom" id="mcB-FV-k5d"/>
-                            <constraint firstItem="M58-xu-oGf" firstAttribute="leading" secondItem="hid-3p-hxU" secondAttribute="leading" id="tje-1E-n9L"/>
-                        </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                        </userDefinedRuntimeAttributes>
-                    </view>
-                    <toolbarItems/>
-                    <connections>
-                        <outlet property="mapView" destination="M58-xu-oGf" id="qGf-0Y-c7S"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yQQ-aZ-UBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1032" y="835"/>
         </scene>
         <!--Settings-->
         <scene sceneID="CHy-Vw-wfr">

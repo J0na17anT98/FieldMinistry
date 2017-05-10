@@ -1,5 +1,5 @@
 //
-//  AddReturnVisitVC.swift
+//  ReturnVisitDetailsVC.swift
 //  FieldMinistry
 //
 //  Created by Jonathan Tsistinas on 3/16/17.
@@ -10,16 +10,29 @@ import UIKit
 import CoreData
 import PopupDialog
 
+struct MyVariables {
+    static var tempStoreHouseNumber = ""
+    static var tempStoreStreetName = ""
+}
+
 class ReturnVisitDetailsVC: UIViewController {
     
-
     @IBOutlet weak var name: CustomTextField!
+    @IBOutlet weak var houseNumber: CustomTextField!
     @IBOutlet weak var address: CustomTextField!
     @IBOutlet weak var phoneNumber: CustomTextField!
     @IBOutlet weak var email: CustomTextField!
     @IBOutlet weak var moreInformation: UITextView!
     
     var itemToEdit: ReturnVisit?
+    
+//    var _destination: String!
+
+//    let targetURL = NSURL(string: "http://maps.apple.com/?q=cupertino")!
+    
+    
+    let targetURL = NSURL(string: "\(URL_BASE)\(URL_HOUSE_NUMBER)\(URL_STREET_NAME)")!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +58,10 @@ class ReturnVisitDetailsVC: UIViewController {
     
         if let name = name.text {
             rv.name = name
+        }
+        
+        if let houseNumber = houseNumber.text {
+            rv.houseNumber = houseNumber
         }
     
         if let address = address.text {
@@ -84,15 +101,22 @@ class ReturnVisitDetailsVC: UIViewController {
         _ = navigationController?.popViewController(animated: true)
     }
 
-        func loadItemData() {
-            if let item = itemToEdit {
-                name.text = item.name
-                address.text = item.address
-                phoneNumber.text = item.phoneNumber
-                email.text = item.email
-                moreInformation.text = item.moreInformation
+    func loadItemData() {
+        if let item = itemToEdit {
+            name.text = item.name
+            houseNumber.text = item.houseNumber
+            address.text = item.address
+            phoneNumber.text = item.phoneNumber
+            email.text = item.email
+            moreInformation.text = item.moreInformation
+            
+            MyVariables.tempStoreHouseNumber = item.houseNumber!
+            MyVariables.tempStoreStreetName = item.address!
+            
         }
     }
+    
+    
     
     @IBAction func deletePressed(_ sender: UIBarButtonItem) {
         
@@ -136,4 +160,24 @@ class ReturnVisitDetailsVC: UIViewController {
         self.present(popup, animated: animated, completion: nil)
     }
     
+    @IBAction func OpenMapsButton(_ sender: Any) {
+        
+//        let targetURL = (f
+//        
+//        var goToAddress = "\(tempStoreHouseNumber)\(tempStoreStreetName)"
+        
+        print(MyVariables.tempStoreHouseNumber)
+        print(MyVariables.tempStoreStreetName)
+        
+//        if let url = NSURL(goToAddress) {
+//            UIApplication.shared.canOpenURL(url as URL)
+//        }
+        
+        UIApplication.shared.openURL(targetURL as URL)
+        
+//        if let url = NSURL(targetURL) {
+//            UIApplication.shared.canOpenURL(url as URL)
+//        }
+    }
+
 }
