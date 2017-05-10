@@ -18,10 +18,8 @@ extension ReturnVisit {
 
     @NSManaged public var created: NSDate?
     @NSManaged public var email: String?
-    @NSManaged public var firstName: String?
-    @NSManaged public var lastName: String?
     @NSManaged public var moreInformation: String?
-    @NSManaged public var nameSuffix: String?
+    @NSManaged public var name: String?
     @NSManaged public var phoneNumber: String?
     @NSManaged public var address: String?
 }

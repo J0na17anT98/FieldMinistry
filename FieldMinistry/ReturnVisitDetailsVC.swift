@@ -13,9 +13,7 @@ import PopupDialog
 class ReturnVisitDetailsVC: UIViewController {
     
 
-    @IBOutlet weak var nameSuffix: CustomTextField!
-    @IBOutlet weak var firstName: CustomTextField!
-    @IBOutlet weak var lastName: CustomTextField!
+    @IBOutlet weak var name: CustomTextField!
     @IBOutlet weak var address: CustomTextField!
     @IBOutlet weak var phoneNumber: CustomTextField!
     @IBOutlet weak var email: CustomTextField!
@@ -45,20 +43,8 @@ class ReturnVisitDetailsVC: UIViewController {
             rv = itemToEdit
         }
     
-        if let nameSuffix = nameSuffix.text {
-            rv.nameSuffix = nameSuffix
-        }
-
-        if let firstName = firstName.text {
-    
-            rv.firstName = firstName
-
-        }
-    
-        if let lastName = lastName.text {
-    
-            rv.lastName = lastName
-    
+        if let name = name.text {
+            rv.name = name
         }
     
         if let address = address.text {
@@ -78,7 +64,6 @@ class ReturnVisitDetailsVC: UIViewController {
             rv.email = email
     
         }
-    
 
         if let moreInformation = moreInformation.text {
     
@@ -101,9 +86,7 @@ class ReturnVisitDetailsVC: UIViewController {
 
         func loadItemData() {
             if let item = itemToEdit {
-                nameSuffix.text = item.nameSuffix
-                firstName.text = item.firstName
-                lastName.text = item.lastName
+                name.text = item.name
                 address.text = item.address
                 phoneNumber.text = item.phoneNumber
                 email.text = item.email

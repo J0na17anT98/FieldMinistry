@@ -10,19 +10,17 @@ import UIKit
 
 class ItemCell: UITableViewCell {
 
-    @IBOutlet weak var nameSuffix: UILabel!
-    @IBOutlet weak var firstName: UILabel!
-    @IBOutlet weak var lastName: UILabel!
+    @IBOutlet weak var name: UILabel!
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var phoneNumber: UILabel!
     @IBOutlet weak var email: UILabel!
+    @IBOutlet weak var moreInformation: UITextView!
     
     func configureCell(item: ReturnVisit) {
-        nameSuffix.text = item.nameSuffix
-        firstName.text = item.firstName
-        lastName.text = item.lastName
+        name.text = item.name
         address.text = item.address
         phoneNumber.text = item.phoneNumber
         email.text = item.email
+        moreInformation.text = item.moreInformation
     }
 }
