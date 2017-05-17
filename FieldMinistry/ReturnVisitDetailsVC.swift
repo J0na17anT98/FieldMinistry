@@ -10,13 +10,15 @@ import UIKit
 import CoreData
 import PopupDialog
 import MapKit
+import MessageUI
+
 
 //struct MyVariables {
 //    static var tempStoreHouseNumber = ""
 //    static var tempStoreStreetName = ""
 //}
 
-class ReturnVisitDetailsVC: UIViewController {
+class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var name: CustomTextField!
     @IBOutlet weak var houseNumber: CustomTextField!
@@ -27,12 +29,14 @@ class ReturnVisitDetailsVC: UIViewController {
     
     var itemToEdit: ReturnVisit?
     
-    let mapBaseUrl = "http://maps.apple.com/?q="
+    //let mapBaseUrl = "https://maps.apple.com/?address="
     var mapHouseNumber = ""
     var mapStreetName = ""
+    var callPhoneNumber = ""
+    var rvEmail = ""
     
     //let targetURL = NSURL(string: "http://maps.apple.com/?q=cupertino")!
-    //let targetURL = NSURL(string: "http://maps.apple.com/?address=160,WellstoneDr.")!
+    //let targetURL = NSURL(string: "http://maps.apple.com/?address=160,WellstoneDrive")!
 //    let targetURL = NSURL(string: "\(URL_BASE)\(URL_HOUSE_NUMBER)\(URL_STREET_NAME)")!
 
     
@@ -48,6 +52,7 @@ class ReturnVisitDetailsVC: UIViewController {
         }
         
     }
+    
     
     @IBAction func savePressed(_ sender: UIBarButtonItem) {
         var rv: ReturnVisit!
@@ -114,6 +119,8 @@ class ReturnVisitDetailsVC: UIViewController {
             
             self.mapHouseNumber = item.houseNumber!
             self.mapStreetName = item.address!
+            self.callPhoneNumber = item.phoneNumber!
+            self.rvEmail = item.email!
             
         }
     }
@@ -164,19 +171,22 @@ class ReturnVisitDetailsVC: UIViewController {
     }
     
     
-    
     @IBAction func OpenMapsButton(_ sender: Any) {
         
         print(mapHouseNumber)
         print(mapStreetName)
         
-        let address = NSURL(string: "\(mapBaseUrl)\(mapHouseNumber),\(mapStreetName)")
+        let mbu = "https://maps.apple.com/?address="
+        let mhn = mapHouseNumber
+        let msn = mapStreetName
         
-        UIApplication.shared.canOpenURL(NSURL(string: "\(String(describing: address))")! as URL)
+        let address = NSURL(string: "\(mbu)\(mhn),\(msn)")
         
-//        if let url = NSURL(goToAddress) {
-//            UIApplication.shared.canOpenURL(url as URL)
-//        }
+        //UIApplication.shared.canOpenURL(NSURL(string: "\(String(describing: address))")! as URL)
+        
+        if let url = NSURL(string: "\(String(describing: address))") {
+            UIApplication.shared.canOpenURL(url as URL)
+        }
         
         //UIApplication.shared.openURL((address as URL?)!)
         
@@ -184,6 +194,71 @@ class ReturnVisitDetailsVC: UIViewController {
 //            UIApplication.shared.canOpenURL(url as URL)
 //        }
     
+    }
+    
+    //MARK: openPhoneButton
+    
+    func call() {
+        
+        if let url = URL(string: "telprompt://\(callPhoneNumber)") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    @IBAction func OpenPhoneButton(_ sender: Any) {
+        
+        print(callPhoneNumber)
+        call()
+        
+    }
+    
+    //MARK: openEmailButton
+    
+    @IBAction func openEmailButton(_ sender: Any) {
+        
+        print(rvEmail)
+        
+        let mailComposeViewController = configuredMailComposeViewController()
+        if MFMailComposeViewController.canSendMail() {
+            self.present(mailComposeViewController, animated: true, completion: nil)
+        } else {
+            self.showSendMailErrorAlert()
+        }
+    }
+    
+    func configuredMailComposeViewController() -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
+        
+        mailComposerVC.setToRecipients(["\(rvEmail)"])
+        mailComposerVC.setSubject("")
+        mailComposerVC.setMessageBody("", isHTML: false)
+        
+        return mailComposerVC
+    }
+    
+    func showSendMailErrorAlert() {
+        
+//        let alert = UIAlertController()
+//        alert.preferredStyle = UIAlertControllerStyleAlert
+//        //let mailalert = UIAlertView()
+//        alert.title = "Sorry!"
+//        alert.message = "Email Could Not be Sent.  Please check e-mail configuration and try again."
+//        //alert.addButton(withTitle: "Ok")
+//        alert.show(UIViewController, sender: Any?)
+        
+//        let sendMailErrorAlert = UIAlertController(title: "Unable to Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", preferredStyle: UIAlertControllerStyle)
+//        let sendMailErrorAlert = UIAlertView(title: "Unable to Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", delegate: self, cancelButtonTitle: "OK")
+//        sendMailErrorAlert.show()
+        
+        print("Have to make alert work someday :)")
+    }
+    
+    //MFMailComposeViewControllerDelegate
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+        
     }
 
 }
