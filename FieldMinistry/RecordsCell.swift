@@ -18,7 +18,7 @@ class RecordsCell: UITableViewCell {
     @IBOutlet weak var numberOfReturnVisits: UILabel!
         
     func configureRecordsCell(record: Records) {
-        CellCreatedDateLabel.text = record.cellCreatedDateLabel
+        //CellCreatedDateLabel.text = record.cellCreatedDateLabel
         numberOfHours.text = record.numberOfHours
         numberOfMinutes.text = record.numberOfMinutes
         numberOfNewBibleStudies.text = record.numberOfNewBibleStudies
