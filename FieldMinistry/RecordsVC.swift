@@ -17,6 +17,7 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
     @IBOutlet weak var tableView: UITableView!    
     
     var controller: NSFetchedResultsController<Records>!
+    let messageComposer = MessageComposer()
     
     
     override func viewDidLoad() {
@@ -243,7 +244,27 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         controller.dismiss(animated: true, completion: nil)
         
     }
-
+    
+    //MARK: imessage view
+    @IBAction func openMessageButton(_ sender: Any) {
+        
+        // Make sure the device can send text messages
+        if (messageComposer.canSendText()) {
+            // Obtain a configured MFMessageComposeViewController
+            let messageComposeVC = messageComposer.configuredMessageComposeViewController()
+            
+            // Present the configured MFMessageComposeViewController instance
+            // Note that the dismissal of the VC will be handled by the messageComposer instance,
+            // since it implements the appropriate delegate call-back
+            present(messageComposeVC, animated: true, completion: nil)
+        } else {
+            // Let the user know if his/her device isn't able to send text messages
+            let errorAlert = UIAlertView(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", delegate: self, cancelButtonTitle: "OK")
+            errorAlert.show()
+        }
+    }
+    
+    
     
 }
 

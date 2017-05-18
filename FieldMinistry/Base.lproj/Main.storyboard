@@ -1144,6 +1144,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkH-Ie-czT">
                                                             <rect key="frame" x="152" y="0.0" width="152" height="20"/>
                                                             <state key="normal" title="Message Record"/>
+                                                            <connections>
+                                                                <action selector="openMessageButton:" destination="zI3-2f-1h9" eventType="touchUpInside" id="xTC-AG-wCl"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <constraints>
