@@ -48,10 +48,10 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="152" height="144"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRK-tf-YMO">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="21"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="135.5" height="21"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/13/17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIX-nx-jPz">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="60" height="21"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 13, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIX-nx-jPz">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="135.5" height="21"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="21" id="Dc0-al-T35"/>
                                                                             </constraints>
