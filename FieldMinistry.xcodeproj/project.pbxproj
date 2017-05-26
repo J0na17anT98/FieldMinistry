@@ -11,6 +11,8 @@
 		A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */; };
 		A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */; };
 		A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */; };
+		A34778D01ED88FD300FD5191 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34778CF1ED88FD300FD5191 /* Extensions.swift */; };
+		A34778D21ED8904E00FD5191 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34778D11ED8904E00FD5191 /* TimerView.swift */; };
 		A351A85F1ECDE44A0004A395 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351A85E1ECDE44A0004A395 /* MessageComposer.swift */; };
 		A36008B41EC37214000528E8 /* OpenMapsWithAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */; };
 		A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365F7341EC0BAAA005AB2FC /* Unused Code.swift */; };
@@ -102,6 +104,8 @@
 		A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaterialView.swift; sourceTree = "<group>"; };
+		A34778CF1ED88FD300FD5191 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A34778D11ED8904E00FD5191 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		A351A85E1ECDE44A0004A395 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
 		A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenMapsWithAddress.swift; sourceTree = "<group>"; };
 		A365F7341EC0BAAA005AB2FC /* Unused Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unused Code.swift"; sourceTree = "<group>"; };
@@ -297,6 +301,7 @@
 		A37D91281E78D97C00256DEE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A34778D11ED8904E00FD5191 /* TimerView.swift */,
 				A365F7381EC0C603005AB2FC /* MonthYearPickerView.swift */,
 				A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */,
 				A3EBAF421E7F706500699AC3 /* MaterialView.swift */,
@@ -313,8 +318,9 @@
 		A37D912A1E78D9A400256DEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A37D90EC1E78CEF500256DEE /* Assets.xcassets */,
+				A34778CF1ED88FD300FD5191 /* Extensions.swift */,
 				A365F7341EC0BAAA005AB2FC /* Unused Code.swift */,
+				A37D90EC1E78CEF500256DEE /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -609,6 +615,7 @@
 				A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */,
 				A3D5C6161E858D5A00C9C9A8 /* RecordDetailsVC.swift in Sources */,
 				A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */,
+				A34778D21ED8904E00FD5191 /* TimerView.swift in Sources */,
 				A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */,
 				A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */,
 				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
@@ -621,6 +628,7 @@
 				A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */,
 				A351A85F1ECDE44A0004A395 /* MessageComposer.swift in Sources */,
 				A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */,
+				A34778D01ED88FD300FD5191 /* Extensions.swift in Sources */,
 				A365F7391EC0C603005AB2FC /* MonthYearPickerView.swift in Sources */,
 				A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */,
 				A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */,

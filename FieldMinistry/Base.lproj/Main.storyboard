@@ -792,7 +792,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPL-cn-3uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="420" y="-744"/>
+            <point key="canvasLocation" x="1588" y="-331"/>
         </scene>
         <!--RecordDetailsVC-->
         <scene sceneID="WiI-nW-Kwv">
@@ -1270,7 +1270,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Azt-T3-99c" kind="relationship" relationship="rootViewController" id="p71-au-MIx"/>
+                        <segue destination="et1-YC-fyZ" kind="relationship" relationship="rootViewController" id="eda-3G-dIB"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ScK-B5-U7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1314,6 +1314,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tXS-9b-JWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1426" y="64"/>
+        </scene>
+        <!--Timer View Controller-->
+        <scene sceneID="2cO-Pd-MhU">
+            <objects>
+                <viewController storyboardIdentifier="TimerController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="et1-YC-fyZ" customClass="TimerViewController" customModule="FieldMinistry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qCZ-pf-RNO"/>
+                        <viewControllerLayoutGuide type="bottom" id="GE8-5I-wuo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="zGD-Ro-h4y">
+                        <rect key="frame" x="0.0" y="44" width="320" height="475"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWV-0y-i9b" customClass="TimerView" customModule="FieldMinistry" customModuleProvider="target">
+                                <rect key="frame" x="16" y="187.5" width="288" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="uo8-E7-kuC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="qWV-0y-i9b" firstAttribute="centerX" secondItem="zGD-Ro-h4y" secondAttribute="centerX" id="ASX-Hz-sOx"/>
+                            <constraint firstItem="qWV-0y-i9b" firstAttribute="leading" secondItem="zGD-Ro-h4y" secondAttribute="leadingMargin" id="cp5-G7-bJr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qWV-0y-i9b" secondAttribute="trailing" id="ju7-VW-2lD"/>
+                            <constraint firstItem="qWV-0y-i9b" firstAttribute="centerY" secondItem="zGD-Ro-h4y" secondAttribute="centerY" id="let-dd-5Ry"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="h0Y-8S-SJ7" appends="YES" id="ujp-cJ-W5Y"/>
+                        </connections>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="eh1-N1-gAC"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="timer" destination="qWV-0y-i9b" id="Ega-T0-fHS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M0a-CJ-doh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="h0Y-8S-SJ7">
+                    <connections>
+                        <action selector="timerAction:" destination="et1-YC-fyZ" id="Gee-9l-ilz"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="293" y="-725"/>
         </scene>
     </scenes>
     <resources>

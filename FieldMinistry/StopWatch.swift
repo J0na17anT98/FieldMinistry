@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
 class StopWatch {
-    
+
 //    private var startTime: Date?
 //    
 //    var elapsedTime: TimeInterval {
@@ -36,5 +37,5 @@ class StopWatch {
 //    func stop() {
 //        startTime = nil
 //    }
-//
+
 }
