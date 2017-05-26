@@ -438,6 +438,7 @@
                         <outlet property="houseNumber" destination="cRb-T3-Grv" id="D2k-Ja-l7P"/>
                         <outlet property="moreInformation" destination="rdg-Aj-Ggf" id="Fpt-rd-lQm"/>
                         <outlet property="name" destination="QAR-3c-hpn" id="prf-5Y-B2c"/>
+                        <outlet property="phoneButton" destination="qeX-cZ-QwO" id="aWc-lP-yU4"/>
                         <outlet property="phoneNumber" destination="Hpm-qs-Jou" id="Q8C-j7-61n"/>
                     </connections>
                 </viewController>
@@ -791,7 +792,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPL-cn-3uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="-708"/>
+            <point key="canvasLocation" x="420" y="-744"/>
         </scene>
         <!--RecordDetailsVC-->
         <scene sceneID="WiI-nW-Kwv">
@@ -1269,7 +1270,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Azt-T3-99c" kind="relationship" relationship="rootViewController" id="hbZ-fc-XMS"/>
+                        <segue destination="Azt-T3-99c" kind="relationship" relationship="rootViewController" id="p71-au-MIx"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ScK-B5-U7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
