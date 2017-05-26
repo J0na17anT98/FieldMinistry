@@ -26,6 +26,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     @IBOutlet weak var phoneNumber: CustomTextField!
     @IBOutlet weak var email: CustomTextField!
     @IBOutlet weak var moreInformation: UITextView!
+    @IBOutlet weak var phoneButton: UIButton!
     
     var itemToEdit: ReturnVisit?
     
@@ -49,6 +50,13 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         
         if itemToEdit != nil {
             loadItemData()
+        }
+     
+        let model = UIDevice.current.model
+        if model == "iPhone" {
+            phoneButton.isHidden = false
+        } else {
+            phoneButton.isHidden = true
         }
         
     }
