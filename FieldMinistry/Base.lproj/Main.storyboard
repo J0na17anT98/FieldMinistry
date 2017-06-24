@@ -629,7 +629,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VBd-fv-cfh" userLabel="StopwatchCounterStackView">
-                                <rect key="frame" x="4" y="120" width="312.5" height="87.5"/>
+                                <rect key="frame" x="4" y="164" width="312.5" height="87.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nud-C7-Ggl">
                                         <rect key="frame" x="0.0" y="0.0" width="83.5" height="87.5"/>
@@ -681,7 +681,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" distribution="fillProportionally" spacing="0.0"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="FP9-JD-bQz">
-                                <rect key="frame" x="30" y="287.5" width="260" height="80"/>
+                                <rect key="frame" x="30" y="331.5" width="260" height="80"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Bt-ER-4Qo" userLabel="Reset View">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
