@@ -1,12 +1,15 @@
 PODS:
-  - PopupDialog (0.5.3)
+  - Mapbox-iOS-SDK (3.6.0)
+  - PopupDialog (0.5.4)
 
 DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 3.6)
   - PopupDialog (~> 0.5)
 
 SPEC CHECKSUMS:
-  PopupDialog: 533dd564f8781633375505b9fbd406f8f146ccc9
+  Mapbox-iOS-SDK: c911b1875a00f12bb74253b763ac483425bd4225
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
 
-PODFILE CHECKSUM: da61d867d7f4ff0fe9d4c88ce302ff7c4ceccbb3
+PODFILE CHECKSUM: 1cfc4259ada6d8c81f7c980266aab3368a88b234
 
 COCOAPODS: 1.2.1

@@ -6,6 +6,7 @@ target 'FieldMinistry' do
   use_frameworks!
 
   pod 'PopupDialog', '~> 0.5'
+  pod 'Mapbox-iOS-SDK', '~> 3.6'
   # Pods for FieldMinistry
 
 end
