@@ -11,6 +11,7 @@ import CoreData
 import PopupDialog
 import MapKit
 import MessageUI
+import CoreLocation
 
 
 //struct MyVariables {
@@ -38,7 +39,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     
     //let targetURL = NSURL(string: "http://maps.apple.com/?q=cupertino")!
     //let targetURL = NSURL(string: "http://maps.apple.com/?address=160,WellstoneDrive")!
-//    let targetURL = NSURL(string: "\(URL_BASE)\(URL_HOUSE_NUMBER)\(URL_STREET_NAME)")!
+    //let targetURL = NSURL(string: "\(URL_BASE)\(URL_HOUSE_NUMBER)\(URL_STREET_NAME)")!
 
     
     override func viewDidLoad() {
@@ -177,10 +178,21 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         self.present(popup, animated: animated, completion: nil)
     
     }
+    //MARK: CopyAddressButton
     
+    @IBAction func CopyAddressButton(_ sender: Any) {
+        
+        UIPasteboard.general.string = address.text!
+        
+        if let myString = UIPasteboard.general.string {
+            address.insertText(myString)
+        }
+        
+    }
+    
+    //MARK: OpenMapsButton
     
     @IBAction func OpenMapsButton(_ sender: Any) {
-        
         print(mapHouseNumber)
         print(mapStreetName)
         
@@ -190,18 +202,39 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         
         let address = NSURL(string: "\(mbu)\(mhn),\(msn)")
         
-        //UIApplication.shared.canOpenURL(NSURL(string: "\(String(describing: address))")! as URL)
+        //openMapForPlace()
         
-        if let url = NSURL(string: "\(String(describing: address))") {
-            UIApplication.shared.canOpenURL(url as URL)
-        }
         
-        //UIApplication.shared.openURL((address as URL?)!)
+        //UIApplication.shared.canOpenURL(NSURL(string: "\(String(describing: mbu))")! as URL)
+        
+//        if let url = NSURL(string: "\(String(describing: address))") {
+//            UIApplication.shared.canOpenURL(url as URL)
+//        }
+        
+//        UIApplication.shared.openURL((address as URL?)!)
         
 //        if let url = NSURL(targetURL) {
 //            UIApplication.shared.canOpenURL(url as URL)
 //        }
     
+    }
+    
+    func openMapForPlace() {
+        
+        let latitude: CLLocationDegrees = 29.5
+        let longitude: CLLocationDegrees = -81.2
+        
+        let regionDistance:CLLocationDistance = 10000
+        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "Place Name"
+        mapItem.openInMaps(launchOptions: options)
     }
     
     //MARK: openPhoneButton

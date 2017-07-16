@@ -49,8 +49,8 @@
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1Ijoiai1pb3MiLCJhIjoiY2o1MWN0Z2l0MDF5eDJxcWRqdGprdGtpdiJ9.TSlsmJOLASHSxNLqjWvV6g</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Shows your location on the map and helps improve OpenStreetMap.</string>
+	<string>Shows your location on the map and allows you to get directions.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Shows your location on the map and helps improve OpenStreetMap.</string>
+	<string>Shows your location on the map and allows you to get directions.</string>
 </dict>
 </plist>

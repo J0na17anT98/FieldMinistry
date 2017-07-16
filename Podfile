@@ -7,6 +7,9 @@ target 'FieldMinistry' do
 
   pod 'PopupDialog', '~> 0.5'
   pod 'Mapbox-iOS-SDK', '~> 3.6'
+  pod 'MapboxDirections.swift', '~> 0.10'
+  pod 'MapboxNavigation', '~> 0.5.0'
+  pod 'MapboxGeocoder.swift', '~> 0.6'
   # Pods for FieldMinistry
 
 end

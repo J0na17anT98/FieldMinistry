@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1704A1FAB263C3D03C8AB3E3 /* Pods_FieldMinistry_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC8EB0BF8DEE911AA6F9B8D /* Pods_FieldMinistry_WatchKit_App.framework */; };
+		A30639661F19127B00C28551 /* MapboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30639651F19127B00C28551 /* MapboxVC.swift */; };
 		A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */; };
 		A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */; };
 		A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */; };
@@ -101,6 +102,7 @@
 		9050F36E56403CAE13D6B07D /* Pods-FieldMinistry WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry WatchKit App/Pods-FieldMinistry WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		9201E21082EC2D099575728A /* Pods-FieldMinistry WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry WatchKit App/Pods-FieldMinistry WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		9B1B03743E5E275084860698 /* Pods_FieldMinistry_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30639651F19127B00C28551 /* MapboxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxVC.swift; sourceTree = "<group>"; };
 		A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaterialView.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */,
 				A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */,
 				A37D91241E78D96000256DEE /* SettingsVC.swift */,
+				A30639651F19127B00C28551 /* MapboxVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -308,8 +311,8 @@
 				A3EBAF461E7F721E00699AC3 /* ItemCell.swift */,
 				A38D71311E80B594004780DB /* RecordsCell.swift */,
 				A3CE715A1E80A126003A5D8E /* CustomTextField.swift */,
-				A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */,
 				A37D90E91E78CEF500256DEE /* Main.storyboard */,
+				A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */,
 				A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */,
 			);
 			name = View;
@@ -619,6 +622,7 @@
 				A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */,
 				A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */,
 				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
+				A30639661F19127B00C28551 /* MapboxVC.swift in Sources */,
 				A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */,
 				A3B4FBD81EBE10A200AC7A89 /* VC's.swift in Sources */,
 				A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */,
