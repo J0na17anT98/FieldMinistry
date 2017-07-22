@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C2198557F59DA0F853B763876ACDBE7792213EFD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1A8D0E04360C3BF09D0837EA2FC343DDC10CE7C4" : 9223372036854775807,
+    "C2198557F59DA0F853B763876ACDBE7792213EFD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8DEBD09C-EB62-43AE-AEEE-D8FC429124D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1A8D0E04360C3BF09D0837EA2FC343DDC10CE7C4" : "FieldMinistry\/FieldMinistry\/",
+    "C2198557F59DA0F853B763876ACDBE7792213EFD" : "FieldMinistry\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FieldMinistry",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FieldMinistry.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/J0na17anT98\/FieldMinistry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A8D0E04360C3BF09D0837EA2FC343DDC10CE7C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/J0na17anT98\/FieldMinistry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C2198557F59DA0F853B763876ACDBE7792213EFD"
+    }
+  ]
+}

@@ -18,6 +18,7 @@ class RecordDetailsVC: UIViewController {
     @IBOutlet weak var numberOfPlacements: CustomTextField!
     @IBOutlet weak var numberOfBibleStudies: CustomTextField!
     @IBOutlet weak var numberOfReturnVisits: CustomTextField!
+    //@IBOutlet weak var cellCreatedDateLabel: UILabel!
     
     var itemToEdit: Records?
 
@@ -62,6 +63,18 @@ class RecordDetailsVC: UIViewController {
         if let numberOfReturnVisits = numberOfReturnVisits.text {
             record.numberOfReturnVisits = numberOfReturnVisits
         }
+//        if let cellCreatedDateLabel = cellCreatedDateLabel.text {
+//            record.cellCreatedDateLabel = cellCreatedDateLabel
+//        }
+        
+        let date = NSDate()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yyyy"
+        let cellCreatedDateLabel = dateFormatter.string(from: date as Date)
+        
+        print(cellCreatedDateLabel)
+        
+        record.cellCreatedDateLabel = cellCreatedDateLabel
         
         ad.saveContext()
         
@@ -76,8 +89,8 @@ class RecordDetailsVC: UIViewController {
                 numberOfPlacements.text = item.numberOfPlacements
                 numberOfBibleStudies.text = item.numberOfNewBibleStudies
                 numberOfReturnVisits.text = item.numberOfReturnVisits
-
-
+                
+                
         }
     }
     

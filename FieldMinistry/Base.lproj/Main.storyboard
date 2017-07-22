@@ -78,13 +78,13 @@
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="C4O-Jn-Wm1">
                                                                     <rect key="frame" x="0.0" y="61" width="152" height="21"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsx-vG-6kZ">
+                                                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsx-vG-6kZ">
                                                                             <rect key="frame" x="0.0" y="0.0" width="0.0" height="21"/>
                                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Buffalo Meadow Lane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="3nt-8F-5aM">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Buffalo Meadow Lane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="3nt-8F-5aM">
                                                                             <rect key="frame" x="5" y="0.0" width="147" height="21"/>
                                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                             <nil key="textColor"/>
@@ -234,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s9k-L8-iuc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-613.04347826086962" y="834.78260869565224"/>
+            <point key="canvasLocation" x="-613" y="835"/>
         </scene>
         <!--ReturnVisitDetailsVC-->
         <scene sceneID="v7c-jo-ZOy">
@@ -267,7 +267,7 @@
                                         <rect key="frame" x="0.0" y="40" width="310" height="30"/>
                                         <subviews>
                                             <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="House #" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cRb-T3-Grv" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="75" id="IrT-08-Z3x"/>
                                                 </constraints>
@@ -279,7 +279,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o7g-bw-RN6" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="30"/>
+                                                <rect key="frame" x="80" y="0.0" width="160" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="sUC-11-BCe"/>
                                                 </constraints>
@@ -309,7 +309,7 @@
                                                 </constraints>
                                                 <state key="normal" image="directions_icon"/>
                                                 <connections>
-                                                    <action selector="OpenMapsButton:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="fbh-jk-tlM"/>
+                                                    <action selector="OpenMapsButton:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="Aae-pD-ZbJ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -513,11 +513,11 @@
                                     <constraint firstItem="3K4-V1-mgn" firstAttribute="leading" secondItem="qYI-7r-IZI" secondAttribute="leading" id="w4E-2g-Mj2"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Lge-0P-ISJ">
-                                <rect key="frame" x="10" y="174" width="265.5" height="60"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Lge-0P-ISJ">
+                                <rect key="frame" x="10" y="174" width="89.5" height="0.0"/>
                                 <subviews>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba8-Bs-KKM">
-                                        <rect key="frame" x="0.0" y="0.0" width="265.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="fdb-2W-46c"/>
                                         </constraints>
@@ -526,7 +526,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Changes the color of the apps interface" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guf-8n-J1g">
-                                        <rect key="frame" x="0.0" y="30" width="265.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="265.5" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="9ye-os-a0N"/>
                                         </constraints>
@@ -541,10 +541,10 @@
                                     <constraint firstItem="ba8-Bs-KKM" firstAttribute="top" secondItem="Lge-0P-ISJ" secondAttribute="top" id="nEb-Ro-hNY"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ani-nY-kJI">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ani-nY-kJI">
                                 <rect key="frame" x="10" y="244" width="300" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Overseers' Email Address " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uV-PK-9PR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Service Overseers' Email Address " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uV-PK-9PR">
                                         <rect key="frame" x="0.0" y="0.0" width="278.5" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="nP3-ec-6dW"/>
@@ -553,7 +553,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivz-qB-Fcz">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivz-qB-Fcz">
                                         <rect key="frame" x="0.0" y="30" width="300" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="de6-yM-l6m"/>
@@ -807,7 +807,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPL-cn-3uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="-708"/>
+            <point key="canvasLocation" x="125" y="-708"/>
         </scene>
         <!--RecordDetailsVC-->
         <scene sceneID="WiI-nW-Kwv">
@@ -1194,6 +1194,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <outlet property="CellCreatedDateLabel" destination="Jin-zS-GhM" id="7CW-Cs-78B"/>
                                             <outlet property="numberOfHours" destination="hvJ-Lq-4nX" id="8g3-HJ-caU"/>
                                             <outlet property="numberOfMinutes" destination="Ki9-AF-bPZ" id="I4e-a6-Mms"/>
                                             <outlet property="numberOfNewBibleStudies" destination="o07-bD-vP6" id="Lv7-Kh-0ep"/>
@@ -1333,6 +1334,7 @@
         <!--MapboxVC-->
         <scene sceneID="Vog-2s-Qy2">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SlQ-nY-xEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="kDX-T7-e5u" customClass="MapboxVC" customModule="FieldMinistry" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pnu-pU-cA9"/>
@@ -1356,7 +1358,8 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="zoomLevel">
                                         <real key="value" value="14"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsUserLocation" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsUserLocation" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
@@ -1367,12 +1370,14 @@
                             <constraint firstAttribute="trailing" secondItem="FGi-9w-rbe" secondAttribute="trailing" id="VP6-u2-2MN"/>
                             <constraint firstItem="FGi-9w-rbe" firstAttribute="leading" secondItem="7BK-W9-NiC" secondAttribute="leading" id="WFm-6b-vcT"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="FGi-9w-rbe" id="tDJ-tE-Rgr"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SlQ-nY-xEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="855" y="834.50704225352115"/>
         </scene>

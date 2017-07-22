@@ -178,34 +178,33 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         self.present(popup, animated: animated, completion: nil)
     
     }
+    
     //MARK: CopyAddressButton
     
     @IBAction func CopyAddressButton(_ sender: Any) {
         
         UIPasteboard.general.string = address.text!
-        
-        if let myString = UIPasteboard.general.string {
-            address.insertText(myString)
-        }
-        
     }
     
     //MARK: OpenMapsButton
     
     @IBAction func OpenMapsButton(_ sender: Any) {
-        print(mapHouseNumber)
+        //print(mapHouseNumber)
         print(mapStreetName)
         
-        let mbu = "https://maps.apple.com/?address="
-        let mhn = mapHouseNumber
-        let msn = mapStreetName
+//        let mbu = "https://maps.apple.com/?address="
+//        let mhn = mapHouseNumber
+//        let msn = mapStreetName
+//        
+//        let address = NSURL(string: "\(mbu)\(mhn),\(msn)")
         
-        let address = NSURL(string: "\(mbu)\(mhn),\(msn)")
+        let mapItem = MKMapItem()
+        mapItem.openInMaps()
         
         //openMapForPlace()
         
         
-        //UIApplication.shared.canOpenURL(NSURL(string: "\(String(describing: mbu))")! as URL)
+//        UIApplication.shared.canOpenURL(NSURL(string: "\(String(describing: mbu1))")! as URL)
         
 //        if let url = NSURL(string: "\(String(describing: address))") {
 //            UIApplication.shared.canOpenURL(url as URL)
@@ -301,5 +300,4 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         controller.dismiss(animated: true, completion: nil)
         
     }
-
 }
