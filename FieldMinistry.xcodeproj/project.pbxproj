@@ -41,6 +41,7 @@
 		A38D71361E80BD0B004780DB /* Records+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D71341E80BD0B004780DB /* Records+CoreDataProperties.swift */; };
 		A39481FA1EBFF96D00AF9ACB /* MonthSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */; };
 		A39481FB1EBFF96D00AF9ACB /* MonthSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */; };
+		A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */; };
 		A3B4FBD81EBE10A200AC7A89 /* VC's.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* VC's.swift */; };
 		A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */; };
 		A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE715A1E80A126003A5D8E /* CustomTextField.swift */; };
@@ -140,6 +141,7 @@
 		A38D71341E80BD0B004780DB /* Records+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Records+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthSelectorVC.swift; sourceTree = "<group>"; };
 		A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthSelectorVC.xib; sourceTree = "<group>"; };
+		A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		A3B4FBD71EBE10A200AC7A89 /* VC's.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VC's.swift"; sourceTree = "<group>"; };
 		A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldMinistry.xcdatamodel; sourceTree = "<group>"; };
 		A3CE715A1E80A126003A5D8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				A34778CF1ED88FD300FD5191 /* Extensions.swift */,
+				A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */,
 				A365F7341EC0BAAA005AB2FC /* Unused Code.swift */,
 				A37D90EC1E78CEF500256DEE /* Assets.xcassets */,
 			);
@@ -624,6 +627,7 @@
 				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
 				A30639661F19127B00C28551 /* MapboxVC.swift in Sources */,
 				A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */,
+				A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */,
 				A3B4FBD81EBE10A200AC7A89 /* VC's.swift in Sources */,
 				A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */,
 				A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */,

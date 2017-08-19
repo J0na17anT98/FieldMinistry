@@ -29,8 +29,14 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     @IBOutlet weak var moreInformation: UITextView!
     @IBOutlet weak var phoneButton: UIButton!
     
-    var itemToEdit: ReturnVisit?
+    @IBOutlet weak var datePicker: UIDatePicker!
+    var dateFormatter = DateFormatter()
+    @IBOutlet weak var dateLabel: UIButton!
     
+    
+
+    
+    var itemToEdit: ReturnVisit?    
     //let mapBaseUrl = "https://maps.apple.com/?address="
     var mapHouseNumber = ""
     var mapStreetName = ""
@@ -45,6 +51,9 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.datePicker.date = NSDate.init(timeIntervalSinceNow: 0) as Date
+        dateFormatter.dateFormat = "MM/dd/yyyy"
+        
         if let topItem = self.navigationController?.navigationBar.topItem {
             topItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
         }
@@ -177,6 +186,21 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         // Present dialog
         self.present(popup, animated: animated, completion: nil)
     
+    }
+    
+    //MARK: dateButtonPressed
+    
+    @IBAction func dateButtonPressed(_ sender: AnyObject) {
+        datePicker.isHidden = false
+    }
+    
+    @IBAction func doneWithDateSelection(_ sender :AnyObject) {
+        
+        print("Date Selected through button  == ", dateFormatter.string(from: datePicker.date))
+    }
+    
+    @IBAction func pickerDateSelectionChanged(_ sender :AnyObject) {
+        print("Date Selected via UIDatePicker value change== ", dateFormatter.string(from: datePicker.date))
     }
     
     //MARK: CopyAddressButton

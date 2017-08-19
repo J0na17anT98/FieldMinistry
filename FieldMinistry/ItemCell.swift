@@ -9,13 +9,14 @@
 import UIKit
 
 class ItemCell: UITableViewCell {
-
+    
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var houseNumber: UILabel!
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var phoneNumber: UILabel!
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var moreInformation: UITextView!
+    //@IBOutlet weak var cellCreatedDateLabel: UILabel!
     
     func configureCell(item: ReturnVisit) {
         name.text = item.name
@@ -24,5 +25,6 @@ class ItemCell: UITableViewCell {
         phoneNumber.text = item.phoneNumber
         email.text = item.email
         moreInformation.text = item.moreInformation
+        //cellCreatedDateLabel.text = item.created
     }
 }
