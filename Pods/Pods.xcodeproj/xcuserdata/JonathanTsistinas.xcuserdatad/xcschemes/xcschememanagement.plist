@@ -4,41 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AWSCore.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>AWSPolly.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>MapboxCoreNavigation.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>MapboxDirections.swift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>MapboxGeocoder.swift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>MapboxNavigation.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OSRMTextInstructions.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-FieldMinistry WatchKit App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -54,22 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Polyline.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>PopupDialog.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pulley.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -77,32 +27,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0BA1238EE152785A6B35EB1FD468ECCA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3479B4B551868D09C9A685010D9966ED</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3CEC10E4990324CEB3208D8679633100</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3FDC27640343552F4C04425FEC14791D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>65A97218F5297D9F24B22D7033CA9D1D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7D77E26F2E7DA24CE7B42808B0F44D2E</key>
+		<key>5DC521935F21E63ED087F38E20B89510</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,37 +37,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9C8CFB17693C4802830E87D0D9B36531</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B85FB6462AC3B3AD302936FAB24A8AF0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C07AA59C9EDA9ED689C957585FD806C0</key>
+		<key>A93DB3B34EC14410A2A2F566465D080F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CA3B26B2706AF5DCBF2E8A572CB597EA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD1DBCC1DF68514CF23AA06E1AB43A68</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DEF89258D593A073C9BDFC8BD3454B3E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F3B0D303D1E2FEEE382F99CB69B2053C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

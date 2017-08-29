@@ -1362,56 +1362,6 @@
             </objects>
             <point key="canvasLocation" x="-1426" y="64"/>
         </scene>
-        <!--MapboxVC-->
-        <scene sceneID="Vog-2s-Qy2">
-            <objects>
-                <viewController id="kDX-T7-e5u" customClass="MapboxVC" customModule="FieldMinistry" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Pnu-pU-cA9"/>
-                        <viewControllerLayoutGuide type="bottom" id="Vlk-wM-Y8M"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7BK-W9-NiC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGi-9w-rbe" customClass="MGLMapView">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="styleURL__" value="mapbox://styles/mapbox/streets-v10"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="latitude">
-                                        <real key="value" value="45.522449999999999"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="longitude">
-                                        <real key="value" value="-122.67773"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="zoomLevel">
-                                        <real key="value" value="14"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsUserLocation" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FGi-9w-rbe" firstAttribute="top" secondItem="Pnu-pU-cA9" secondAttribute="bottom" id="GCl-gn-4WY"/>
-                            <constraint firstItem="Vlk-wM-Y8M" firstAttribute="top" secondItem="FGi-9w-rbe" secondAttribute="bottom" id="Og0-BR-TsN"/>
-                            <constraint firstAttribute="trailing" secondItem="FGi-9w-rbe" secondAttribute="trailing" id="VP6-u2-2MN"/>
-                            <constraint firstItem="FGi-9w-rbe" firstAttribute="leading" secondItem="7BK-W9-NiC" secondAttribute="leading" id="WFm-6b-vcT"/>
-                        </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                        </userDefinedRuntimeAttributes>
-                    </view>
-                    <connections>
-                        <outlet property="mapView" destination="FGi-9w-rbe" id="tDJ-tE-Rgr"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SlQ-nY-xEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="855" y="834.50704225352115"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Clock" width="36" height="36"/>
