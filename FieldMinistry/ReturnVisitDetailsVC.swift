@@ -31,7 +31,9 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     
     @IBOutlet weak var datePicker: UIDatePicker!
     var dateFormatter = DateFormatter()
-    @IBOutlet weak var dateLabel: UIButton!
+    @IBOutlet weak var editDate: UIButton!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var editDateDoneButton: UIButton!
     
     
 
@@ -192,14 +194,31 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     
     @IBAction func dateButtonPressed(_ sender: AnyObject) {
         datePicker.isHidden = false
+        editDateDoneButton.isHidden = false
+        editDate.isHidden = true
+    }
+    
+    @IBAction func editDateDoneButtonPressed(_ sender: Any) {
+        
+        datePicker.isHidden = true
+        editDateDoneButton.isHidden = true
+        editDate.isHidden = false
+        
     }
     
     @IBAction func doneWithDateSelection(_ sender :AnyObject) {
         
-        print("Date Selected through button  == ", dateFormatter.string(from: datePicker.date))
+        let date = dateFormatter.string(from: datePicker.date)
+        
+        dateLabel.text = date
+        
+        //dateLabel.setTitle(date, for: UIControlState.normal)
+        
+        //print("Date Selected through button  == ", dateFormatter.string(from: datePicker.date))
     }
     
     @IBAction func pickerDateSelectionChanged(_ sender :AnyObject) {
+        
         print("Date Selected via UIDatePicker value change== ", dateFormatter.string(from: datePicker.date))
     }
     

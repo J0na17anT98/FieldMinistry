@@ -251,14 +251,29 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4lN-XP-KSd">
                                 <rect key="frame" x="5" y="69" width="310" height="190"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz6-WD-gmn">
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GzF-qL-6fW">
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="30"/>
-                                        <state key="normal" title="Click to choose the date"/>
-                                        <connections>
-                                            <action selector="dateButtonPressed:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="YPZ-GP-80T"/>
-                                            <action selector="doneWithDateSelection:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="YZG-Cw-fXR"/>
-                                        </connections>
-                                    </button>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date not specified" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIT-t6-YvM">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="30"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" red="0.54053999352331605" green="0.54053999352331605" blue="0.54053999352331605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz6-WD-gmn">
+                                                <rect key="frame" x="148" y="0.0" width="162" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Edit Date"/>
+                                                <connections>
+                                                    <action selector="dateButtonPressed:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="YPZ-GP-80T"/>
+                                                    <action selector="doneWithDateSelection:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="MfV-Ns-iXK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QAR-3c-hpn" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="40" width="310" height="30"/>
                                         <constraints>
@@ -431,6 +446,15 @@
                                     <action selector="pickerDateSelectionChanged:" destination="Q8o-M4-UfP" eventType="valueChanged" id="cJd-pp-CWg"/>
                                 </connections>
                             </datePicker>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLh-lq-SjQ">
+                                <rect key="frame" x="5" y="69" width="310" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="editDateDoneButtonPressed:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="u4J-uX-ptQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -474,8 +498,10 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="address" destination="o7g-bw-RN6" id="NaQ-SV-7Y8"/>
-                        <outlet property="dateLabel" destination="Uz6-WD-gmn" id="hdv-Pf-FGo"/>
+                        <outlet property="dateLabel" destination="iIT-t6-YvM" id="stR-Gx-pFQ"/>
                         <outlet property="datePicker" destination="HQi-Ua-fqB" id="BvP-ro-4t7"/>
+                        <outlet property="editDate" destination="Uz6-WD-gmn" id="vWP-bt-yWt"/>
+                        <outlet property="editDateDoneButton" destination="dLh-lq-SjQ" id="hjB-hC-ACV"/>
                         <outlet property="email" destination="zo0-Ti-Os2" id="l5t-wG-uzh"/>
                         <outlet property="houseNumber" destination="cRb-T3-Grv" id="D2k-Ja-l7P"/>
                         <outlet property="moreInformation" destination="rdg-Aj-Ggf" id="Fpt-rd-lQm"/>
