@@ -200,21 +200,14 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     
     @IBAction func editDateDoneButtonPressed(_ sender: Any) {
         
-        datePicker.isHidden = true
-        editDateDoneButton.isHidden = true
-        editDate.isHidden = false
-        
-    }
-    
-    @IBAction func doneWithDateSelection(_ sender :AnyObject) {
-        
         let date = dateFormatter.string(from: datePicker.date)
         
         dateLabel.text = date
         
-        //dateLabel.setTitle(date, for: UIControlState.normal)
+        datePicker.isHidden = true
+        editDateDoneButton.isHidden = true
+        editDate.isHidden = false
         
-        //print("Date Selected through button  == ", dateFormatter.string(from: datePicker.date))
     }
     
     @IBAction func pickerDateSelectionChanged(_ sender :AnyObject) {

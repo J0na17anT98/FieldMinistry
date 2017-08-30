@@ -254,8 +254,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GzF-qL-6fW">
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date not specified" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIT-t6-YvM">
-                                                <rect key="frame" x="0.0" y="0.0" width="138" height="30"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Creation Date: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlo-ZO-wKU">
+                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Date not specified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIT-t6-YvM">
+                                                <rect key="frame" x="124.5" y="0.0" width="138" height="30"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.54053999352331605" green="0.54053999352331605" blue="0.54053999352331605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -263,13 +269,12 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz6-WD-gmn">
-                                                <rect key="frame" x="148" y="0.0" width="162" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz6-WD-gmn">
+                                                <rect key="frame" x="272.5" y="0.0" width="37.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <state key="normal" title="Edit Date"/>
                                                 <connections>
                                                     <action selector="dateButtonPressed:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="YPZ-GP-80T"/>
-                                                    <action selector="doneWithDateSelection:" destination="Q8o-M4-UfP" eventType="touchUpInside" id="MfV-Ns-iXK"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -446,9 +451,11 @@
                                     <action selector="pickerDateSelectionChanged:" destination="Q8o-M4-UfP" eventType="valueChanged" id="cJd-pp-CWg"/>
                                 </connections>
                             </datePicker>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLh-lq-SjQ">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLh-lq-SjQ">
                                 <rect key="frame" x="5" y="69" width="310" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="stj-hW-mPc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Done"/>
                                 <connections>
@@ -460,12 +467,15 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="1i5-LP-VRv" firstAttribute="top" secondItem="HQi-Ua-fqB" secondAttribute="bottom" id="186-pT-Kxk"/>
+                            <constraint firstAttribute="trailing" secondItem="dLh-lq-SjQ" secondAttribute="trailing" constant="5" id="1sz-7c-SBr"/>
                             <constraint firstItem="HQi-Ua-fqB" firstAttribute="leading" secondItem="mqI-FD-zTv" secondAttribute="leading" id="2zb-2t-Ahm"/>
                             <constraint firstItem="1i5-LP-VRv" firstAttribute="top" secondItem="A9i-3j-URS" secondAttribute="bottom" constant="5" id="4nW-HM-fTO"/>
                             <constraint firstItem="bLj-qe-urq" firstAttribute="top" secondItem="4lN-XP-KSd" secondAttribute="bottom" constant="5" id="9Z5-lU-2tb"/>
+                            <constraint firstItem="dLh-lq-SjQ" firstAttribute="top" secondItem="DhH-CQ-PpV" secondAttribute="bottom" constant="5" id="9uZ-Cn-Adw"/>
                             <constraint firstAttribute="trailing" secondItem="HQi-Ua-fqB" secondAttribute="trailing" id="ACE-Nt-FIv"/>
                             <constraint firstAttribute="trailing" secondItem="rdg-Aj-Ggf" secondAttribute="trailing" constant="10" id="Hp1-nz-HTN"/>
                             <constraint firstItem="4lN-XP-KSd" firstAttribute="leading" secondItem="mqI-FD-zTv" secondAttribute="leading" constant="5" id="K69-Yd-GJu"/>
+                            <constraint firstItem="dLh-lq-SjQ" firstAttribute="leading" secondItem="mqI-FD-zTv" secondAttribute="leading" constant="5" id="KGR-dt-4bb"/>
                             <constraint firstItem="rdg-Aj-Ggf" firstAttribute="leading" secondItem="mqI-FD-zTv" secondAttribute="leading" constant="10" id="MHD-Dc-RhL"/>
                             <constraint firstAttribute="trailing" secondItem="A9i-3j-URS" secondAttribute="trailing" constant="5" id="NXO-OT-Bs9"/>
                             <constraint firstItem="1i5-LP-VRv" firstAttribute="top" secondItem="rdg-Aj-Ggf" secondAttribute="bottom" constant="10" id="T1R-26-aQe"/>
