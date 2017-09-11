@@ -15,7 +15,9 @@ extension Records {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Records> {
         return NSFetchRequest<Records>(entityName: "Records");
     }
+    
     @NSManaged public var created: NSDate?
+    //@NSManaged public var created: String?
     @NSManaged public var cellCreatedDateLabel: String?
     @NSManaged public var numberOfHours: String?
     @NSManaged public var numberOfMinutes: String?

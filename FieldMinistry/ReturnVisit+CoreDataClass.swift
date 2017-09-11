@@ -17,6 +17,8 @@ public class ReturnVisit: NSManagedObject {
         super.awakeFromInsert()
         
         self.created = NSDate()
+        //self.created = String()
+
     }
     
 }

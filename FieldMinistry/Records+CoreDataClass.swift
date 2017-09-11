@@ -16,7 +16,9 @@ public class Records: NSManagedObject {
         
         super.awakeFromInsert()
         
+        //self.created = String()
         self.created = NSDate()
+
     }
     
 }

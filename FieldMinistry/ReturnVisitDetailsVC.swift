@@ -28,8 +28,8 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     @IBOutlet weak var email: CustomTextField!
     @IBOutlet weak var moreInformation: UITextView!
     @IBOutlet weak var phoneButton: UIButton!
-    
     @IBOutlet weak var datePicker: UIDatePicker!
+    
     var dateFormatter = DateFormatter()
     @IBOutlet weak var editDate: UIButton!
     @IBOutlet weak var dateLabel: UILabel!
@@ -114,6 +114,10 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
             rv.moreInformation = moreInformation
                 
         }
+        
+//        if let created = dateLabel.text {
+//            rv.created = created
+//        }
             
         ad.saveContext()
         
@@ -136,12 +140,12 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
             phoneNumber.text = item.phoneNumber
             email.text = item.email
             moreInformation.text = item.moreInformation
+            //dateLabel.text = item.created
             
             self.mapHouseNumber = item.houseNumber!
             self.mapStreetName = item.address!
             self.callPhoneNumber = item.phoneNumber!
             self.rvEmail = item.email!
-            
         }
     }
     
