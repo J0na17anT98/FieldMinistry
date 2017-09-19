@@ -118,7 +118,16 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
 //        if let created = dateLabel.text {
 //            rv.created = created
 //        }
-            
+        
+        let date = NSDate()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/yyyy"
+        let cellCreatedDateLabel = dateFormatter.string(from: date as Date)
+        
+        print(cellCreatedDateLabel)
+        
+        rv.cellCreatedDateLabel = cellCreatedDateLabel
+        
         ad.saveContext()
         
         

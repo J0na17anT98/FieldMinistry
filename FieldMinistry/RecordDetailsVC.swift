@@ -69,7 +69,7 @@ class RecordDetailsVC: UIViewController {
         
         let date = NSDate()
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd/MM/yyyy"
+        dateFormatter.dateFormat = "MM/dd/yyyy"
         let cellCreatedDateLabel = dateFormatter.string(from: date as Date)
         
         print(cellCreatedDateLabel)

@@ -18,6 +18,7 @@ extension ReturnVisit {
 
     @NSManaged public var created: NSDate?
     //@NSManaged public var created: String?
+    @NSManaged public var cellCreatedDateLabel: String?
     @NSManaged public var email: String?
     @NSManaged public var moreInformation: String?
     @NSManaged public var name: String?
