@@ -32,7 +32,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     
     var dateFormatter = DateFormatter()
     @IBOutlet weak var editDate: UIButton!
-    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var cellCreatedDateLabel: UILabel!
     @IBOutlet weak var editDateDoneButton: UIButton!
     
     
@@ -76,7 +76,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     
     @IBAction func savePressed(_ sender: UIBarButtonItem) {
         var rv: ReturnVisit!
-    
+        
         if itemToEdit == nil {
             rv = ReturnVisit(context: context)
         } else {
@@ -115,8 +115,8 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
                 
         }
         
-//        if let created = dateLabel.text {
-//            rv.created = created
+//        if let cellCreatedDateLabel = cellCreatedDateLabel.text {
+//            rv.cellCreatedDateLabel = cellCreatedDateLabel
 //        }
         
         let date = NSDate()
@@ -150,6 +150,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
             email.text = item.email
             moreInformation.text = item.moreInformation
             //dateLabel.text = item.created
+            //cellCreatedDateLabel.text = item.cellCreatedDateLabel
             
             self.mapHouseNumber = item.houseNumber!
             self.mapStreetName = item.address!
@@ -215,7 +216,9 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         
         let date = dateFormatter.string(from: datePicker.date)
         
-        dateLabel.text = date
+        cellCreatedDateLabel.text = date
+        
+        ad.saveContext()
         
         datePicker.isHidden = true
         editDateDoneButton.isHidden = true
