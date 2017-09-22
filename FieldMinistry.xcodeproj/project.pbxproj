@@ -49,6 +49,7 @@
 		A3DDEBC81E7B23DA00649B9B /* ReturnVisitDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */; };
 		A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EBAF421E7F706500699AC3 /* MaterialView.swift */; };
 		A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EBAF461E7F721E00699AC3 /* ItemCell.swift */; };
+		A3EF2ADF1F75585A009205DA /* MonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF2ADE1F75585A009205DA /* MonthVC.swift */; };
 		C78FFF01BC71ADD7D68DAEB0 /* Pods_FieldMinistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8233D432C20BC9E54EA04B20 /* Pods_FieldMinistry.framework */; };
 		D08F8DD93186E1670D99D245 /* Pods_FieldMinistry_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1B03743E5E275084860698 /* Pods_FieldMinistry_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
@@ -148,6 +149,7 @@
 		A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnVisitDetailsVC.swift; sourceTree = "<group>"; };
 		A3EBAF421E7F706500699AC3 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		A3EBAF461E7F721E00699AC3 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		A3EF2ADE1F75585A009205DA /* MonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthVC.swift; sourceTree = "<group>"; };
 		B295DEB23D638E45D126FAEF /* Pods-FieldMinistry WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry WatchKit Extension/Pods-FieldMinistry WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		BEC8EB0BF8DEE911AA6F9B8D /* Pods_FieldMinistry_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36664550B053E2F2DA577CF /* Pods-FieldMinistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldMinistry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry.debug.xcconfig"; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */,
+				A3EF2ADE1F75585A009205DA /* MonthVC.swift */,
 				A37D912B1E78DFA900256DEE /* RecordsVC.swift */,
 				A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */,
 				A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */,
@@ -628,6 +631,7 @@
 				A37D912C1E78DFA900256DEE /* RecordsVC.swift in Sources */,
 				A37D91231E78D94F00256DEE /* ReturnVisitsVC.swift in Sources */,
 				A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */,
+				A3EF2ADF1F75585A009205DA /* MonthVC.swift in Sources */,
 				A3D5C6161E858D5A00C9C9A8 /* RecordDetailsVC.swift in Sources */,
 				A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */,
 				A34778D21ED8904E00FD5191 /* TimerView.swift in Sources */,
