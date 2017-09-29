@@ -35,6 +35,16 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        if #available(iOS 11.0, *) {
+            navigationItem.largeTitleDisplayMode = .always
+        } else {
+            // Fallback on earlier versions
+        }
+        
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "RecordsCell", for: indexPath) as! RecordsCell
