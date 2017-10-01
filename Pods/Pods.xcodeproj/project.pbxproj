@@ -61,25 +61,25 @@
 		1947E205F9AE320F4BBA6C77649D1755 /* Pods-FieldMinistry WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
 		1EEE246B9FB1E83EBA8C9E67F7D6FE52 /* Pods-FieldMinistry WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		2204B3206E9A4B1544446856613518B6 /* Pods_FieldMinistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FieldMinistry.framework; path = "Pods-FieldMinistry.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2204B3206E9A4B1544446856613518B6 /* Pods_FieldMinistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B1B7DEB5C0B9219AB7DDF2BFD82D14 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
 		24543207EB5360984C2195771F9AF446 /* Pods-FieldMinistry WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry WatchKit App-resources.sh"; sourceTree = "<group>"; };
 		34F479277725D5005EF246CDC4917C38 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
 		390DDE613B0BA83E2F576808C4C105CB /* Pods-FieldMinistry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FieldMinistry-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B6DB8EE1A00289E3968FF185B14C95C /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6DB8EE1A00289E3968FF185B14C95C /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49682067F6C4D1CF80771EF845766596 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
 		4C5309466DE50CA169B15A754F936703 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
 		4EE738E674D920435D80DA1143F918A6 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
 		65CFCFAEB1588F2D5A2A4F4B18E683EE /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
 		685763E94EFB56A907AF403D0B795251 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
-		69D767281A140A8F4263A43178EAB1FA /* Pods-FieldMinistry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FieldMinistry.modulemap"; sourceTree = "<group>"; };
+		69D767281A140A8F4263A43178EAB1FA /* Pods-FieldMinistry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FieldMinistry.modulemap"; sourceTree = "<group>"; };
 		6A4F2A66C3F0DE9AD7CE1CB6656A9862 /* Pods-FieldMinistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry.release.xcconfig"; sourceTree = "<group>"; };
-		736A4E886F33D2E5FD99A99CD782116C /* Pods-FieldMinistry WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FieldMinistry WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		736A4E886F33D2E5FD99A99CD782116C /* Pods-FieldMinistry WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FieldMinistry WatchKit Extension.modulemap"; sourceTree = "<group>"; };
 		76720B026417625FB62285B73CECF0BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E5867138CDDF02A6E643313D396091C /* Pods_FieldMinistry_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FieldMinistry_WatchKit_Extension.framework; path = "Pods-FieldMinistry WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5867138CDDF02A6E643313D396091C /* Pods_FieldMinistry_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8553B5ECA1E1C4525A6F4DC293A9744B /* Pods-FieldMinistry WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FieldMinistry WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86BC3035A6076669225D17D63B4D7210 /* Pods_FieldMinistry_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FieldMinistry_WatchKit_App.framework; path = "Pods-FieldMinistry WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86BC3035A6076669225D17D63B4D7210 /* Pods_FieldMinistry_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970D7F87A590564548A61661C1954652 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
 		9DBF3E344CF076AFE8482684D27879B0 /* Pods-FieldMinistry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FieldMinistry-dummy.m"; sourceTree = "<group>"; };
 		AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		B52B4770F34AF0B18CE182BA3F24ADC9 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
 		B7EA2664FC787197079CAE1D57F3A31B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B80909F4E08EA5BFDF97A8E61EBB1D8A /* Pods-FieldMinistry WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FieldMinistry WatchKit App-umbrella.h"; sourceTree = "<group>"; };
-		BF36A7D84E50B52170E88DD9F610FEDB /* Pods-FieldMinistry WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FieldMinistry WatchKit App.modulemap"; sourceTree = "<group>"; };
+		BF36A7D84E50B52170E88DD9F610FEDB /* Pods-FieldMinistry WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FieldMinistry WatchKit App.modulemap"; sourceTree = "<group>"; };
 		C0CC8D9AD5BFE86B3C41D09D7BB874A8 /* Pods-FieldMinistry-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry-resources.sh"; sourceTree = "<group>"; };
 		C6F575662234000EA80FCB79B3447B7F /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
 		D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -106,7 +106,7 @@
 		E554838F506C0F028C09E21F21CE8057 /* Pods-FieldMinistry WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		E6B1DB7BE9AA905599FBB47AB9C6DD09 /* Pods-FieldMinistry WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
 		F36DD86F33721880C3256F45CB308E26 /* Pods-FieldMinistry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FieldMinistry-umbrella.h"; sourceTree = "<group>"; };
-		F5052600E36B3CFA9D58DAEEB25C71C5 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		F5052600E36B3CFA9D58DAEEB25C71C5 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PopupDialog.modulemap; sourceTree = "<group>"; };
 		F6857CA437C74A08BD6C3E00D30DC833 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
 		FA5AC276703731E61B0B5293BA4F1F50 /* Pods-FieldMinistry WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FieldMinistry WatchKit App-dummy.m"; sourceTree = "<group>"; };
 		FACE7F239C94E350ED68E632178D97FD /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
@@ -289,7 +289,6 @@
 				AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */,
 				25D42065E91C742060B6041633C39926 /* Support Files */,
 			);
-			name = PopupDialog;
 			path = PopupDialog;
 			sourceTree = "<group>";
 		};
@@ -425,6 +424,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					5DC521935F21E63ED087F38E20B89510 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";

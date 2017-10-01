@@ -21,7 +21,7 @@ class MonthSelectorVC: UIViewController {
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(endEditing)))
     }
     
-    func endEditing() {
+    @objc func endEditing() {
         view.endEditing(true)
     }
 }

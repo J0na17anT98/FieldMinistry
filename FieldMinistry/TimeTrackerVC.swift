@@ -44,7 +44,7 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
         
     }
     
-    func counter() {
+    @objc func counter() {
         
         count += 1
         if count > 9 {

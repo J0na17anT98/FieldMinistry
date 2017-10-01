@@ -28,7 +28,7 @@ class TimerView: UILabel
     {
         super.init(coder: aDecoder)
 
-        font = UIFont.monospacedDigitSystemFont(ofSize: TimerView.timerLabelSize(), weight: UIFontWeightUltraLight)
+        font = UIFont.monospacedDigitSystemFont(ofSize: TimerView.timerLabelSize(), weight: UIFont.Weight.ultraLight)
         secondFraction.text = ".0"
         secondFraction.font = font
         secondFraction.textColor = textColor
