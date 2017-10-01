@@ -12,7 +12,7 @@
 		A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */; };
 		A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */; };
 		A34778D01ED88FD300FD5191 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34778CF1ED88FD300FD5191 /* Extensions.swift */; };
-		A34778D21ED8904E00FD5191 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34778D11ED8904E00FD5191 /* TimerView.swift */; };
+		A34778D21ED8904E00FD5191 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34778D11ED8904E00FD5191 /* TimerViewModel.swift */; };
 		A351A85F1ECDE44A0004A395 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351A85E1ECDE44A0004A395 /* MessageComposer.swift */; };
 		A36008B41EC37214000528E8 /* OpenMapsWithAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */; };
 		A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365F7341EC0BAAA005AB2FC /* Unused Code.swift */; };
@@ -35,13 +35,17 @@
 		A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91241E78D96000256DEE /* SettingsVC.swift */; };
 		A37D912C1E78DFA900256DEE /* RecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912B1E78DFA900256DEE /* RecordsVC.swift */; };
 		A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912D1E78E1D200256DEE /* StopWatch.swift */; };
+		A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */; };
+		A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */; };
+		A38BC6421F81903300BE140D /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC6411F81903300BE140D /* YearPickerView.swift */; };
+		A38BC6511F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC6501F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift */; };
 		A38D71321E80B594004780DB /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D71311E80B594004780DB /* RecordsCell.swift */; };
 		A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */; };
 		A38D71361E80BD0B004780DB /* Records+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D71341E80BD0B004780DB /* Records+CoreDataProperties.swift */; };
 		A39481FA1EBFF96D00AF9ACB /* MonthSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */; };
 		A39481FB1EBFF96D00AF9ACB /* MonthSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */; };
 		A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */; };
-		A3B4FBD81EBE10A200AC7A89 /* VC's.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* VC's.swift */; };
+		A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */; };
 		A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */; };
 		A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE715A1E80A126003A5D8E /* CustomTextField.swift */; };
 		A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */; };
@@ -107,7 +111,7 @@
 		A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaterialView.swift; sourceTree = "<group>"; };
 		A34778CF1ED88FD300FD5191 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		A34778D11ED8904E00FD5191 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		A34778D11ED8904E00FD5191 /* TimerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		A351A85E1ECDE44A0004A395 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
 		A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenMapsWithAddress.swift; sourceTree = "<group>"; };
 		A365F7341EC0BAAA005AB2FC /* Unused Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unused Code.swift"; sourceTree = "<group>"; };
@@ -135,13 +139,17 @@
 		A37D91241E78D96000256DEE /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		A37D912B1E78DFA900256DEE /* RecordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsVC.swift; sourceTree = "<group>"; };
 		A37D912D1E78E1D200256DEE /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCollectionViewCell.swift; sourceTree = "<group>"; };
+		A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordYearCollectionViewVC.swift; sourceTree = "<group>"; };
+		A38BC6411F81903300BE140D /* YearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
+		A38BC6501F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMonthCollectionViewVC.swift; sourceTree = "<group>"; };
 		A38D71311E80B594004780DB /* RecordsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
 		A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Records+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A38D71341E80BD0B004780DB /* Records+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Records+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthSelectorVC.swift; sourceTree = "<group>"; };
 		A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthSelectorVC.xib; sourceTree = "<group>"; };
 		A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		A3B4FBD71EBE10A200AC7A89 /* VC's.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VC's.swift"; sourceTree = "<group>"; };
+		A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 		A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldMinistry.xcdatamodel; sourceTree = "<group>"; };
 		A3CE715A1E80A126003A5D8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
@@ -277,14 +285,10 @@
 			isa = PBXGroup;
 			children = (
 				A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */,
-				A3EF2ADE1F75585A009205DA /* MonthVC.swift */,
-				A37D912B1E78DFA900256DEE /* RecordsVC.swift */,
-				A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */,
-				A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */,
-				A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */,
-				A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */,
-				A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */,
 				A37D91241E78D96000256DEE /* SettingsVC.swift */,
+				A38BC6431F81A07F00BE140D /* Record View Controllers */,
+				A38BC64B1F81A14700BE140D /* Return Visit View Controllers */,
+				A38BC6471F81A10900BE140D /* Month Selector Button (Deprecated) */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -292,12 +296,10 @@
 		A37D91271E78D97500256DEE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A3B4FBD71EBE10A200AC7A89 /* VC's.swift */,
-				A37D912D1E78E1D200256DEE /* StopWatch.swift */,
+				A34778D11ED8904E00FD5191 /* TimerViewModel.swift */,
+				A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */,
 				A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */,
 				A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */,
-				A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */,
-				A351A85E1ECDE44A0004A395 /* MessageComposer.swift */,
 				A327CBDE1E80730F006C6443 /* Generated */,
 			);
 			name = Model;
@@ -306,16 +308,11 @@
 		A37D91281E78D97C00256DEE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A34778D11ED8904E00FD5191 /* TimerView.swift */,
-				A365F7381EC0C603005AB2FC /* MonthYearPickerView.swift */,
-				A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */,
-				A3EBAF421E7F706500699AC3 /* MaterialView.swift */,
-				A3EBAF461E7F721E00699AC3 /* ItemCell.swift */,
-				A38D71311E80B594004780DB /* RecordsCell.swift */,
-				A3CE715A1E80A126003A5D8E /* CustomTextField.swift */,
 				A37D90E91E78CEF500256DEE /* Main.storyboard */,
-				A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */,
 				A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */,
+				A38BC64F1F81A34C00BE140D /* Table View Cells */,
+				A38BC64E1F81A2CC00BE140D /* Custom Views */,
+				A38BC64D1F81A2BD00BE140D /* Picker Views */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -323,12 +320,107 @@
 		A37D912A1E78D9A400256DEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A38BC64C1F81A28600BE140D /* Unused Code */,
 				A34778CF1ED88FD300FD5191 /* Extensions.swift */,
 				A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */,
-				A365F7341EC0BAAA005AB2FC /* Unused Code.swift */,
 				A37D90EC1E78CEF500256DEE /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A38BC6431F81A07F00BE140D /* Record View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A38BC6441F81A09900BE140D /* Record Year VC */,
+				A38BC6451F81A0A900BE140D /* Record Month VC */,
+				A38BC6461F81A0CF00BE140D /* Record Details */,
+			);
+			name = "Record View Controllers";
+			sourceTree = "<group>";
+		};
+		A38BC6441F81A09900BE140D /* Record Year VC */ = {
+			isa = PBXGroup;
+			children = (
+				A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */,
+			);
+			name = "Record Year VC";
+			sourceTree = "<group>";
+		};
+		A38BC6451F81A0A900BE140D /* Record Month VC */ = {
+			isa = PBXGroup;
+			children = (
+				A38BC6501F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift */,
+			);
+			name = "Record Month VC";
+			sourceTree = "<group>";
+		};
+		A38BC6461F81A0CF00BE140D /* Record Details */ = {
+			isa = PBXGroup;
+			children = (
+				A37D912B1E78DFA900256DEE /* RecordsVC.swift */,
+				A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */,
+			);
+			name = "Record Details";
+			sourceTree = "<group>";
+		};
+		A38BC6471F81A10900BE140D /* Month Selector Button (Deprecated) */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF2ADE1F75585A009205DA /* MonthVC.swift */,
+				A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */,
+				A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */,
+			);
+			name = "Month Selector Button (Deprecated)";
+			sourceTree = "<group>";
+		};
+		A38BC64B1F81A14700BE140D /* Return Visit View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */,
+				A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */,
+			);
+			name = "Return Visit View Controllers";
+			sourceTree = "<group>";
+		};
+		A38BC64C1F81A28600BE140D /* Unused Code */ = {
+			isa = PBXGroup;
+			children = (
+				A37D912D1E78E1D200256DEE /* StopWatch.swift */,
+				A36008B31EC37214000528E8 /* OpenMapsWithAddress.swift */,
+				A365F7341EC0BAAA005AB2FC /* Unused Code.swift */,
+			);
+			name = "Unused Code";
+			sourceTree = "<group>";
+		};
+		A38BC64D1F81A2BD00BE140D /* Picker Views */ = {
+			isa = PBXGroup;
+			children = (
+				A365F7381EC0C603005AB2FC /* MonthYearPickerView.swift */,
+				A38BC6411F81903300BE140D /* YearPickerView.swift */,
+			);
+			name = "Picker Views";
+			sourceTree = "<group>";
+		};
+		A38BC64E1F81A2CC00BE140D /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */,
+				A3EBAF421E7F706500699AC3 /* MaterialView.swift */,
+				A3CE715A1E80A126003A5D8E /* CustomTextField.swift */,
+				A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */,
+				A351A85E1ECDE44A0004A395 /* MessageComposer.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		A38BC64F1F81A34C00BE140D /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A3EBAF461E7F721E00699AC3 /* ItemCell.swift */,
+				A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */,
+				A38D71311E80B594004780DB /* RecordsCell.swift */,
+			);
+			name = "Table View Cells";
 			sourceTree = "<group>";
 		};
 		FBB79C397717E969CAA87A92 /* Frameworks */ = {
@@ -632,18 +724,20 @@
 				A38D71321E80B594004780DB /* RecordsCell.swift in Sources */,
 				A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */,
 				A37D912C1E78DFA900256DEE /* RecordsVC.swift in Sources */,
+				A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */,
 				A37D91231E78D94F00256DEE /* ReturnVisitsVC.swift in Sources */,
 				A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */,
 				A3EF2ADF1F75585A009205DA /* MonthVC.swift in Sources */,
 				A3D5C6161E858D5A00C9C9A8 /* RecordDetailsVC.swift in Sources */,
 				A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */,
-				A34778D21ED8904E00FD5191 /* TimerView.swift in Sources */,
+				A34778D21ED8904E00FD5191 /* TimerViewModel.swift in Sources */,
 				A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */,
 				A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */,
 				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
+				A38BC6511F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift in Sources */,
 				A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */,
 				A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */,
-				A3B4FBD81EBE10A200AC7A89 /* VC's.swift in Sources */,
+				A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */,
 				A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */,
 				A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */,
 				A3DDEBC81E7B23DA00649B9B /* ReturnVisitDetailsVC.swift in Sources */,
@@ -651,9 +745,11 @@
 				A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */,
 				A351A85F1ECDE44A0004A395 /* MessageComposer.swift in Sources */,
 				A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */,
+				A38BC6421F81903300BE140D /* YearPickerView.swift in Sources */,
 				A34778D01ED88FD300FD5191 /* Extensions.swift in Sources */,
 				A365F7391EC0C603005AB2FC /* MonthYearPickerView.swift in Sources */,
 				A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */,
+				A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */,
 				A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */,
 				A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */,
 			);

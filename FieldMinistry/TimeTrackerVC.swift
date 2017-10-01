@@ -17,17 +17,13 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     
     @IBOutlet weak var hourLabel: UILabel!
     
-//    @IBOutlet weak var numberOfHours: CustomTextField!
-//    @IBOutlet weak var numberOfMinutes: CustomTextField!
-//    @IBOutlet weak var numberOfPlacements: CustomTextField!
-//    @IBOutlet weak var numberOfNewBibleStudies: CustomTextField!
-//    @IBOutlet weak var numberOfReturnVisits: CustomTextField!
-    
     @IBOutlet weak var startButton: UIButton!
     
     @IBOutlet weak var stopButton: UIButton!
     
+    @IBOutlet weak var resetView: UIView!
     
+    @IBOutlet weak var startAndStopView: UIView!
     var controller: NSFetchedResultsController<ReturnVisit>!
 
     var count = 0
@@ -41,6 +37,13 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        resetView.layer.borderColor = UIColor.black.cgColor
+        resetView.layer.borderWidth = 2
+        resetView.layer.cornerRadius = 40
+        
+        startAndStopView.layer.borderColor = UIColor.black.cgColor
+        startAndStopView.layer.borderWidth = 2
+        startAndStopView.layer.cornerRadius = 40
         
     }
     
@@ -108,41 +111,6 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
 
     }
     
-//    @IBAction func savePressed(_ sender: UIButton) {
-//        
-//        let record = Records(context: context)
-//        
-//        if let hours = numberOfHours.text {
-//            record.numberOfHours = hours
-//        }
-//        
-//        if let minutes = numberOfMinutes.text {
-//            record.numberOfMinutes = minutes
-//        }
-//        
-//        if let placements = numberOfPlacements.text {
-//            record.numberOfPlacements = placements
-//        }
-//        
-//        if let newBibleStudies = numberOfNewBibleStudies.text {
-//            record.numberOfNewBibleStudies = newBibleStudies
-//        }
-//        
-//        if let newReturnVisits = numberOfReturnVisits.text {
-//            record.numberOfReturnVisits = newReturnVisits
-//        }
-//        
-//        numberOfHours.text = ""
-//        numberOfMinutes.text = ""
-//        numberOfPlacements.text = ""
-//        numberOfNewBibleStudies.text = ""
-//        numberOfReturnVisits.text = ""
-//        
-//        ad.saveContext()
-//        
-//        _ = navigationController?.popViewController(animated: true)
-//        
-//    }
     
     
 }
