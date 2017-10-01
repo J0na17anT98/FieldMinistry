@@ -37,11 +37,11 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
     
     override func viewWillAppear(_ animated: Bool) {
         
-        if #available(iOS 11.0, *) {
-            navigationItem.largeTitleDisplayMode = .always
-        } else {
-            // Fallback on earlier versions
-        }
+//        if #available(iOS 11.0, *) {
+//            navigationItem.largeTitleDisplayMode = .always
+//        } else {
+//            // Fallback on earlier versions
+//        }
         
     }
     

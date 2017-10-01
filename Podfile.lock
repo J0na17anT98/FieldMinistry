@@ -1,11 +1,11 @@
 PODS:
-  - PopupDialog (0.5.4)
+  - PopupDialog (0.6.0)
 
 DEPENDENCIES:
   - PopupDialog (~> 0.5)
 
 SPEC CHECKSUMS:
-  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  PopupDialog: 687af43af0f7b89948cd411ac701865f931bd6dc
 
 PODFILE CHECKSUM: da61d867d7f4ff0fe9d4c88ce302ff7c4ceccbb3
 
