@@ -12,7 +12,7 @@ import PopupDialog
 class RecordMonthCollectionViewVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     fileprivate let itemsPerRow: CGFloat = 3
-    fileprivate let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
+    fileprivate let sectionInsets = UIEdgeInsets(top: 50.0, left: 10.0, bottom: 50.0, right: 10.0)
     
     let reuseIdentifier = "monthCell" // also enter this string as the cell identifier in the storyboard
     var items = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
