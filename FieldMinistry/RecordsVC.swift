@@ -175,37 +175,37 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         }
     }
     
-    func showMonthCustomDialog(animated: Bool = true) {
-        
-        CancelButton.appearance().titleColor = UIColor.gray
-        DefaultButton.appearance().titleColor = UIColor.red
-        
-        // Create a custom view controller
-        let MonthSelectorViewController = MonthSelectorVC(nibName: "MonthSelectorVC", bundle: nil)
-        
-        // Create the dialog
-        let popup = PopupDialog(viewController: MonthSelectorViewController, buttonAlignment: .horizontal, transitionStyle: .bounceDown, gestureDismissal: true)
-        
-         //Create first button
-        let buttonOne = CancelButton(title: "Cancel", height: 60) {
-        }
-        
-        // Create second button
-        let buttonTwo = DefaultButton(title: "Choose Month", height: 60) {
-        }
-        
-        // Add buttons to dialog
-        popup.addButtons([buttonOne, buttonTwo])
-        
-        // Present dialog
-        present(popup, animated: animated, completion: nil)
-    }
-    
-    @IBAction func MonthSelectorButton(_ sender: Any) {
-        
-        showMonthCustomDialog()
-        
-    }
+//    func showMonthCustomDialog(animated: Bool = true) {
+//
+//        CancelButton.appearance().titleColor = UIColor.gray
+//        DefaultButton.appearance().titleColor = UIColor.red
+//
+//        // Create a custom view controller
+//        let MonthSelectorViewController = MonthSelectorVC(nibName: "MonthSelectorVC", bundle: nil)
+//
+//        // Create the dialog
+//        let popup = PopupDialog(viewController: MonthSelectorViewController, buttonAlignment: .horizontal, transitionStyle: .bounceDown, gestureDismissal: true)
+//
+//         //Create first button
+//        let buttonOne = CancelButton(title: "Cancel", height: 60) {
+//        }
+//
+//        // Create second button
+//        let buttonTwo = DefaultButton(title: "Choose Month", height: 60) {
+//        }
+//
+//        // Add buttons to dialog
+//        popup.addButtons([buttonOne, buttonTwo])
+//
+//        // Present dialog
+//        present(popup, animated: animated, completion: nil)
+//    }
+//
+//    @IBAction func MonthSelectorButton(_ sender: Any) {
+//
+//        showMonthCustomDialog()
+//        
+//    }
     
     //MARK: Email Button Pressed
     
@@ -269,8 +269,8 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
             present(messageComposeVC, animated: true, completion: nil)
         } else {
             // Let the user know if his/her device isn't able to send text messages
-            let errorAlert = UIAlertView(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", delegate: self, cancelButtonTitle: "OK")
-            errorAlert.show()
+//            let errorAlert = UIAlertView(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", delegate: self, cancelButtonTitle: "OK")
+//            errorAlert.show()
         }
     }
     

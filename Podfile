@@ -10,18 +10,18 @@ target 'FieldMinistry' do
 
 end
 
-target 'FieldMinistry WatchKit App' do
+# target 'FieldMinistry WatchKit App' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+  # use_frameworks!
 
   # Pods for FieldMinistry WatchKit App
 
-end
+# end
 
-target 'FieldMinistry WatchKit Extension' do
+# target 'FieldMinistry WatchKit Extension' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+  # use_frameworks!
 
   # Pods for FieldMinistry WatchKit Extension
 
-end
+# end

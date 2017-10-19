@@ -7,35 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03C63B770E76173B3F276FDCE93EC236 /* Pods-FieldMinistry WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B80909F4E08EA5BFDF97A8E61EBB1D8A /* Pods-FieldMinistry WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07A79C6372171EF05849001FA0FD295D /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D358A3613EB08F0370C32C0BAC75DD /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A8F9135B81240FC62F186C87AAB0FB7 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */; };
 		161947EF2B1B22E3A33A16987ED01890 /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5309466DE50CA169B15A754F936703 /* TransitionAnimations.swift */; };
 		26948D2B53C390454303666479D8E2BD /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F479277725D5005EF246CDC4917C38 /* PopupDialog.swift */; };
 		3BB55EE241A20115463DC75A023F092B /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D7F87A590564548A61661C1954652 /* PresentationManager.swift */; };
 		3BC37CE31A9BCDA83754828B1C70252F /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CFCFAEB1588F2D5A2A4F4B18E683EE /* PopupDialog-dummy.m */; };
-		3CC97A4DD50449A251DAFB523F77CA6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76720B026417625FB62285B73CECF0BF /* Foundation.framework */; };
 		3F9B012D6714E18343E3D77C62185F9E /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49682067F6C4D1CF80771EF845766596 /* InteractiveTransition.swift */; };
-		54A21E8D0DF6E9B079DEF2B838D32F3D /* Pods-FieldMinistry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F36DD86F33721880C3256F45CB308E26 /* Pods-FieldMinistry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A21E8D0DF6E9B079DEF2B838D32F3D /* Pods-FieldMinistry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 004FB9E2415376A5C922716BAA417ADC /* Pods-FieldMinistry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55956BEF783857028028B7AA545C4D7F /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685763E94EFB56A907AF403D0B795251 /* UIImageView+Calculations.swift */; };
-		6077EA56E5E4E49DC718F28B3EED02A7 /* Pods-FieldMinistry WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D96700252BB8C08B644FC59E04FB8363 /* Pods-FieldMinistry WatchKit Extension-dummy.m */; };
 		636FD05A5B94EBC2A276C2394D19A327 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F575662234000EA80FCB79B3447B7F /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80D9D6DED6E92C0370ADC962ACC71C84 /* Pods-FieldMinistry WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF06FB797CAE3CEE2ED2C8F8D3EC1ED2 /* Pods-FieldMinistry WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8132D189E56A64673B3AAA25B4950794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76720B026417625FB62285B73CECF0BF /* Foundation.framework */; };
 		8DB4B05E9BDA2DAC4F46F43607204F87 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE738E674D920435D80DA1143F918A6 /* UIView+Animations.swift */; };
 		8E466DBD7670498A16662FC36FED3CE0 /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA81510A571388638680BCB7AD583B1 /* PopupDialogContainerView.swift */; };
 		A3212205C0342650FE5E2BB4F1D723F0 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6857CA437C74A08BD6C3E00D30DC833 /* FXBlurView.m */; };
 		A62E287CA8B407A5399A6431C2377E82 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1B7DEB5C0B9219AB7DDF2BFD82D14 /* PopupDialogOverlayView.swift */; };
 		AC68FAE608716FC325CE9D1B7F3EA676 /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B4770F34AF0B18CE182BA3F24ADC9 /* PopupDialogDefaultButtons.swift */; };
 		AC97AF2C4BDA82A84AFE02CCB48E25DD /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1B477683825DB1F2A8D239B9BC56B /* PopupDialog+Keyboard.swift */; };
-		AFDD9CDC44480D734F16ABC9652B127B /* Pods-FieldMinistry WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5AC276703731E61B0B5293BA4F1F50 /* Pods-FieldMinistry WatchKit App-dummy.m */; };
 		B263831E2DE18CD50DD69D1D91A6BDF5 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A59B2F0AC779785004CD295BA5927 /* PresentationController.swift */; };
-		D734A688B610E5353825BC05375E3AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */; };
+		D734A688B610E5353825BC05375E3AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D7C8E7B883EE6B151B777DFA355C14AB /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A9B644D4179C6A3AC023E41E1CA839 /* PopupDialogDefaultView.swift */; };
-		DF3D85C4E3ADD286AC66F170BE08DD96 /* Pods-FieldMinistry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E344CF076AFE8482684D27879B0 /* Pods-FieldMinistry-dummy.m */; };
+		DF3D85C4E3ADD286AC66F170BE08DD96 /* Pods-FieldMinistry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE556A39A2E060514AF151FF78975B8 /* Pods-FieldMinistry-dummy.m */; };
 		E17E12B16E8F7ECBFD338D3C9C727921 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE7F239C94E350ED68E632178D97FD /* TransitionAnimator.swift */; };
 		E939C7777D194CE1C6053B6D639EEDDC /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171ED3B961E5C77913A4C2B460F11C89 /* PopupDialogButton.swift */; };
-		F7279ED17D6CB9A69A693D17DD2D31F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */; };
+		F7279ED17D6CB9A69A693D17DD2D31F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FE1B9BFA7429958E68B5D7FBCA1058A7 /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6AB5983422D51E4577226940D69E3B /* PopupDialogDefaultViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,67 +44,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B16DECDEDE624E58B96BDBDB9DEC77 /* Pods-FieldMinistry WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FieldMinistry WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		004FB9E2415376A5C922716BAA417ADC /* Pods-FieldMinistry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FieldMinistry-umbrella.h"; sourceTree = "<group>"; };
 		03D358A3613EB08F0370C32C0BAC75DD /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = PopupDialog/Classes/FXBlurView.h; sourceTree = "<group>"; };
 		070A59B2F0AC779785004CD295BA5927 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
 		09A9B644D4179C6A3AC023E41E1CA839 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
 		0AA81510A571388638680BCB7AD583B1 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
-		0FEFA3538A42E62C160AC65DE447B238 /* Pods-FieldMinistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry.debug.xcconfig"; sourceTree = "<group>"; };
-		11C333C6DF785D96CCAB1F62CE19D67E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		171ED3B961E5C77913A4C2B460F11C89 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
-		1947E205F9AE320F4BBA6C77649D1755 /* Pods-FieldMinistry WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
-		1EEE246B9FB1E83EBA8C9E67F7D6FE52 /* Pods-FieldMinistry WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		2204B3206E9A4B1544446856613518B6 /* Pods_FieldMinistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F44302A6EDDA8284962664A8CD4D577 /* Pods-FieldMinistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry.debug.xcconfig"; sourceTree = "<group>"; };
+		2272BFACBE073381F935CBB021F68E29 /* Pods-FieldMinistry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FieldMinistry.modulemap"; sourceTree = "<group>"; };
 		22B1B7DEB5C0B9219AB7DDF2BFD82D14 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
-		24543207EB5360984C2195771F9AF446 /* Pods-FieldMinistry WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry WatchKit App-resources.sh"; sourceTree = "<group>"; };
+		25800BAE144A15E34D2DE4572F68129B /* Pods-FieldMinistry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FieldMinistry-acknowledgements.markdown"; sourceTree = "<group>"; };
 		34F479277725D5005EF246CDC4917C38 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
-		390DDE613B0BA83E2F576808C4C105CB /* Pods-FieldMinistry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FieldMinistry-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B6DB8EE1A00289E3968FF185B14C95C /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49682067F6C4D1CF80771EF845766596 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
 		4C5309466DE50CA169B15A754F936703 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
 		4EE738E674D920435D80DA1143F918A6 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		4F7BAF81658BE8412CA47B7DDADA4F4A /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABBFE8FF5DE76DDC76F61BC298571F6 /* Pods-FieldMinistry-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry-frameworks.sh"; sourceTree = "<group>"; };
 		65CFCFAEB1588F2D5A2A4F4B18E683EE /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		685763E94EFB56A907AF403D0B795251 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
-		69D767281A140A8F4263A43178EAB1FA /* Pods-FieldMinistry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FieldMinistry.modulemap"; sourceTree = "<group>"; };
-		6A4F2A66C3F0DE9AD7CE1CB6656A9862 /* Pods-FieldMinistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry.release.xcconfig"; sourceTree = "<group>"; };
-		736A4E886F33D2E5FD99A99CD782116C /* Pods-FieldMinistry WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FieldMinistry WatchKit Extension.modulemap"; sourceTree = "<group>"; };
-		76720B026417625FB62285B73CECF0BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E5867138CDDF02A6E643313D396091C /* Pods_FieldMinistry_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8553B5ECA1E1C4525A6F4DC293A9744B /* Pods-FieldMinistry WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FieldMinistry WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86BC3035A6076669225D17D63B4D7210 /* Pods_FieldMinistry_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FieldMinistry_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A1E39AC7D6CD384490220FB6D2448CC /* Pods-FieldMinistry-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry-resources.sh"; sourceTree = "<group>"; };
+		93A079423B7332BF5A0C75F412F75711 /* Pods-FieldMinistry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FieldMinistry-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970D7F87A590564548A61661C1954652 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
-		9DBF3E344CF076AFE8482684D27879B0 /* Pods-FieldMinistry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FieldMinistry-dummy.m"; sourceTree = "<group>"; };
 		AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
 		AB7BE5B26BB918EF04AC43C86FD69A0A /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
 		AC6AB5983422D51E4577226940D69E3B /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
 		ACC1B477683825DB1F2A8D239B9BC56B /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
-		AF06FB797CAE3CEE2ED2C8F8D3EC1ED2 /* Pods-FieldMinistry WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FieldMinistry WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
 		B52B4770F34AF0B18CE182BA3F24ADC9 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
-		B7EA2664FC787197079CAE1D57F3A31B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B80909F4E08EA5BFDF97A8E61EBB1D8A /* Pods-FieldMinistry WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FieldMinistry WatchKit App-umbrella.h"; sourceTree = "<group>"; };
-		BF36A7D84E50B52170E88DD9F610FEDB /* Pods-FieldMinistry WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FieldMinistry WatchKit App.modulemap"; sourceTree = "<group>"; };
-		C0CC8D9AD5BFE86B3C41D09D7BB874A8 /* Pods-FieldMinistry-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry-resources.sh"; sourceTree = "<group>"; };
 		C6F575662234000EA80FCB79B3447B7F /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
-		D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D794B3899217422ADCAB9C3CCF79E1BD /* Pods-FieldMinistry WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
-		D826576EE08BB6AF747C909703FBF353 /* Pods-FieldMinistry WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		D8FD5EFEDBD0059DFC1A5F949665B852 /* Pods-FieldMinistry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FieldMinistry-acknowledgements.plist"; sourceTree = "<group>"; };
-		D96700252BB8C08B644FC59E04FB8363 /* Pods-FieldMinistry WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FieldMinistry WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
-		DCE416A6D6384EA6C6B234EB21286DE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E089282C29FA51621587A86B02563D3D /* Pods-FieldMinistry-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry-frameworks.sh"; sourceTree = "<group>"; };
 		E197871E2E157F7C75B2AAB01D1EB169 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E23AD68043B6CD366C979100977800F5 /* Pods-FieldMinistry WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FieldMinistry WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4BBA993BC89215E1C34C5F1325630E5 /* Pods-FieldMinistry WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FieldMinistry WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E554838F506C0F028C09E21F21CE8057 /* Pods-FieldMinistry WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		E6B1DB7BE9AA905599FBB47AB9C6DD09 /* Pods-FieldMinistry WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
-		F36DD86F33721880C3256F45CB308E26 /* Pods-FieldMinistry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FieldMinistry-umbrella.h"; sourceTree = "<group>"; };
-		F5052600E36B3CFA9D58DAEEB25C71C5 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		E2AACB1C35B88BAFEB28F370F231EC64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB9EE4FBAAC079CC5F870943F49223C /* Pods-FieldMinistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FieldMinistry.release.xcconfig"; sourceTree = "<group>"; };
+		EDE556A39A2E060514AF151FF78975B8 /* Pods-FieldMinistry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FieldMinistry-dummy.m"; sourceTree = "<group>"; };
+		F5052600E36B3CFA9D58DAEEB25C71C5 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PopupDialog.modulemap; sourceTree = "<group>"; };
 		F6857CA437C74A08BD6C3E00D30DC833 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
-		FA5AC276703731E61B0B5293BA4F1F50 /* Pods-FieldMinistry WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FieldMinistry WatchKit App-dummy.m"; sourceTree = "<group>"; };
 		FACE7F239C94E350ED68E632178D97FD /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
-		FD9D2ED4AEE8C95DA69DE8E375442AD6 /* Pods-FieldMinistry WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FieldMinistry WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		FC9F93580E8AD225B375F19CF1DCAA4B /* Pods_FieldMinistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FieldMinistry.framework; path = "Pods-FieldMinistry.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,22 +90,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D734A688B610E5353825BC05375E3AD2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D89BD04C3B8E9538B79763D34BF8A1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8132D189E56A64673B3AAA25B4950794 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FA957831E4B285A3F2064007E57F3F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CC97A4DD50449A251DAFB523F77CA6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2094208DB4C91978FFA2E67627D4C000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9F93580E8AD225B375F19CF1DCAA4B /* Pods_FieldMinistry.framework */,
+				4F7BAF81658BE8412CA47B7DDADA4F4A /* PopupDialog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		25D42065E91C742060B6041633C39926 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,107 +127,49 @@
 			path = "../Target Support Files/PopupDialog";
 			sourceTree = "<group>";
 		};
-		482EA88B9136A5A573514953C7FCB52D /* iOS */ = {
+		7AD204A17F20916AF13670A3F98934C0 /* Pods-FieldMinistry */ = {
 			isa = PBXGroup;
 			children = (
-				D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */,
+				E2AACB1C35B88BAFEB28F370F231EC64 /* Info.plist */,
+				2272BFACBE073381F935CBB021F68E29 /* Pods-FieldMinistry.modulemap */,
+				25800BAE144A15E34D2DE4572F68129B /* Pods-FieldMinistry-acknowledgements.markdown */,
+				93A079423B7332BF5A0C75F412F75711 /* Pods-FieldMinistry-acknowledgements.plist */,
+				EDE556A39A2E060514AF151FF78975B8 /* Pods-FieldMinistry-dummy.m */,
+				5ABBFE8FF5DE76DDC76F61BC298571F6 /* Pods-FieldMinistry-frameworks.sh */,
+				7A1E39AC7D6CD384490220FB6D2448CC /* Pods-FieldMinistry-resources.sh */,
+				004FB9E2415376A5C922716BAA417ADC /* Pods-FieldMinistry-umbrella.h */,
+				1F44302A6EDDA8284962664A8CD4D577 /* Pods-FieldMinistry.debug.xcconfig */,
+				EAB9EE4FBAAC079CC5F870943F49223C /* Pods-FieldMinistry.release.xcconfig */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		561B12B697CF64AF2D9FD059C7FA3AD1 /* Pods-FieldMinistry WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				B7EA2664FC787197079CAE1D57F3A31B /* Info.plist */,
-				BF36A7D84E50B52170E88DD9F610FEDB /* Pods-FieldMinistry WatchKit App.modulemap */,
-				E4BBA993BC89215E1C34C5F1325630E5 /* Pods-FieldMinistry WatchKit App-acknowledgements.markdown */,
-				E23AD68043B6CD366C979100977800F5 /* Pods-FieldMinistry WatchKit App-acknowledgements.plist */,
-				FA5AC276703731E61B0B5293BA4F1F50 /* Pods-FieldMinistry WatchKit App-dummy.m */,
-				E6B1DB7BE9AA905599FBB47AB9C6DD09 /* Pods-FieldMinistry WatchKit App-frameworks.sh */,
-				24543207EB5360984C2195771F9AF446 /* Pods-FieldMinistry WatchKit App-resources.sh */,
-				B80909F4E08EA5BFDF97A8E61EBB1D8A /* Pods-FieldMinistry WatchKit App-umbrella.h */,
-				E554838F506C0F028C09E21F21CE8057 /* Pods-FieldMinistry WatchKit App.debug.xcconfig */,
-				1EEE246B9FB1E83EBA8C9E67F7D6FE52 /* Pods-FieldMinistry WatchKit App.release.xcconfig */,
-			);
-			name = "Pods-FieldMinistry WatchKit App";
-			path = "Target Support Files/Pods-FieldMinistry WatchKit App";
+			name = "Pods-FieldMinistry";
+			path = "Target Support Files/Pods-FieldMinistry";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E240431E22B64A30967D1D9C88F41A63 /* Pods */,
-				B594FB89F9851F4AA7BF4B1CC930CA7A /* Products */,
-				8D7F862E7601D2517BD079B4E2A4C256 /* Targets Support Files */,
+				2094208DB4C91978FFA2E67627D4C000 /* Products */,
+				F236B6A1B9D2081230BB41D84EF4D510 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		861522CB3C60E33FA909CE8955B812D4 /* Pods-FieldMinistry WatchKit Extension */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11C333C6DF785D96CCAB1F62CE19D67E /* Info.plist */,
-				736A4E886F33D2E5FD99A99CD782116C /* Pods-FieldMinistry WatchKit Extension.modulemap */,
-				8553B5ECA1E1C4525A6F4DC293A9744B /* Pods-FieldMinistry WatchKit Extension-acknowledgements.markdown */,
-				00B16DECDEDE624E58B96BDBDB9DEC77 /* Pods-FieldMinistry WatchKit Extension-acknowledgements.plist */,
-				D96700252BB8C08B644FC59E04FB8363 /* Pods-FieldMinistry WatchKit Extension-dummy.m */,
-				FD9D2ED4AEE8C95DA69DE8E375442AD6 /* Pods-FieldMinistry WatchKit Extension-frameworks.sh */,
-				D794B3899217422ADCAB9C3CCF79E1BD /* Pods-FieldMinistry WatchKit Extension-resources.sh */,
-				AF06FB797CAE3CEE2ED2C8F8D3EC1ED2 /* Pods-FieldMinistry WatchKit Extension-umbrella.h */,
-				1947E205F9AE320F4BBA6C77649D1755 /* Pods-FieldMinistry WatchKit Extension.debug.xcconfig */,
-				D826576EE08BB6AF747C909703FBF353 /* Pods-FieldMinistry WatchKit Extension.release.xcconfig */,
-			);
-			name = "Pods-FieldMinistry WatchKit Extension";
-			path = "Target Support Files/Pods-FieldMinistry WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		8973397EB3717EE4DD30EFCFC1E72667 /* Pods-FieldMinistry */ = {
-			isa = PBXGroup;
-			children = (
-				DCE416A6D6384EA6C6B234EB21286DE4 /* Info.plist */,
-				69D767281A140A8F4263A43178EAB1FA /* Pods-FieldMinistry.modulemap */,
-				390DDE613B0BA83E2F576808C4C105CB /* Pods-FieldMinistry-acknowledgements.markdown */,
-				D8FD5EFEDBD0059DFC1A5F949665B852 /* Pods-FieldMinistry-acknowledgements.plist */,
-				9DBF3E344CF076AFE8482684D27879B0 /* Pods-FieldMinistry-dummy.m */,
-				E089282C29FA51621587A86B02563D3D /* Pods-FieldMinistry-frameworks.sh */,
-				C0CC8D9AD5BFE86B3C41D09D7BB874A8 /* Pods-FieldMinistry-resources.sh */,
-				F36DD86F33721880C3256F45CB308E26 /* Pods-FieldMinistry-umbrella.h */,
-				0FEFA3538A42E62C160AC65DE447B238 /* Pods-FieldMinistry.debug.xcconfig */,
-				6A4F2A66C3F0DE9AD7CE1CB6656A9862 /* Pods-FieldMinistry.release.xcconfig */,
-			);
-			name = "Pods-FieldMinistry";
-			path = "Target Support Files/Pods-FieldMinistry";
-			sourceTree = "<group>";
-		};
-		8D7F862E7601D2517BD079B4E2A4C256 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8973397EB3717EE4DD30EFCFC1E72667 /* Pods-FieldMinistry */,
-				561B12B697CF64AF2D9FD059C7FA3AD1 /* Pods-FieldMinistry WatchKit App */,
-				861522CB3C60E33FA909CE8955B812D4 /* Pods-FieldMinistry WatchKit Extension */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				482EA88B9136A5A573514953C7FCB52D /* iOS */,
-				FD9E2CBABDA1AB35BAD3C3F041262069 /* watchOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B594FB89F9851F4AA7BF4B1CC930CA7A /* Products */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2204B3206E9A4B1544446856613518B6 /* Pods_FieldMinistry.framework */,
-				86BC3035A6076669225D17D63B4D7210 /* Pods_FieldMinistry_WatchKit_App.framework */,
-				7E5867138CDDF02A6E643313D396091C /* Pods_FieldMinistry_WatchKit_Extension.framework */,
-				3B6DB8EE1A00289E3968FF185B14C95C /* PopupDialog.framework */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		DF02D39A593DDED4C0AE276887FDD7E6 /* PopupDialog */ = {
@@ -289,6 +195,7 @@
 				AB41538A2AA873A9F1F42CD77A96AD57 /* UIViewController+Visibility.swift */,
 				25D42065E91C742060B6041633C39926 /* Support Files */,
 			);
+			name = PopupDialog;
 			path = PopupDialog;
 			sourceTree = "<group>";
 		};
@@ -300,12 +207,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FD9E2CBABDA1AB35BAD3C3F041262069 /* watchOS */ = {
+		F236B6A1B9D2081230BB41D84EF4D510 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				76720B026417625FB62285B73CECF0BF /* Foundation.framework */,
+				7AD204A17F20916AF13670A3F98934C0 /* Pods-FieldMinistry */,
 			);
-			name = watchOS;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,27 +227,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B52155B9A8B38984F9ACF223EA29AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03C63B770E76173B3F276FDCE93EC236 /* Pods-FieldMinistry WatchKit App-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EA711524EDA4F09C1FDA496B4268768A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				54A21E8D0DF6E9B079DEF2B838D32F3D /* Pods-FieldMinistry-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F77E3FCF8E1D32F00AC5F3B0FC2D8A20 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80D9D6DED6E92C0370ADC962ACC71C84 /* Pods-FieldMinistry WatchKit Extension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,24 +252,7 @@
 			);
 			name = PopupDialog;
 			productName = PopupDialog;
-			productReference = 3B6DB8EE1A00289E3968FF185B14C95C /* PopupDialog.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		822227025E801FDA8CEDFCD70734D79A /* Pods-FieldMinistry WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E7AD8E027B7CF7EBC7E44518E362A61C /* Build configuration list for PBXNativeTarget "Pods-FieldMinistry WatchKit App" */;
-			buildPhases = (
-				172D99780F61370579AA063E89FD0039 /* Sources */,
-				2D89BD04C3B8E9538B79763D34BF8A1F /* Frameworks */,
-				A5B52155B9A8B38984F9ACF223EA29AD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-FieldMinistry WatchKit App";
-			productName = "Pods-FieldMinistry WatchKit App";
-			productReference = 86BC3035A6076669225D17D63B4D7210 /* Pods_FieldMinistry_WatchKit_App.framework */;
+			productReference = 4F7BAF81658BE8412CA47B7DDADA4F4A /* PopupDialog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A93DB3B34EC14410A2A2F566465D080F /* Pods-FieldMinistry */ = {
@@ -396,24 +270,7 @@
 			);
 			name = "Pods-FieldMinistry";
 			productName = "Pods-FieldMinistry";
-			productReference = 2204B3206E9A4B1544446856613518B6 /* Pods_FieldMinistry.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CA3B26B2706AF5DCBF2E8A572CB597EA /* Pods-FieldMinistry WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D82D34464889F615D1B8E655C8E400BA /* Build configuration list for PBXNativeTarget "Pods-FieldMinistry WatchKit Extension" */;
-			buildPhases = (
-				33828D337154B188501F1A74216B47A2 /* Sources */,
-				6FA957831E4B285A3F2064007E57F3F7 /* Frameworks */,
-				F77E3FCF8E1D32F00AC5F3B0FC2D8A20 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-FieldMinistry WatchKit Extension";
-			productName = "Pods-FieldMinistry WatchKit Extension";
-			productReference = 7E5867138CDDF02A6E643313D396091C /* Pods_FieldMinistry_WatchKit_Extension.framework */;
+			productReference = FC9F93580E8AD225B375F19CF1DCAA4B /* Pods_FieldMinistry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -424,11 +281,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					5DC521935F21E63ED087F38E20B89510 = {
-						LastSwiftMigration = 0900;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -438,35 +290,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B594FB89F9851F4AA7BF4B1CC930CA7A /* Products */;
+			productRefGroup = 2094208DB4C91978FFA2E67627D4C000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A93DB3B34EC14410A2A2F566465D080F /* Pods-FieldMinistry */,
-				822227025E801FDA8CEDFCD70734D79A /* Pods-FieldMinistry WatchKit App */,
-				CA3B26B2706AF5DCBF2E8A572CB597EA /* Pods-FieldMinistry WatchKit Extension */,
 				5DC521935F21E63ED087F38E20B89510 /* PopupDialog */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		172D99780F61370579AA063E89FD0039 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFDD9CDC44480D734F16ABC9652B127B /* Pods-FieldMinistry WatchKit App-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33828D337154B188501F1A74216B47A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6077EA56E5E4E49DC718F28B3EED02A7 /* Pods-FieldMinistry WatchKit Extension-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56458769E5A34C00BD1E2438E9168172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -512,74 +346,64 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		354BF7B1839CAB91F3083C2B896272E8 /* Debug */ = {
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E554838F506C0F028C09E21F21CE8057 /* Pods-FieldMinistry WatchKit App.debug.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FieldMinistry WatchKit App/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FieldMinistry WatchKit App/Pods-FieldMinistry WatchKit App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FieldMinistry_WatchKit_App;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Debug;
-		};
-		614F70E87F57E94D2570D6AE2E2C3566 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
-				PRODUCT_NAME = PopupDialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		63E6910EDF26703B16ED73EC414A4586 /* Debug */ = {
+		5977461E2C669410BF09FCF5F6B525E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FEFA3538A42E62C160AC65DE447B238 /* Pods-FieldMinistry.debug.xcconfig */;
+			baseConfigurationReference = EAB9EE4FBAAC079CC5F870943F49223C /* Pods-FieldMinistry.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,7 +416,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FieldMinistry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry.modulemap";
@@ -603,49 +427,15 @@
 				PRODUCT_NAME = Pods_FieldMinistry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		72847C54F4E75047351A67BAFF7B4E57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EEE246B9FB1E83EBA8C9E67F7D6FE52 /* Pods-FieldMinistry WatchKit App.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FieldMinistry WatchKit App/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FieldMinistry WatchKit App/Pods-FieldMinistry WatchKit App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FieldMinistry_WatchKit_App;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Release;
 		};
-		C405189806CC27A3E793BF6DEEDDF7A9 /* Debug */ = {
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -694,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -702,15 +492,13 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Debug;
 		};
-		CE2875B4F399742B96258B5CAFC8AFE3 /* Debug */ = {
+		B3E29F4DDF51FDE62C0F1E316133532D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1947E205F9AE320F4BBA6C77649D1755 /* Pods-FieldMinistry WatchKit Extension.debug.xcconfig */;
+			baseConfigurationReference = 1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -720,82 +508,60 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FieldMinistry WatchKit Extension/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E75478D6AE7C2945569189B0A1CEACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F44302A6EDDA8284962664A8CD4D577 /* Pods-FieldMinistry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FieldMinistry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FieldMinistry WatchKit Extension/Pods-FieldMinistry WatchKit Extension.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FieldMinistry_WatchKit_Extension;
-				SDKROOT = watchos;
+				PRODUCT_NAME = Pods_FieldMinistry;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Debug;
 		};
-		D5498AF19DF9F4A12A89D22CC678A7DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Release;
-		};
-		DAC2824280C90680F54862E66C174930 /* Debug */ = {
+		F17196F0AB034AC75177923B112C1DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C5BA7CFACA9B4B58D11AA592462D502 /* PopupDialog.xcconfig */;
 			buildSettings = {
@@ -819,80 +585,12 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		E79840646493F39276513749EBE011DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D826576EE08BB6AF747C909703FBF353 /* Pods-FieldMinistry WatchKit Extension.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FieldMinistry WatchKit Extension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FieldMinistry WatchKit Extension/Pods-FieldMinistry WatchKit Extension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FieldMinistry_WatchKit_Extension;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Release;
-		};
-		FB0B8D7F3893BB9188F4C3547F7F3C36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4F2A66C3F0DE9AD7CE1CB6656A9862 /* Pods-FieldMinistry.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FieldMinistry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FieldMinistry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -900,8 +598,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C405189806CC27A3E793BF6DEEDDF7A9 /* Debug */,
-				D5498AF19DF9F4A12A89D22CC678A7DC /* Release */,
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -909,8 +607,8 @@
 		B5C35267783A4FD2BB1112F810D718AA /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAC2824280C90680F54862E66C174930 /* Debug */,
-				614F70E87F57E94D2570D6AE2E2C3566 /* Release */,
+				F17196F0AB034AC75177923B112C1DEB /* Debug */,
+				B3E29F4DDF51FDE62C0F1E316133532D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -918,26 +616,8 @@
 		B9B7168F5231542897F4F8794109A6AB /* Build configuration list for PBXNativeTarget "Pods-FieldMinistry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63E6910EDF26703B16ED73EC414A4586 /* Debug */,
-				FB0B8D7F3893BB9188F4C3547F7F3C36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D82D34464889F615D1B8E655C8E400BA /* Build configuration list for PBXNativeTarget "Pods-FieldMinistry WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE2875B4F399742B96258B5CAFC8AFE3 /* Debug */,
-				E79840646493F39276513749EBE011DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E7AD8E027B7CF7EBC7E44518E362A61C /* Build configuration list for PBXNativeTarget "Pods-FieldMinistry WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				354BF7B1839CAB91F3083C2B896272E8 /* Debug */,
-				72847C54F4E75047351A67BAFF7B4E57 /* Release */,
+				E75478D6AE7C2945569189B0A1CEACD8 /* Debug */,
+				5977461E2C669410BF09FCF5F6B525E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
