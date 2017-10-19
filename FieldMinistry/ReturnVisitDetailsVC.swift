@@ -71,6 +71,8 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
             phoneButton.isHidden = true
         }
         
+        navigationItem.largeTitleDisplayMode = .never
+        
     }
     
     

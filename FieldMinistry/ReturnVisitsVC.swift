@@ -27,6 +27,15 @@ class ReturnVisitsVC: UIViewController, UITableViewDelegate, UITableViewDataSour
         //generateTestData()
         attemptFetch()
         
+        setupNavBar()
+    }
+    
+    func setupNavBar() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
+//        let searchController = UISearchController(searchResultsController: nil)
+//        navigationItem.searchController = searchController
+//        navigationItem.hidesSearchBarWhenScrolling = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
