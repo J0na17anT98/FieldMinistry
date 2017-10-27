@@ -18,7 +18,7 @@ class RecordDetailsVC: UIViewController {
     @IBOutlet weak var numberOfPlacements: CustomTextField!
     @IBOutlet weak var numberOfBibleStudies: CustomTextField!
     @IBOutlet weak var numberOfReturnVisits: CustomTextField!
-    //@IBOutlet weak var cellCreatedDateLabel: UILabel!
+    @IBOutlet weak var cellCreatedDateLabel: UILabel!
     
     var itemToEdit: Records?
 
@@ -63,7 +63,8 @@ class RecordDetailsVC: UIViewController {
         if let numberOfReturnVisits = numberOfReturnVisits.text {
             record.numberOfReturnVisits = numberOfReturnVisits
         }
-//        if let cellCreatedDateLabel = cellCreatedDateLabel.text {
+        
+//        if let cellCreatedDateLabel = cellCreatedDateLabel. {
 //            record.cellCreatedDateLabel = cellCreatedDateLabel
 //        }
         
