@@ -89,9 +89,9 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
             rv.name = name
         }
         
-        if let houseNumber = houseNumber.text {
-            rv.houseNumber = houseNumber
-        }
+//        if let houseNumber = houseNumber.text {
+//            rv.houseNumber = houseNumber
+//        }
     
         if let address = address.text {
     
@@ -146,7 +146,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     func loadItemData() {
         if let item = itemToEdit {
             name.text = item.name
-            houseNumber.text = item.houseNumber
+            //houseNumber.text = item.houseNumber
             address.text = item.address
             phoneNumber.text = item.phoneNumber
             email.text = item.email
@@ -154,7 +154,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
             //dateLabel.text = item.created
             //cellCreatedDateLabel.text = item.cellCreatedDateLabel
             
-            self.mapHouseNumber = item.houseNumber!
+            //self.mapHouseNumber = item.houseNumber!
             self.mapStreetName = item.address!
             self.callPhoneNumber = item.phoneNumber!
             self.rvEmail = item.email!

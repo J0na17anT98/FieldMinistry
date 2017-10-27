@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class AllVC: UIViewController {
-    var allVC = [TimeTrackerVC(), RecordsVC(), RecordDetailsVC(), ReturnVisitsVC(), SettingsVC()]
+    var allVC = [TimeTrackerVC(), TableViewRecordsVC(), RecordDetailsVC(), TableViewReturnVisitsVC(), SettingsVC()]
     
     
 //    var vc = SettingsVC()

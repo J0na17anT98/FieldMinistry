@@ -17,14 +17,13 @@
 		A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365F7341EC0BAAA005AB2FC /* Unused Code.swift */; };
 		A365F7391EC0C603005AB2FC /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365F7381EC0C603005AB2FC /* MonthYearPickerView.swift */; };
 		A36875041F99055D00059051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36875031F99055D00059051 /* ViewController.swift */; };
+		A36C4CFC1FA2B13D00AF8988 /* TableViewReturnVisitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C4CFB1FA2B13D00AF8988 /* TableViewReturnVisitsVC.swift */; };
 		A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D90E51E78CEF500256DEE /* AppDelegate.swift */; };
 		A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */; };
 		A37D90EB1E78CEF500256DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90E91E78CEF500256DEE /* Main.storyboard */; };
 		A37D90ED1E78CEF500256DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D90EC1E78CEF500256DEE /* Assets.xcassets */; };
 		A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */; };
-		A37D91231E78D94F00256DEE /* ReturnVisitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */; };
 		A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91241E78D96000256DEE /* SettingsVC.swift */; };
-		A37D912C1E78DFA900256DEE /* RecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912B1E78DFA900256DEE /* RecordsVC.swift */; };
 		A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912D1E78E1D200256DEE /* StopWatch.swift */; };
 		A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */; };
 		A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */; };
@@ -38,6 +37,7 @@
 		A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */; };
 		A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */; };
 		A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */; };
+		A3C61A101FA2A80E006BC101 /* TableViewRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */; };
 		A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE715A1E80A126003A5D8E /* CustomTextField.swift */; };
 		A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */; };
 		A3D5C6161E858D5A00C9C9A8 /* RecordDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */; };
@@ -74,6 +74,7 @@
 		A365F7341EC0BAAA005AB2FC /* Unused Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unused Code.swift"; sourceTree = "<group>"; };
 		A365F7381EC0C603005AB2FC /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
 		A36875031F99055D00059051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A36C4CFB1FA2B13D00AF8988 /* TableViewReturnVisitsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewReturnVisitsVC.swift; sourceTree = "<group>"; };
 		A37D90E21E78CEF500256DEE /* FieldMinistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldMinistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37D90E51E78CEF500256DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerVC.swift; sourceTree = "<group>"; };
@@ -81,9 +82,7 @@
 		A37D90EC1E78CEF500256DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A37D90EF1E78CEF500256DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A37D90F11E78CEF500256DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnVisitsVC.swift; sourceTree = "<group>"; };
 		A37D91241E78D96000256DEE /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
-		A37D912B1E78DFA900256DEE /* RecordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsVC.swift; sourceTree = "<group>"; };
 		A37D912D1E78E1D200256DEE /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCollectionViewCell.swift; sourceTree = "<group>"; };
 		A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordYearCollectionViewVC.swift; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 		A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldMinistry.xcdatamodel; sourceTree = "<group>"; };
+		A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRecordsVC.swift; sourceTree = "<group>"; };
 		A3CE715A1E80A126003A5D8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A3D5C6131E85722500C9C9A8 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDetailsVC.swift; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 		A38BC6461F81A0CF00BE140D /* Record Details */ = {
 			isa = PBXGroup;
 			children = (
-				A37D912B1E78DFA900256DEE /* RecordsVC.swift */,
+				A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */,
 				A3D5C6151E858D5A00C9C9A8 /* RecordDetailsVC.swift */,
 			);
 			name = "Record Details";
@@ -265,7 +265,7 @@
 		A38BC64B1F81A14700BE140D /* Return Visit View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A37D91221E78D94F00256DEE /* ReturnVisitsVC.swift */,
+				A36C4CFB1FA2B13D00AF8988 /* TableViewReturnVisitsVC.swift */,
 				A3DDEBC71E7B23DA00649B9B /* ReturnVisitDetailsVC.swift */,
 			);
 			name = "Return Visit View Controllers";
@@ -457,11 +457,10 @@
 				A39481FA1EBFF96D00AF9ACB /* MonthSelectorVC.swift in Sources */,
 				A38D71321E80B594004780DB /* RecordsCell.swift in Sources */,
 				A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */,
-				A37D912C1E78DFA900256DEE /* RecordsVC.swift in Sources */,
 				A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */,
-				A37D91231E78D94F00256DEE /* ReturnVisitsVC.swift in Sources */,
 				A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */,
 				A3EF2ADF1F75585A009205DA /* MonthVC.swift in Sources */,
+				A36C4CFC1FA2B13D00AF8988 /* TableViewReturnVisitsVC.swift in Sources */,
 				A3D5C6161E858D5A00C9C9A8 /* RecordDetailsVC.swift in Sources */,
 				A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */,
 				A34778D21ED8904E00FD5191 /* TimerViewModel.swift in Sources */,
@@ -477,6 +476,7 @@
 				A3DDEBC81E7B23DA00649B9B /* ReturnVisitDetailsVC.swift in Sources */,
 				A36008B41EC37214000528E8 /* OpenMapsWithAddress.swift in Sources */,
 				A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */,
+				A3C61A101FA2A80E006BC101 /* TableViewRecordsVC.swift in Sources */,
 				A351A85F1ECDE44A0004A395 /* MessageComposer.swift in Sources */,
 				A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */,
 				A36875041F99055D00059051 /* ViewController.swift in Sources */,

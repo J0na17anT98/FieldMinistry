@@ -1,8 +1,8 @@
 //
-//  RecordsVC.swift
+//  TableViewRecordsVC.swift
 //  FieldMinistry
 //
-//  Created by Jonathan Tsistinas on 3/14/17.
+//  Created by Jonathan Tsistinas on 10/26/17.
 //  Copyright © 2017 Jonathan Tsistinas. All rights reserved.
 //
 
@@ -11,41 +11,31 @@ import CoreData
 import PopupDialog
 import MessageUI
 
+class TableViewRecordsVC: UITableViewController, MFMailComposeViewControllerDelegate, NSFetchedResultsControllerDelegate {
 
-class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate, MFMailComposeViewControllerDelegate {
-
-    @IBOutlet weak var tableView: UITableView!    
+    //@IBOutlet weak var tableView: UITableView!
     
     var controller: NSFetchedResultsController<Records>!
     let messageComposer = MessageComposer()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        if let topItem = self.navigationController?.navigationBar.topItem {
-//            topItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
-//        }
 
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         tableView.delegate = self
         tableView.dataSource = self
         
         attemptFetch()
-        
     }
+
+    // MARK: - Table view data source
     
-    override func viewWillAppear(_ animated: Bool) {
-        
-//        if #available(iOS 11.0, *) {
-//            navigationItem.largeTitleDisplayMode = .always
-//        } else {
-//            // Fallback on earlier versions
-//        }
-        
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "RecordsCell", for: indexPath) as! RecordsCell
         configureCell(cell: cell, indexPath: indexPath as NSIndexPath)
@@ -58,8 +48,8 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         cell.configureRecordsCell(record: record)
         
     }
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
+
+    override func numberOfSections(in tableView: UITableView) -> Int {
         
         if let sections = controller.sections {
             return sections.count
@@ -67,12 +57,12 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         
         return 0
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         if let objs = controller.fetchedObjects ,  objs.count > 0 {
             
@@ -92,7 +82,7 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         }
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if let sections = controller.sections {
             
@@ -175,37 +165,37 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         }
     }
     
-//    func showMonthCustomDialog(animated: Bool = true) {
-//
-//        CancelButton.appearance().titleColor = UIColor.gray
-//        DefaultButton.appearance().titleColor = UIColor.red
-//
-//        // Create a custom view controller
-//        let MonthSelectorViewController = MonthSelectorVC(nibName: "MonthSelectorVC", bundle: nil)
-//
-//        // Create the dialog
-//        let popup = PopupDialog(viewController: MonthSelectorViewController, buttonAlignment: .horizontal, transitionStyle: .bounceDown, gestureDismissal: true)
-//
-//         //Create first button
-//        let buttonOne = CancelButton(title: "Cancel", height: 60) {
-//        }
-//
-//        // Create second button
-//        let buttonTwo = DefaultButton(title: "Choose Month", height: 60) {
-//        }
-//
-//        // Add buttons to dialog
-//        popup.addButtons([buttonOne, buttonTwo])
-//
-//        // Present dialog
-//        present(popup, animated: animated, completion: nil)
-//    }
-//
-//    @IBAction func MonthSelectorButton(_ sender: Any) {
-//
-//        showMonthCustomDialog()
-//        
-//    }
+    //    func showMonthCustomDialog(animated: Bool = true) {
+    //
+    //        CancelButton.appearance().titleColor = UIColor.gray
+    //        DefaultButton.appearance().titleColor = UIColor.red
+    //
+    //        // Create a custom view controller
+    //        let MonthSelectorViewController = MonthSelectorVC(nibName: "MonthSelectorVC", bundle: nil)
+    //
+    //        // Create the dialog
+    //        let popup = PopupDialog(viewController: MonthSelectorViewController, buttonAlignment: .horizontal, transitionStyle: .bounceDown, gestureDismissal: true)
+    //
+    //         //Create first button
+    //        let buttonOne = CancelButton(title: "Cancel", height: 60) {
+    //        }
+    //
+    //        // Create second button
+    //        let buttonTwo = DefaultButton(title: "Choose Month", height: 60) {
+    //        }
+    //
+    //        // Add buttons to dialog
+    //        popup.addButtons([buttonOne, buttonTwo])
+    //
+    //        // Present dialog
+    //        present(popup, animated: animated, completion: nil)
+    //    }
+    //
+    //    @IBAction func MonthSelectorButton(_ sender: Any) {
+    //
+    //        showMonthCustomDialog()
+    //
+    //    }
     
     //MARK: Email Button Pressed
     
@@ -269,12 +259,64 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, N
             present(messageComposeVC, animated: true, completion: nil)
         } else {
             // Let the user know if his/her device isn't able to send text messages
-//            let errorAlert = UIAlertView(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", delegate: self, cancelButtonTitle: "OK")
-//            errorAlert.show()
+            //            let errorAlert = UIAlertView(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", delegate: self, cancelButtonTitle: "OK")
+            //            errorAlert.show()
         }
     }
-    
-    
-    
-}
 
+    /*
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
+        // Configure the cell...
+
+        return cell
+    }
+    */
+
+    /*
+    // Override to support conditional editing of the table view.
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        // Return false if you do not want the specified item to be editable.
+        return true
+    }
+    */
+
+    /*
+    // Override to support editing the table view.
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            // Delete the row from the data source
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        } else if editingStyle == .insert {
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        }    
+    }
+    */
+
+    /*
+    // Override to support rearranging the table view.
+    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
+
+    }
+    */
+
+    /*
+    // Override to support conditional rearranging of the table view.
+    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        // Return false if you do not want the item to be re-orderable.
+        return true
+    }
+    */
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
