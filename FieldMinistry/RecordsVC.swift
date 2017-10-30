@@ -11,7 +11,7 @@ import CoreData
 import PopupDialog
 import MessageUI
 
-class RecordsVC: UIViewController, MFMailComposeViewControllerDelegate, NSFetchedResultsControllerDelegate {
+class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, MFMailComposeViewControllerDelegate, NSFetchedResultsControllerDelegate {
 
     var delegate:MonthItemSelectionDelegate! = nil
     
@@ -29,8 +29,8 @@ class RecordsVC: UIViewController, MFMailComposeViewControllerDelegate, NSFetche
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        tableView.delegate = self as? UITableViewDelegate
-        tableView.dataSource = self as? UITableViewDataSource
+        tableView.delegate = self
+        tableView.dataSource = self
         
         attemptFetch()
     }
