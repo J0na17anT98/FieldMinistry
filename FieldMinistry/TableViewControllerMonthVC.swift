@@ -10,16 +10,16 @@ import UIKit
 
 class TableViewControllerMonthVC: UITableViewController {
 
-    let monthArray = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+//    let monthArray = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     
-    @IBOutlet var tableview: UITableView!
+//    @IBOutlet var tableview: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableview.dataSource = self
-        tableview.delegate = self
-        tableview.register(UITableViewCell.self, forCellReuseIdentifier: "monthCell")
+//        tableview.dataSource = self
+//        tableview.delegate = self
+//        tableview.register(UITableViewCell.self, forCellReuseIdentifier: "monthCell")
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -30,17 +30,17 @@ class TableViewControllerMonthVC: UITableViewController {
     
     // MARK: - Table view data source
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return monthArray.count
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "monthCell", for: indexPath)
-        
-        cell.textLabel?.text = monthArray[indexPath.row]
-        
-        return cell
-    }
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return monthArray.count
+//    }
+//
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "monthCell", for: indexPath)
+//
+//        cell.textLabel?.text = monthArray[indexPath.row]
+//
+//        return cell
+//    }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Section \(section)"
