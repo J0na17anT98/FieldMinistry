@@ -6,6 +6,7 @@ target 'FieldMinistry' do
   use_frameworks!
 
   pod 'PopupDialog', '~> 0.5'
+  pod 'Firebase/Core'
   # Pods for FieldMinistry
 
 end

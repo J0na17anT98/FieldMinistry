@@ -28,6 +28,7 @@
 		A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */; };
 		A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91241E78D96000256DEE /* SettingsVC.swift */; };
 		A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912D1E78E1D200256DEE /* StopWatch.swift */; };
+		A38A9CE61FE445B8007EF13C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */; };
 		A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */; };
 		A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */; };
 		A38BC6421F81903300BE140D /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC6411F81903300BE140D /* YearPickerView.swift */; };
@@ -91,6 +92,7 @@
 		A37D90F11E78CEF500256DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A37D91241E78D96000256DEE /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		A37D912D1E78E1D200256DEE /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCollectionViewCell.swift; sourceTree = "<group>"; };
 		A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordYearCollectionViewVC.swift; sourceTree = "<group>"; };
 		A38BC6411F81903300BE140D /* YearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				A37D91261E78D96400256DEE /* Controllers */,
 				A37D912A1E78D9A400256DEE /* Supporting Files */,
 				A37D90E51E78CEF500256DEE /* AppDelegate.swift */,
+				A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */,
 				A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */,
 				A37D90F11E78CEF500256DEE /* Info.plist */,
 			);
@@ -407,6 +410,7 @@
 			files = (
 				A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */,
 				A39481FB1EBFF96D00AF9ACB /* MonthSelectorVC.xib in Resources */,
+				A38A9CE61FE445B8007EF13C /* GoogleService-Info.plist in Resources */,
 				A37D90ED1E78CEF500256DEE /* Assets.xcassets in Resources */,
 				A37D90EB1E78CEF500256DEE /* Main.storyboard in Resources */,
 			);
@@ -422,11 +426,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
