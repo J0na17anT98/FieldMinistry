@@ -49,15 +49,49 @@ class SignInVC: UIViewController {
         Auth.auth().signIn(withEmail: self.emailField.text!, password: self.passwordField.text!) { (user, error) in
             if let error = error {
                 print(error.localizedDescription)
-                self.lblCaution.text = "☹️\n\(error.localizedDescription)"
+                self.lblCaution.text = "Please enter a username & password.\n\(error.localizedDescription)"
             }
             else if let user = user {
                 print(user)
-                self.lblCaution.text = "😍\n Logged in with : \(user.email!)"
+                self.lblCaution.text = "Logged in with : \(user.email!)"
+                
+                self.completeSignIn()
+                
             }
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    
+    //    @IBAction func dismissButtonPressed(_ sender: Any) {
+    //        dismiss(animated: true, completion: nil)
+    //    }
+    
+    @IBAction func registerButtonPressed(_ sender: Any) {
+        self.view.endEditing(true)
+        self.lblCaution.text = ""
+        
+        Auth.auth().createUser(withEmail: self.emailField.text!, password: self.passwordField.text!) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                self.lblCaution.text = "Please enter a username & password. A password must be 6 characters long or more.\n\(error.localizedDescription)"
+            }
+            else if let user = user {
+                print(user)
+                self.dismiss(animated: true, completion: nil)
+                self.completeSignIn()
+            }
+        }
+    }
+    
+    func completeSignIn() {
+        performSegue(withIdentifier: "goToTimeTracker", sender: nil)
+    }
 }
+
 
 //    override func viewDidLoad() {
 //        super.viewDidLoad()

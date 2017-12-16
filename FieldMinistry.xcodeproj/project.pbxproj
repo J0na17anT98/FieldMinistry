@@ -10,7 +10,6 @@
 		A30432881FA77BA100625579 /* MonthItemSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30432871FA77BA100625579 /* MonthItemSelectionDelegate.swift */; };
 		A304328B1FA77C3F00625579 /* MonthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304328A1FA77C3F00625579 /* MonthItem.swift */; };
 		A304328D1FA7893900625579 /* RecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304328C1FA7893900625579 /* RecordsVC.swift */; };
-		A323ACAB1FE4DDBD006B5AD8 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A323ACAA1FE4DDBD006B5AD8 /* RegisterVC.swift */; };
 		A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */; };
 		A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */; };
 		A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */; };
@@ -29,8 +28,6 @@
 		A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */; };
 		A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91241E78D96000256DEE /* SettingsVC.swift */; };
 		A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912D1E78E1D200256DEE /* StopWatch.swift */; };
-		A385D7C71FE45CE3001A961F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385D7C61FE45CE3001A961F /* Constants.swift */; };
-		A385D7C91FE46014001A961F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385D7C81FE46014001A961F /* DataService.swift */; };
 		A38A9CE61FE445B8007EF13C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */; };
 		A38A9CE91FE450C8007EF13C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38A9CE81FE450C8007EF13C /* SignInVC.swift */; };
 		A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */; };
@@ -76,7 +73,6 @@
 		A30432871FA77BA100625579 /* MonthItemSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthItemSelectionDelegate.swift; sourceTree = "<group>"; };
 		A304328A1FA77C3F00625579 /* MonthItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthItem.swift; sourceTree = "<group>"; };
 		A304328C1FA7893900625579 /* RecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsVC.swift; sourceTree = "<group>"; };
-		A323ACAA1FE4DDBD006B5AD8 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A327CBC91E807231006C6443 /* ReturnVisit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReturnVisit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A3463C1A1EA53515008BF798 /* ImageMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaterialView.swift; sourceTree = "<group>"; };
@@ -97,10 +93,7 @@
 		A37D90F11E78CEF500256DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A37D91241E78D96000256DEE /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		A37D912D1E78E1D200256DEE /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
-		A385D7C61FE45CE3001A961F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		A385D7C81FE46014001A961F /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A38A9CE71FE4500E007EF13C /* FieldMinistry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FieldMinistry.entitlements; sourceTree = "<group>"; };
 		A38A9CE81FE450C8007EF13C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCollectionViewCell.swift; sourceTree = "<group>"; };
 		A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordYearCollectionViewVC.swift; sourceTree = "<group>"; };
@@ -185,9 +178,6 @@
 		A37D90E41E78CEF500256DEE /* FieldMinistry */ = {
 			isa = PBXGroup;
 			children = (
-				A385D7CA1FE46018001A961F /* Services */,
-				A385D7C51FE45CD0001A961F /* Util */,
-				A38A9CE71FE4500E007EF13C /* FieldMinistry.entitlements */,
 				A37D91271E78D97500256DEE /* Model */,
 				A30432891FA77BEF00625579 /* Protocols */,
 				A37D91281E78D97C00256DEE /* View */,
@@ -205,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				A38A9CE81FE450C8007EF13C /* SignInVC.swift */,
-				A323ACAA1FE4DDBD006B5AD8 /* RegisterVC.swift */,
 				A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */,
 				A37D91241E78D96000256DEE /* SettingsVC.swift */,
 				A38BC6431F81A07F00BE140D /* Record View Controllers */,
@@ -250,22 +239,6 @@
 				A37D90EC1E78CEF500256DEE /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A385D7C51FE45CD0001A961F /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				A385D7C61FE45CE3001A961F /* Constants.swift */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		A385D7CA1FE46018001A961F /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				A385D7C81FE46014001A961F /* DataService.swift */,
-			);
-			name = Services;
 			sourceTree = "<group>";
 		};
 		A38BC6431F81A07F00BE140D /* Record View Controllers */ = {
@@ -414,7 +387,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -535,7 +508,6 @@
 				A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */,
 				A34778D21ED8904E00FD5191 /* TimerViewModel.swift in Sources */,
 				A327CBCA1E807231006C6443 /* ReturnVisit+CoreDataClass.swift in Sources */,
-				A385D7C71FE45CE3001A961F /* Constants.swift in Sources */,
 				A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */,
 				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
 				A38BC6511F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift in Sources */,
@@ -550,7 +522,6 @@
 				A304328D1FA7893900625579 /* RecordsVC.swift in Sources */,
 				A3C61A101FA2A80E006BC101 /* TableViewRecordsVC.swift in Sources */,
 				A351A85F1ECDE44A0004A395 /* MessageComposer.swift in Sources */,
-				A385D7C91FE46014001A961F /* DataService.swift in Sources */,
 				A37D90E81E78CEF500256DEE /* TimeTrackerVC.swift in Sources */,
 				A36875041F99055D00059051 /* ViewController.swift in Sources */,
 				A38BC6421F81903300BE140D /* YearPickerView.swift in Sources */,
@@ -559,7 +530,6 @@
 				A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */,
 				A304328B1FA77C3F00625579 /* MonthItem.swift in Sources */,
 				A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */,
-				A323ACAB1FE4DDBD006B5AD8 /* RegisterVC.swift in Sources */,
 				A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */,
 				A3463C1B1EA53515008BF798 /* ImageMaterialView.swift in Sources */,
 			);
@@ -697,7 +667,6 @@
 			baseConfigurationReference = C36664550B053E2F2DA577CF /* Pods-FieldMinistry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FieldMinistry/FieldMinistry.entitlements;
 				DEVELOPMENT_TEAM = KMTZDB3J22;
 				INFOPLIST_FILE = FieldMinistry/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -714,7 +683,6 @@
 			baseConfigurationReference = 7BA4D83BEFEAF11ABAC321C6 /* Pods-FieldMinistry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FieldMinistry/FieldMinistry.entitlements;
 				DEVELOPMENT_TEAM = KMTZDB3J22;
 				INFOPLIST_FILE = FieldMinistry/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
