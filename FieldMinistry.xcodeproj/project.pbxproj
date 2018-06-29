@@ -42,6 +42,8 @@
 		A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */; };
 		A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */; };
 		A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */; };
+		A3BED2A91FE85B6B00EFF7AB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BED2A81FE85B6B00EFF7AB /* LoginVC.swift */; };
+		A3BED2AC1FE865B500EFF7AB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BED2AB1FE865B500EFF7AB /* AuthService.swift */; };
 		A3C61A101FA2A80E006BC101 /* TableViewRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */; };
 		A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE715A1E80A126003A5D8E /* CustomTextField.swift */; };
 		A3D0AEFA1FA2E2F3000BD65C /* TableViewControllerMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0AEF91FA2E2F3000BD65C /* TableViewControllerMonthVC.swift */; };
@@ -107,6 +109,8 @@
 		A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 		A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldMinistry.xcdatamodel; sourceTree = "<group>"; };
+		A3BED2A81FE85B6B00EFF7AB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A3BED2AB1FE865B500EFF7AB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRecordsVC.swift; sourceTree = "<group>"; };
 		A3CE715A1E80A126003A5D8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A3D0AEF91FA2E2F3000BD65C /* TableViewControllerMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerMonthVC.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 		A37D90E41E78CEF500256DEE /* FieldMinistry */ = {
 			isa = PBXGroup;
 			children = (
+				A3BED2AA1FE865A200EFF7AB /* Services */,
 				A37D91271E78D97500256DEE /* Model */,
 				A30432891FA77BEF00625579 /* Protocols */,
 				A37D91281E78D97C00256DEE /* View */,
@@ -195,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				A38A9CE81FE450C8007EF13C /* SignInVC.swift */,
+				A3BED2A81FE85B6B00EFF7AB /* LoginVC.swift */,
 				A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */,
 				A37D91241E78D96000256DEE /* SettingsVC.swift */,
 				A38BC6431F81A07F00BE140D /* Record View Controllers */,
@@ -336,6 +342,14 @@
 				A38D71311E80B594004780DB /* RecordsCell.swift */,
 			);
 			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		A3BED2AA1FE865A200EFF7AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3BED2AB1FE865B500EFF7AB /* AuthService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		FBB79C397717E969CAA87A92 /* Frameworks */ = {
@@ -511,6 +525,7 @@
 				A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */,
 				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
 				A38BC6511F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift in Sources */,
+				A3BED2A91FE85B6B00EFF7AB /* LoginVC.swift in Sources */,
 				A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */,
 				A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */,
 				A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */,
@@ -528,6 +543,7 @@
 				A34778D01ED88FD300FD5191 /* Extensions.swift in Sources */,
 				A365F7391EC0C603005AB2FC /* MonthYearPickerView.swift in Sources */,
 				A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */,
+				A3BED2AC1FE865B500EFF7AB /* AuthService.swift in Sources */,
 				A304328B1FA77C3F00625579 /* MonthItem.swift in Sources */,
 				A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */,
 				A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */,
