@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D54F3E0538CEBA9FF77854536F70D6F1'
-               BlueprintName = 'SwiftKeychainWrapper'
+               BlueprintIdentifier = '9AD6E417B292CCB529632F0FA6F2EFEC'
+               BlueprintName = 'DynamicBlurView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftKeychainWrapper.framework'>
+               BuildableName = 'DynamicBlurView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

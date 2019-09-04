@@ -5,8 +5,8 @@ target 'FieldMinistry' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'PopupDialog', '~> 0.5'
-  pod 'SwiftKeychainWrapper', '~> 3.0'
+  pod 'PopupDialog', '~> 1.1.0'
+  pod 'SwiftKeychainWrapper', '~> 3.2.0'
   # Pods for FieldMinistry
 
 end
