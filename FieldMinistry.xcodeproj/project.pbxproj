@@ -28,8 +28,6 @@
 		A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D90EE1E78CEF500256DEE /* LaunchScreen.storyboard */; };
 		A37D91251E78D96000256DEE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D91241E78D96000256DEE /* SettingsVC.swift */; };
 		A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D912D1E78E1D200256DEE /* StopWatch.swift */; };
-		A38A9CE61FE445B8007EF13C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */; };
-		A38A9CE91FE450C8007EF13C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38A9CE81FE450C8007EF13C /* SignInVC.swift */; };
 		A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */; };
 		A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */; };
 		A38BC6421F81903300BE140D /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38BC6411F81903300BE140D /* YearPickerView.swift */; };
@@ -42,8 +40,6 @@
 		A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */; };
 		A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */; };
 		A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */; };
-		A3BED2A91FE85B6B00EFF7AB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BED2A81FE85B6B00EFF7AB /* LoginVC.swift */; };
-		A3BED2AC1FE865B500EFF7AB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BED2AB1FE865B500EFF7AB /* AuthService.swift */; };
 		A3C61A101FA2A80E006BC101 /* TableViewRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */; };
 		A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE715A1E80A126003A5D8E /* CustomTextField.swift */; };
 		A3D0AEFA1FA2E2F3000BD65C /* TableViewControllerMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0AEF91FA2E2F3000BD65C /* TableViewControllerMonthVC.swift */; };
@@ -95,8 +91,6 @@
 		A37D90F11E78CEF500256DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A37D91241E78D96000256DEE /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		A37D912D1E78E1D200256DEE /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
-		A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A38A9CE81FE450C8007EF13C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		A38BC63D1F81814200BE140D /* RecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCollectionViewCell.swift; sourceTree = "<group>"; };
 		A38BC63F1F8181C800BE140D /* RecordYearCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordYearCollectionViewVC.swift; sourceTree = "<group>"; };
 		A38BC6411F81903300BE140D /* YearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
@@ -109,8 +103,6 @@
 		A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 		A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldMinistry.xcdatamodel; sourceTree = "<group>"; };
-		A3BED2A81FE85B6B00EFF7AB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		A3BED2AB1FE865B500EFF7AB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRecordsVC.swift; sourceTree = "<group>"; };
 		A3CE715A1E80A126003A5D8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A3D0AEF91FA2E2F3000BD65C /* TableViewControllerMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerMonthVC.swift; sourceTree = "<group>"; };
@@ -189,7 +181,6 @@
 				A37D91261E78D96400256DEE /* Controllers */,
 				A37D912A1E78D9A400256DEE /* Supporting Files */,
 				A37D90E51E78CEF500256DEE /* AppDelegate.swift */,
-				A38A9CE51FE445B8007EF13C /* GoogleService-Info.plist */,
 				A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */,
 				A37D90F11E78CEF500256DEE /* Info.plist */,
 			);
@@ -199,8 +190,6 @@
 		A37D91261E78D96400256DEE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A38A9CE81FE450C8007EF13C /* SignInVC.swift */,
-				A3BED2A81FE85B6B00EFF7AB /* LoginVC.swift */,
 				A37D90E71E78CEF500256DEE /* TimeTrackerVC.swift */,
 				A37D91241E78D96000256DEE /* SettingsVC.swift */,
 				A38BC6431F81A07F00BE140D /* Record View Controllers */,
@@ -347,7 +336,6 @@
 		A3BED2AA1FE865A200EFF7AB /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				A3BED2AB1FE865B500EFF7AB /* AuthService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -391,7 +379,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Jonathan Tsistinas";
 				TargetAttributes = {
 					A37D90E11E78CEF500256DEE = {
@@ -409,7 +397,7 @@
 			};
 			buildConfigurationList = A37D90DD1E78CEF500256DEE /* Build configuration list for PBXProject "FieldMinistry" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -432,7 +420,6 @@
 			files = (
 				A37D90F01E78CEF500256DEE /* LaunchScreen.storyboard in Resources */,
 				A39481FB1EBFF96D00AF9ACB /* MonthSelectorVC.xib in Resources */,
-				A38A9CE61FE445B8007EF13C /* GoogleService-Info.plist in Resources */,
 				A37D90ED1E78CEF500256DEE /* Assets.xcassets in Resources */,
 				A37D90EB1E78CEF500256DEE /* Main.storyboard in Resources */,
 			);
@@ -448,19 +435,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FieldMinistry/Pods-FieldMinistry-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -512,7 +493,6 @@
 				A38D71321E80B594004780DB /* RecordsCell.swift in Sources */,
 				A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */,
 				A38BC63E1F81814200BE140D /* RecordCollectionViewCell.swift in Sources */,
-				A38A9CE91FE450C8007EF13C /* SignInVC.swift in Sources */,
 				A38D71351E80BD0B004780DB /* Records+CoreDataClass.swift in Sources */,
 				A30432881FA77BA100625579 /* MonthItemSelectionDelegate.swift in Sources */,
 				A3EF2ADF1F75585A009205DA /* MonthVC.swift in Sources */,
@@ -525,7 +505,6 @@
 				A3EBAF431E7F706600699AC3 /* MaterialView.swift in Sources */,
 				A3D5C6141E85722500C9C9A8 /* CustomTextView.swift in Sources */,
 				A38BC6511F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift in Sources */,
-				A3BED2A91FE85B6B00EFF7AB /* LoginVC.swift in Sources */,
 				A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */,
 				A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */,
 				A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */,
@@ -543,7 +522,6 @@
 				A34778D01ED88FD300FD5191 /* Extensions.swift in Sources */,
 				A365F7391EC0C603005AB2FC /* MonthYearPickerView.swift in Sources */,
 				A37D90E61E78CEF500256DEE /* AppDelegate.swift in Sources */,
-				A3BED2AC1FE865B500EFF7AB /* AuthService.swift in Sources */,
 				A304328B1FA77C3F00625579 /* MonthItem.swift in Sources */,
 				A38BC6401F8181C800BE140D /* RecordYearCollectionViewVC.swift in Sources */,
 				A365F7351EC0BAAA005AB2FC /* Unused Code.swift in Sources */,
@@ -586,6 +564,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -593,6 +572,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -619,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -642,6 +622,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -649,6 +630,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -669,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

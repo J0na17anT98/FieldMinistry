@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-import FirebaseAuth
 
 class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     
@@ -49,11 +48,7 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-//        guard Auth.auth().currentUser != nil else {
-//            //load loginVC
-//            performSegue(withIdentifier: "LoginVC", sender: nil)
-//            return
-//        }
+
     }
     
 //    @objc func counter() {

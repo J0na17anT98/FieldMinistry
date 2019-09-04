@@ -13,11 +13,11 @@ import PopupDialog
 
 class RecordDetailsVC: UIViewController {
     
-    @IBOutlet weak var numberOfHours: CustomTextField!
-    @IBOutlet weak var numberOfMinutes: CustomTextField!
-    @IBOutlet weak var numberOfPlacements: CustomTextField!
-    @IBOutlet weak var numberOfBibleStudies: CustomTextField!
-    @IBOutlet weak var numberOfReturnVisits: CustomTextField!
+    @IBOutlet weak var numberOfHours: UITextField! //CustomTextField!
+    @IBOutlet weak var numberOfMinutes: UITextField! //CustomTextField!
+    @IBOutlet weak var numberOfPlacements: UITextField! //CustomTextField!
+    @IBOutlet weak var numberOfBibleStudies: UITextField! //CustomTextField!
+    @IBOutlet weak var numberOfReturnVisits: UITextField! //CustomTextField!
     @IBOutlet weak var cellCreatedDateLabel: UILabel!
     
     var itemToEdit: Records?

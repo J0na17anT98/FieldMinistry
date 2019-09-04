@@ -6,8 +6,6 @@ target 'FieldMinistry' do
   use_frameworks!
 
   pod 'PopupDialog', '~> 0.5'
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
   pod 'SwiftKeychainWrapper', '~> 3.0'
   # Pods for FieldMinistry
 

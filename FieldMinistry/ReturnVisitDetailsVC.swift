@@ -21,19 +21,16 @@ import CoreLocation
 
 class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegate {
     
-    @IBOutlet weak var name: CustomTextField!
-    @IBOutlet weak var houseNumber: CustomTextField!
-    @IBOutlet weak var address: CustomTextField!
-    @IBOutlet weak var phoneNumber: CustomTextField!
-    @IBOutlet weak var email: CustomTextField!
+    @IBOutlet weak var name: UITextField! //CustomTextField!
+    @IBOutlet weak var houseNumber: UITextField! //CustomTextField!
+    @IBOutlet weak var address: UITextField! //CustomTextField!
+    @IBOutlet weak var phoneNumber: UITextField! //CustomTextField!
+    @IBOutlet weak var email: UITextField! //CustomTextField!
     @IBOutlet weak var moreInformation: UITextView!
     @IBOutlet weak var phoneButton: UIButton!
     @IBOutlet weak var datePicker: UIDatePicker!
     
     var dateFormatter = DateFormatter()
-    @IBOutlet weak var editDate: UIButton!
-    @IBOutlet weak var cellCreatedDateLabel: UILabel!
-    @IBOutlet weak var editDateDoneButton: UIButton!
     
     
 
@@ -204,28 +201,6 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         // Present dialog
         self.present(popup, animated: animated, completion: nil)
     
-    }
-    
-    //MARK: dateButtonPressed
-    
-    @IBAction func dateButtonPressed(_ sender: AnyObject) {
-        datePicker.isHidden = false
-        editDateDoneButton.isHidden = false
-        editDate.isHidden = true
-    }
-    
-    @IBAction func editDateDoneButtonPressed(_ sender: Any) {
-        
-        let date = dateFormatter.string(from: datePicker.date)
-        
-        cellCreatedDateLabel.text = date
-        
-        ad.saveContext()
-        
-        datePicker.isHidden = true
-        editDateDoneButton.isHidden = true
-        editDate.isHidden = false
-        
     }
     
     @IBAction func pickerDateSelectionChanged(_ sender :AnyObject) {
