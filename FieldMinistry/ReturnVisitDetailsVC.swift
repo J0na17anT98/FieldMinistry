@@ -176,7 +176,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
 
         
         // Create the dialog
-        let popup = PopupDialog(title: title, message: message, buttonAlignment: .horizontal, transitionStyle: .zoomIn, gestureDismissal: true) {
+        let popup = PopupDialog(title: title, message: message, buttonAlignment: .horizontal, transitionStyle: .zoomIn, tapGestureDismissal: true) {
             print("Completed")
         }
         

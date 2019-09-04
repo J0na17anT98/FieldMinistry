@@ -161,6 +161,8 @@ class TableViewReturnVisitsVC: UITableViewController, NSFetchedResultsController
             }
             break
             
+        @unknown default:
+            <#fatalError()#>
         }
     }
 
