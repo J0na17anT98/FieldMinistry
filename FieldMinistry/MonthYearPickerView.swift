@@ -22,7 +22,7 @@ class MonthYearPickerView: UIPickerView, UIPickerViewDelegate, UIPickerViewDataS
     
     var year: Int = 0 {
         didSet {
-            selectRow(years.index(of: year)!, inComponent: 1, animated: true)
+            selectRow(years.firstIndex(of: year)!, inComponent: 1, animated: true)
         }
     }
     

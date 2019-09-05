@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "SwiftKeychainWrapper.h"
+#import "DynamicBlurView.h"
 
-FOUNDATION_EXPORT double SwiftKeychainWrapperVersionNumber;
-FOUNDATION_EXPORT const unsigned char SwiftKeychainWrapperVersionString[];
+FOUNDATION_EXPORT double DynamicBlurViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char DynamicBlurViewVersionString[];
 

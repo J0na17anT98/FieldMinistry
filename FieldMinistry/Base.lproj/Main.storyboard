@@ -242,9 +242,6 @@
                                                 <state key="normal" title="Reset">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="resetTapped:" destination="Azt-T3-99c" eventType="touchUpInside" id="OgT-Gj-lKY"/>
                                                 </connections>
@@ -259,9 +256,6 @@
                                             <constraint firstAttribute="height" constant="80" id="bUs-R9-qTj"/>
                                             <constraint firstAttribute="trailing" secondItem="YOP-To-ZPf" secondAttribute="trailing" id="sFY-Vn-JS8"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0RX-3t-k5F" userLabel="Start/Stop View">
                                         <rect key="frame" x="180" y="0.0" width="80" height="80"/>
@@ -272,9 +266,6 @@
                                                 <state key="normal" title="Start Time">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="startButtonTapped:" destination="Azt-T3-99c" eventType="touchUpInside" id="dcc-HQ-yuq"/>
                                                 </connections>
@@ -285,9 +276,6 @@
                                                 <state key="normal" title="Stop Time">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="stopButtonTapped:" destination="Azt-T3-99c" eventType="touchUpInside" id="Fnq-aP-BsB"/>
                                                 </connections>
@@ -306,9 +294,6 @@
                                             <constraint firstAttribute="trailing" secondItem="HLE-wL-HYJ" secondAttribute="trailing" id="hIc-2x-kLz"/>
                                             <constraint firstAttribute="bottom" secondItem="HLE-wL-HYJ" secondAttribute="bottom" id="uqX-6m-5AO"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -365,9 +350,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="sQE-DX-nXq">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                        </userDefinedRuntimeAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -475,9 +457,6 @@
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</string>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                                    <userDefinedRuntimeAttributes>
-                                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                                    </userDefinedRuntimeAttributes>
                                                                 </textView>
                                                             </subviews>
                                                             <color key="backgroundColor" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -487,9 +466,6 @@
                                                                 <constraint firstItem="D1Q-IZ-G73" firstAttribute="leading" secondItem="VG4-Kc-aRW" secondAttribute="leading" id="qvf-KD-sqa"/>
                                                                 <constraint firstItem="D1Q-IZ-G73" firstAttribute="top" secondItem="VG4-Kc-aRW" secondAttribute="top" id="woX-vT-kcr"/>
                                                             </constraints>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                            </userDefinedRuntimeAttributes>
                                                         </view>
                                                     </subviews>
                                                     <constraints>
@@ -518,9 +494,6 @@
                                         <constraint firstItem="kQL-e4-xb4" firstAttribute="leading" secondItem="Rg6-pl-mZs" secondAttribute="leading" constant="2" id="wrN-Pi-V6R"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="address" destination="G0t-zK-yHn" id="Gva-qc-IHO"/>
                                     <outlet property="cellCreatedDateLabel" destination="eGb-p0-gox" id="578-D6-rev"/>
@@ -604,9 +577,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="6ad-Lb-Glw">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                        </userDefinedRuntimeAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -767,9 +737,6 @@
                                                 <constraint firstItem="ARp-PS-5Bh" firstAttribute="leading" secondItem="Z0G-Lo-E6T" secondAttribute="leading" constant="10" id="t2j-dM-tMG"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="CellCreatedDateLabel" destination="ARp-PS-5Bh" id="vom-66-uAM"/>
                                             <outlet property="numberOfHours" destination="y5V-GI-zny" id="ybR-10-xgb"/>
@@ -996,9 +963,6 @@
                                                     <state key="normal" title="Email Record">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="openEmailButton:" destination="hhJ-zz-rA1" eventType="touchUpInside" id="4Rp-Ku-wXD"/>
                                                     </connections>
@@ -1010,9 +974,6 @@
                                                     <state key="normal" title="Message Record">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="openMessageButton:" destination="hhJ-zz-rA1" eventType="touchUpInside" id="PRA-NM-8WO"/>
                                                     </connections>
@@ -1035,9 +996,6 @@
                                         <constraint firstItem="qyZ-eA-h9d" firstAttribute="leading" secondItem="Cfv-uP-FHD" secondAttribute="leadingMargin" id="toX-m9-I7G"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="CellCreatedDateLabel" destination="ac7-7b-ZlS" id="NaO-CE-xeL"/>
                                     <outlet property="numberOfHours" destination="Ugc-uo-o13" id="lpP-ft-w0T"/>
@@ -1066,7 +1024,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8i1-MP-zLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="913" y="64"/>
+            <point key="canvasLocation" x="912.79999999999995" y="63.418290854572717"/>
         </scene>
         <!--RecordDetailsVC-->
         <scene sceneID="AXf-gl-Ihz">
@@ -1081,13 +1039,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 1, 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="teg-VI-pqx">
-                                <rect key="frame" x="5" y="25" width="365" height="58.5"/>
+                                <rect key="frame" x="5" y="69" width="365" height="58.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7FW-re-ifO">
-                                <rect key="frame" x="5" y="88.5" width="365" height="190"/>
+                                <rect key="frame" x="5" y="132.5" width="365" height="190"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9D4-DM-6eV">
                                         <rect key="frame" x="0.0" y="0.0" width="164.5" height="190"/>
@@ -1142,7 +1100,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Whx-Sl-2Bs">
                                         <rect key="frame" x="164.5" y="0.0" width="200.5" height="190"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Hours" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WNV-mg-pvk" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hours" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WNV-mg-pvk" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="200.5" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="mkg-P9-6vk"/>
@@ -1150,11 +1108,8 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Minutes" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="st3-x8-1fC" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Minutes" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="st3-x8-1fC">
                                                 <rect key="frame" x="0.0" y="40" width="200.5" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="yso-fh-112"/>
@@ -1162,11 +1117,8 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Bible Studies" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vCG-xY-vxo" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Bible Studies" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vCG-xY-vxo">
                                                 <rect key="frame" x="0.0" y="80" width="200.5" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="yIY-jk-ute"/>
@@ -1174,11 +1126,8 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Placements" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pmr-bD-fKC" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placements" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pmr-bD-fKC">
                                                 <rect key="frame" x="0.0" y="120" width="200.5" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="LX0-Hf-1Sf"/>
@@ -1186,11 +1135,8 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Return Visits" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9If-3p-axp" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Return Visits" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9If-3p-axp">
                                                 <rect key="frame" x="0.0" y="160" width="200.5" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="FpQ-PA-gG5"/>
@@ -1198,9 +1144,6 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -1255,52 +1198,6 @@
             </objects>
             <point key="canvasLocation" x="1986" y="444"/>
         </scene>
-        <!--Months-->
-        <scene sceneID="adj-DJ-21M">
-            <objects>
-                <tableViewController id="cla-aw-yBq" customClass="TableViewControllerMonthVC" customModule="FieldMinistry" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NtR-kz-r9u">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MonthCell" textLabel="0xv-83-ryr" style="IBUITableViewCellStyleDefault" id="Cpm-sO-6ih">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cpm-sO-6ih" id="zjB-9i-tJf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0xv-83-ryr">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="cla-aw-yBq" id="Nc8-Kt-C4u"/>
-                            <outlet property="delegate" destination="cla-aw-yBq" id="k8u-ID-5wm"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Months" id="0oN-xA-hrp">
-                        <rightBarButtonItems>
-                            <barButtonItem systemItem="add" id="2k7-29-QsB"/>
-                            <barButtonItem systemItem="edit" id="4mH-m2-rRn"/>
-                        </rightBarButtonItems>
-                    </navigationItem>
-                    <connections>
-                        <segue destination="hhJ-zz-rA1" kind="show" id="7f7-EM-gFe"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hZg-1H-0I4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="912" y="-708"/>
-        </scene>
         <!--ReturnVisitDetailsVC-->
         <scene sceneID="SQd-XC-dHc">
             <objects>
@@ -1316,7 +1213,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vxI-fd-UFG">
                                 <rect key="frame" x="5" y="69" width="365" height="150"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XYH-t5-gcq" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XYH-t5-gcq">
                                         <rect key="frame" x="0.0" y="0.0" width="365" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Qcd-04-3Ty"/>
@@ -1324,14 +1221,11 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OPZ-ab-Dal">
                                         <rect key="frame" x="0.0" y="40" width="365" height="30"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lha-eu-zRu" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lha-eu-zRu">
                                                 <rect key="frame" x="0.0" y="0.0" width="295" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="ctF-b4-Hnm"/>
@@ -1339,9 +1233,6 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="address-line1"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxx-lX-B0q">
                                                 <rect key="frame" x="300" y="0.0" width="30" height="30"/>
@@ -1370,7 +1261,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pDP-Qd-ieZ">
                                         <rect key="frame" x="0.0" y="80" width="365" height="30"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="V5c-xC-PuZ" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="V5c-xC-PuZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="330" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="0KF-v5-jnh"/>
@@ -1378,9 +1269,6 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="phonePad" returnKeyType="next" smartInsertDeleteType="no" smartQuotesType="no" textContentType="tel"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mky-dj-FU8">
                                                 <rect key="frame" x="335" y="0.0" width="30" height="30"/>
@@ -1398,7 +1286,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qq2-b1-wFd">
                                         <rect key="frame" x="0.0" y="120" width="365" height="30"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WWp-uY-MQC" customClass="CustomTextField" customModule="FieldMinistry" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WWp-uY-MQC">
                                                 <rect key="frame" x="0.0" y="0.0" width="330" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="Ju1-ix-qwK"/>
@@ -1406,9 +1294,6 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oib-qT-k2H">
                                                 <rect key="frame" x="335" y="0.0" width="30" height="30"/>
@@ -1439,11 +1324,8 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="K3g-Y9-Sl5">
                                 <rect key="frame" x="10" y="262" width="355" height="302"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialTextDesign" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                </userDefinedRuntimeAttributes>
                             </textView>
                             <datePicker hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="MhR-zf-CgE">
                                 <rect key="frame" x="0.0" y="358" width="375" height="216"/>
@@ -1531,57 +1413,6 @@
             </objects>
             <point key="canvasLocation" x="124" y="834.33283358320841"/>
         </scene>
-        <!--Years-->
-        <scene sceneID="mOi-im-KcR">
-            <objects>
-                <tableViewController id="Pvw-eD-YFy" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="68G-qt-mJG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Zwa-lo-n0p">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zwa-lo-n0p" id="NVq-vm-AWv">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="2017" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hY3-Wh-1XN">
-                                            <rect key="frame" x="16" y="11" width="343" height="22"/>
-                                            <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="hY3-Wh-1XN" firstAttribute="leading" secondItem="NVq-vm-AWv" secondAttribute="leadingMargin" id="4dG-uX-KZH"/>
-                                        <constraint firstItem="hY3-Wh-1XN" firstAttribute="top" secondItem="NVq-vm-AWv" secondAttribute="topMargin" id="7On-e6-HPm"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="hY3-Wh-1XN" secondAttribute="trailing" id="qhU-3T-WLP"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="hY3-Wh-1XN" secondAttribute="bottom" id="zuD-Iu-sdY"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Pvw-eD-YFy" id="qTC-56-EWf"/>
-                            <outlet property="delegate" destination="Pvw-eD-YFy" id="vYx-4I-RVu"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Years" id="ARd-2V-mGK">
-                        <rightBarButtonItems>
-                            <barButtonItem systemItem="add" id="znp-oG-1kg"/>
-                            <barButtonItem systemItem="edit" id="4lA-An-JyC"/>
-                        </rightBarButtonItems>
-                    </navigationItem>
-                    <connections>
-                        <segue destination="cla-aw-yBq" kind="show" id="kqK-IC-NyY"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3D6-k3-PVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="912" y="-1478"/>
-        </scene>
         <!--Months-->
         <scene sceneID="Z2d-A7-tAH">
             <objects>
@@ -1609,9 +1440,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="deO-la-Ekc" kind="show" identifier="January" id="La7-IH-s39">
                                                 <segue key="commit" inheritsFrom="parent" id="dLp-mJ-lBI"/>
@@ -1635,9 +1463,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="hhJ-zz-rA1" kind="show" id="oUb-Dn-DfI"/>
                                         </connections>
@@ -1658,9 +1483,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="QMn-pk-ahL" style="IBUITableViewCellStyleDefault" id="je2-0s-0qG">
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
@@ -1678,9 +1500,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="EPz-0G-1mc" style="IBUITableViewCellStyleDefault" id="eia-Bj-G8v">
                                         <rect key="frame" x="0.0" y="176" width="375" height="44"/>
@@ -1698,9 +1517,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="c8v-LR-jON" style="IBUITableViewCellStyleDefault" id="b3V-CE-3LF">
                                         <rect key="frame" x="0.0" y="220" width="375" height="44"/>
@@ -1718,9 +1534,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="yCT-3t-uzo" style="IBUITableViewCellStyleDefault" id="vyl-O5-2su">
                                         <rect key="frame" x="0.0" y="264" width="375" height="44"/>
@@ -1738,9 +1551,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="zpX-Gx-KQM" style="IBUITableViewCellStyleDefault" id="Dx5-Ff-dLd">
                                         <rect key="frame" x="0.0" y="308" width="375" height="44"/>
@@ -1758,9 +1568,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="M5c-aH-VQP" style="IBUITableViewCellStyleDefault" id="73r-kW-T5Q">
                                         <rect key="frame" x="0.0" y="352" width="375" height="44"/>
@@ -1778,9 +1585,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Xj8-eq-bcj" style="IBUITableViewCellStyleDefault" id="kpG-dF-ohF">
                                         <rect key="frame" x="0.0" y="396" width="375" height="44"/>
@@ -1798,9 +1602,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="kZ6-6Y-REN" style="IBUITableViewCellStyleDefault" id="OBq-0E-RXQ">
                                         <rect key="frame" x="0.0" y="440" width="375" height="44"/>
@@ -1818,9 +1619,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="lp5-Kp-zKQ" style="IBUITableViewCellStyleDefault" id="yXL-wT-cy8">
                                         <rect key="frame" x="0.0" y="484" width="375" height="44"/>
@@ -1838,16 +1636,10 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="MaterialDesign" value="NO"/>
-                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="dataSource" destination="VsO-dJ-yzg" id="CJz-fG-FHz"/>
                             <outlet property="delegate" destination="VsO-dJ-yzg" id="Jph-ww-sBn"/>
@@ -1921,9 +1713,8 @@
         <image name="email_icon" width="20" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PMG-Up-6rd"/>
+        <segue reference="Sl8-4j-Irr"/>
         <segue reference="WMH-F6-GaY"/>
-        <segue reference="7f7-EM-gFe"/>
         <segue reference="La7-IH-s39"/>
     </inferredMetricsTieBreakers>
 </document>

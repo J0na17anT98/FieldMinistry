@@ -164,6 +164,8 @@ class RecordsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, M
             }
             break
             
+        @unknown default:
+            print(Error.self)
         }
     }
     

@@ -54,7 +54,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         dateFormatter.dateFormat = "MM/dd/yyyy"
         
         if let topItem = self.navigationController?.navigationBar.topItem {
-            topItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
+            topItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
         }
         
         if itemToEdit != nil {
@@ -176,7 +176,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
 
         
         // Create the dialog
-        let popup = PopupDialog(title: title, message: message, buttonAlignment: .horizontal, transitionStyle: .zoomIn, gestureDismissal: true) {
+        let popup = PopupDialog(title: title, message: message, buttonAlignment: .horizontal, transitionStyle: .zoomIn, tapGestureDismissal: true) {
             print("Completed")
         }
         
@@ -254,7 +254,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         
         let regionDistance:CLLocationDistance = 10000
         let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
-        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let regionSpan = MKCoordinateRegion.init(center: coordinates, latitudinalMeters: regionDistance, longitudinalMeters: regionDistance)
         let options = [
             MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
             MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
@@ -270,7 +270,7 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
     func call() {
         
         if let url = URL(string: "telprompt://\(callPhoneNumber)") {
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
         }
     }
     
@@ -329,4 +329,9 @@ class ReturnVisitDetailsVC: UIViewController, MFMailComposeViewControllerDelegat
         controller.dismiss(animated: true, completion: nil)
         
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }
