@@ -10,21 +10,4 @@ import UIKit
 
 class SettingsVC: UIViewController {
     
-    @IBOutlet weak var darkModeSwitch: UISwitch!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-    
-//    @IBAction func DarkModeSwitch(_ sender: Any) {
-//        if darkModeSwitch.isOn {
-//            view.backgroundColor = UIColor.black
-//            
-//        } else {
-//            view.backgroundColor = UIColor.white
-//        }
-//    }
-    
-    
 }

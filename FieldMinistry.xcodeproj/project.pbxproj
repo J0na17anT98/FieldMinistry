@@ -38,7 +38,6 @@
 		A39481FA1EBFF96D00AF9ACB /* MonthSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */; };
 		A39481FB1EBFF96D00AF9ACB /* MonthSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */; };
 		A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */; };
-		A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */; };
 		A3B7BC4A1E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B7BC481E7F1E9400DB8EBF /* FieldMinistry.xcdatamodeld */; };
 		A3C61A101FA2A80E006BC101 /* TableViewRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */; };
 		A3CE715B1E80A126003A5D8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE715A1E80A126003A5D8E /* CustomTextField.swift */; };
@@ -101,7 +100,6 @@
 		A39481F81EBFF96D00AF9ACB /* MonthSelectorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthSelectorVC.swift; sourceTree = "<group>"; };
 		A39481F91EBFF96D00AF9ACB /* MonthSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthSelectorVC.xib; sourceTree = "<group>"; };
 		A3ACB8A91F41FADF009A1DCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 		A3B7BC491E7F1E9400DB8EBF /* FieldMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldMinistry.xcdatamodel; sourceTree = "<group>"; };
 		A3C61A0F1FA2A80E006BC101 /* TableViewRecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRecordsVC.swift; sourceTree = "<group>"; };
 		A3CE715A1E80A126003A5D8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -204,7 +202,6 @@
 			children = (
 				A304328A1FA77C3F00625579 /* MonthItem.swift */,
 				A34778D11ED8904E00FD5191 /* TimerViewModel.swift */,
-				A3B4FBD71EBE10A200AC7A89 /* DarkMode.swift */,
 				A38D71331E80BD0B004780DB /* Records+CoreDataClass.swift */,
 				A327CBC81E807231006C6443 /* ReturnVisit+CoreDataClass.swift */,
 				A327CBDE1E80730F006C6443 /* Generated */,
@@ -491,7 +488,6 @@
 				A38BC6511F81A4AA00BE140D /* RecordMonthCollectionViewVC.swift in Sources */,
 				A327CBCB1E807231006C6443 /* ReturnVisit+CoreDataProperties.swift in Sources */,
 				A3ACB8AA1F41FADF009A1DCE /* DateExtension.swift in Sources */,
-				A3B4FBD81EBE10A200AC7A89 /* DarkMode.swift in Sources */,
 				A3EBAF471E7F721E00699AC3 /* ItemCell.swift in Sources */,
 				A37D912E1E78E1D200256DEE /* StopWatch.swift in Sources */,
 				A3DDEBC81E7B23DA00649B9B /* ReturnVisitDetailsVC.swift in Sources */,
