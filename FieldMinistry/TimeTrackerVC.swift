@@ -26,13 +26,13 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     @IBOutlet weak var startAndStopView: UIView!
     var controller: NSFetchedResultsController<ReturnVisit>!
 
-    var count = 0
+    @objc var count = 0
     
     var minute = 0
     
     var hour = 0
     
-    var timer = Timer()
+    var timer : Timer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,59 +50,57 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     override func viewDidAppear(_ animated: Bool) {
 
     }
-    
-//    @objc func counter() {
+  //
+    @objc func counter() {
+
+        count += 1
+        if count > 9 {
+            secondLabel.text = "\(count)"
+            if count == 60 {
+                count = 0
+                secondLabel.text = "00"
+                minute += 1
+                if minute > 9 {
+                    minuteLabel.text = "\(minute)"
+                    if minute == 60 {
+                        minute = 0
+                        minuteLabel.text = "00"
+                        hour += 1
+                        if hour > 9 {
+                            hourLabel.text = "\(hour)"
+                        }
+                        else {
+                            hourLabel.text = "0\(hour)"
+                        }
+                    }
+                }
+                else{
+                    minuteLabel.text = "0\(minute)"
+                }
+            }
+        }
+        else {
+            secondLabel.text = "0\(count)"
+        }
+    }
 //
-//        count += 1
-//        if count > 9 {
-//            secondLabel.text = "\(count)"
-//            if count == 60 {
-//                count = 0
-//                secondLabel.text = "00"
-//                minute += 1
-//                if minute > 9 {
-//                    minuteLabel.text = "\(minute)"
-//                    if minute == 60 {
-//                        minute = 0
-//                        minuteLabel.text = "00"
-//                        hour += 1
-//                        if hour > 9 {
-//                            hourLabel.text = "\(hour)"
-//                        }
-//                        else {
-//                            hourLabel.text = "0\(hour)"
-//                        }
-//                    }
-//                }
-//                else{
-//                    minuteLabel.text = "0\(minute)"
-//                }
-//
-//
-//            }
-//        }
-//        else {
-//            secondLabel.text = "0\(count)"
-//        }
-//    }
-//
-//    @IBAction func startButtonTapped(_ sender: UIButton) {
-//        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(TimeTrackerVC.counter), userInfo: nil, repeats: true)
-//
-//        startButton.isHidden = true
-//        stopButton.isHidden = false
-//    }
+    @IBAction func startButtonTapped(_ sender: UIButton) {
+        
+        startTimer()
+        startButton.isHidden = true
+        stopButton.isHidden = false
+    }
     
     @IBAction func stopButtonTapped(_ sender: UIButton) {
-        timer.invalidate()
         
+        stopTimer()
         startButton.isHidden = false
         stopButton.isHidden = true
-
     }
     
     @IBAction func resetTapped(_ sender: Any) {
-        timer.invalidate()
+        
+        stopTimer()
         count = 0
         minute = 0
         hour = 0
@@ -115,7 +113,15 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
 
     }
     
+    func startTimer() {
+        guard  timer == nil else {return}
+        
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: Selector(("counter")), userInfo: nil, repeats: true)
+    }
     
-    
+    func stopTimer() {
+        timer?.invalidate()
+        timer = nil
+    }
 }
 

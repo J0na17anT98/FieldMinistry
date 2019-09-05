@@ -165,7 +165,7 @@ class TableViewRecordsVC: UITableViewController, MFMailComposeViewControllerDele
             break
             
         @unknown default:
-            <#fatalError()#>
+            print(Error.self)
         }
     }
     
