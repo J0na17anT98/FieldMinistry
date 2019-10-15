@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Foundation
 
 class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     
@@ -115,13 +116,16 @@ class TimeTrackerVC: UIViewController, NSFetchedResultsControllerDelegate {
     
     func startTimer() {
         guard  timer == nil else {return}
-        
+
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: Selector(("counter")), userInfo: nil, repeats: true)
+        
     }
     
     func stopTimer() {
+        
         timer?.invalidate()
         timer = nil
     }
+
 }
 
